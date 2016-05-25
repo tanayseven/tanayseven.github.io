@@ -24,9 +24,15 @@
 }
 body {
   padding-top: 70px;
-  background-image: url("/res/coding_1.jpg");
+  background-image: url("/res/bg_mobile.jpg");
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;;
+  margin-bottom: 0;
   color: aliceblue;
 }
 a:link {
@@ -43,7 +49,7 @@ a:active {
 }
 .find-me > a > i {
   color: aqua;
-  font-size: 60px;
+  font-size: 40px;
   padding: 20px;
 }
 .find-me > a > i:hover {
