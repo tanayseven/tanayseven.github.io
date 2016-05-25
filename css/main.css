@@ -97,6 +97,8 @@ section > p {
 }
 section {
   padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 section#projects,section#about, section#contact{
   padding-bottom: 30%;
