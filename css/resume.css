@@ -1,0 +1,34 @@
+
+#link-home {
+  font-size: 50px;
+  align: left;
+}
+
+#main-container {
+  padding: 30px;
+  border: 1px;
+  border-style: hidden solid hidden solid;
+  border-color: #000;
+}
+
+#my-picture {
+  width: 125px;
+}
+
+
+#resume-head div {
+  font-size: 15px;
+  padding-top: 20px;
+  border-style: groove;
+  border-color: #000;
+  text-align: center;
+  height: 200px;
+}
+
+#resume-body {
+  border: 1px;
+ /* border-style: solid;
+  border-color: #000;*/
+  padding-left: 20px;
+  padding-right: 20px;
+}
