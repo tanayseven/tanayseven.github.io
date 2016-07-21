@@ -103,6 +103,10 @@ section {
 section#projects,section#about, section#contact{
   padding-bottom: 30%;
 }
+#copyright {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 th, td {
   font-size: 20px;
 }
