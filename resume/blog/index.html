@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/main.css" />
+  <title>Tanay PrabhuDesai - Blogs</title>
+</head>
+<body>
+<div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">Tanay PrabhuDesai</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li ><a href="/">Home</a></li>
+              <li ><a href="/resume" >Résumé</a></li>
+              <li class="active"><a href="/blog">Blog</a></li>
+              <li ><a href="/about">About Me</a></li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+    </div>
+  </div>
+<span id="top-of-the-page"></span>
+<div class="container" id="main-container">
+  
+  <div>
+    <span>My blog, this is a place I call my public diary</span>
+    <div class="row">
+      <div class="card">
+        <div class="card-image">
+          {/* <img src={post.thumb} /> */}
+        </div>
+        <div class="card-content">
+          <span class="card-title">{post.title}</span>
+          {/* <span class="text-gray">{post.date}</span> */}
+          {/* {post.body} */}
+        </div>
+        <div class="card-action">
+          <a href={'/blog/post/' + post.current_page_name} >Read</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">tanayseven.com</h5>
+        <p class="grey-text text-lighten-4">All the content on this website is generated using Jinja2 and Make. For more info checkout the Github <a href="https://github.com/tanayseven/personal_website">repository</a> of this website.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Connect with me on</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/tanay-prabhudesai">Linkedin</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://twitter.com/tanayseven">Twitter</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/tanayseven/">Github</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://plus.google.com/+TanayPrabhuDesai">Google +</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2018 Tanay PrabhuDesai
+    <a class="grey-text text-lighten-4 right" href="#top-of-the-page">Back to top</a>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js" ></script>
+<script src="/main.js"></script>
+</body>
+</html>
