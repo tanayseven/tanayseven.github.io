@@ -59,3 +59,9 @@ nav a {
   max-width: 350px;
   min-width: 100px;
 }
+
+.normal-paragraph-text {
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: -.004em;
+}
