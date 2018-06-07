@@ -16,8 +16,11 @@
       <nav>
         <div class="nav-wrapper">
           <div class="container">
-            <a href="#" class="brand-logo">Tanay PrabhuDesai</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#" class="brand-logo hide-on-small-and-down">Tanay PrabhuDesai</a>
+            <a href="#" data-target="slide-out" class="left brand-logo sidenav-trigger show-on-medium-and-down">
+              <i class="fas fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
               <li ><a href="/">Home</a></li>
               <li class="active"><a href="/resume" >Résumé</a></li>
               <li ><a href="/blog">Blog</a></li>
@@ -26,6 +29,12 @@
           </div>
           </div>
       </nav>
+      <ul id="slide-out" class="sidenav">
+        <li ><a href="/">Home</a></li>
+        <li class="active"><a href="/resume" >Résumé</a></li>
+        <li ><a href="/blog">Blog</a></li>
+        <li ><a href="/about">About Me</a></li>
+      </ul>
     </div>
   </div>
 <span id="top-of-the-page"></span>
