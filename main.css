@@ -66,6 +66,12 @@ nav a {
   letter-spacing: -.004em;
 }
 
+.project-card {
+  max-height: 400px;
+  min-height: 400px;
+  margin-bottom: 60px;
+}
+
 .blog-list-card {
   padding-top: 5px;
   padding-bottom: 5px;
