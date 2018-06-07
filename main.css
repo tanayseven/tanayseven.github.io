@@ -82,3 +82,16 @@ nav a {
     margin-left: auto;
     margin-right: auto;
 }
+
+ul.collapsible {
+  margin: 0;
+}
+
+div.collection, ul.skill-collection {
+  margin: 0;
+  padding: 0;
+}
+
+div.row div.col.collection {
+  padding: 0;
+}
