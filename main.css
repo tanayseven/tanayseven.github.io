@@ -99,3 +99,7 @@ div.row div.col.collection {
 .sidenav-overlay {
   left: 300px;
 }
+
+.center-image-container {
+  text-align: center;
+}
