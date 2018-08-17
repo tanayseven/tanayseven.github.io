@@ -66,6 +66,10 @@ nav a {
   letter-spacing: -.004em;
 }
 
+.sub-heading {
+  font-size: 22px;
+}
+
 .project-card {
   max-height: 400px;
   min-height: 400px;

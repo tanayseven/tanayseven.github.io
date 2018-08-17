@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="/mui.min.css" />
   <link rel="stylesheet" href="/main.css" />
   <title>Hello World</title>
 </head>
@@ -23,18 +22,17 @@
               <i class="fas fa-bars"></i>
             </a>
             <ul class="right hide-on-med-and-down">
-              <li ><a href="/">About Me</a></li>
-              <li ><a href="/resume" >Résumé</a></li>
+              <li ><a href="#intro">About Me</a></li>
+              <li ><a href="#about" >Résumé</a></li>
               <li class="active"><a href="/blog">Blog</a></li>
             </ul>
           </div>
           </div>
       </nav>
       <ul id="slide-out" class="sidenav">
-        <li ><a href="/">Home</a></li>
+        <li ><a href="/about">About Me</a></li>
         <li ><a href="/resume" >Résumé</a></li>
         <li class="active"><a href="/blog">Blog</a></li>
-        <li ><a href="/about">About Me</a></li>
       </ul>
       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -101,10 +99,12 @@
     </div>
   </div>
 </footer>
-<script src="/zepto.min.js" ></script>
-<script src="/mui.min.js" ></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js" ></script>
 <script src="/main.js"></script>
+<script>
+    const scroll = new SmoothScroll('a[href*="#"]', {offset: 80});
+</script>
 </body>
 </html>
