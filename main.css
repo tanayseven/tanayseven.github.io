@@ -89,6 +89,7 @@ nav a {
 
 ul.collapsible {
   margin: 0;
+  background-color: white;
 }
 
 div.collection, ul.skill-collection {
