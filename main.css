@@ -47,8 +47,16 @@ nav a {
   margin: 5px;
 }
 
-.seperator {
-  padding-left: 20px;
+.separator {
+  padding-top: 80px;
+}
+
+.freebirdFormviewerViewFormContentWrapper {
+  background-color: #f0f0f0;
+}
+
+.freebirdFormviewerViewFormBanner {
+  background-color: #f0f0f0;
 }
 
 .space-surrounding {
