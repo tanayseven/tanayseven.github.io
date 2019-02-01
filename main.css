@@ -104,3 +104,8 @@ div.row div.col.collection {
 .center-image-container {
   text-align: center;
 }
+
+pre code {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 18px;
+}

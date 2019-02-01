@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/dracula.css" />
   <link rel="stylesheet" href="/main.css" />
   <title>Tanay PrabhuDesai</title>
 </head>
@@ -69,10 +70,13 @@
   <h4 class="black-text center">
   I'm a Software Engineer based in Pune, India
   </h4>
+  <div class="center">
+    <img src="https://ghchart.rshah.org/tanayseven" alt="github chart tanayseven">
+  </div>
 </div>
     <div class="separator"></div>
     <div id="about">
-  <h4 class="center">Some of the things that I love doing"</h4>
+  <h4 class="center">Some of the things that I love doing</h4>
   <ul class="collapsible">
   <li>
   <div class="collapsible-header center">
@@ -86,12 +90,12 @@
 
   <li>
   <div class="collapsible-header center">
-    <i class="fab fa-python"></i>
+    <i class="fas fa-atom"></i>
     <div class="valign-wrapper center">
-      Python Programming Language
+      Abstraction in software
     </div>
   </div>
-  <div class="collapsible-body"><p>Python is the language that I know the most and have done lot of development in it. I use it as my primary language or main language.</p></div>
+  <div class="collapsible-body"><p>Something facinating about programming is that how abstration helps us represent things in a clear and easy to read.</p></div>
 </li>
 
   <li>
@@ -111,17 +115,17 @@
       Testing and Test Driven Development
     </div>
   </div>
-  <div class="collapsible-body"><p>I have a preference towards driving a software projects using tests and make it as robust and foolproof as possible.</p></div>
+  <div class="collapsible-body"><p>I have a preference towards driving a software projects using tests and make it as robust and as bug-free as possible.</p></div>
 </li>
 
   <li>
   <div class="collapsible-header center">
-    <i class="fas fa-globe"></i>
+    <i class="fas fa-cogs"></i>
     <div class="valign-wrapper center">
-      Web Development
+      Engineering
     </div>
   </div>
-  <div class="collapsible-body"><p>The one technical domain that I am well worse with is Web Development and know the deep internals of it.</p></div>
+  <div class="collapsible-body"><p>I like to engineer and design software well. Also having a look at internals of other software, and theoretical concepts and tools and how they are made or designed.</p></div>
 </li>
 
   </ul>
@@ -132,7 +136,17 @@
   
   <div class="card">
     <div class="card-panel blog-list-card">
-      <div class="grey-text">03 Feb 2018</div>
+      <div class="grey-text">18 Sep 2018</div>
+      <a href="/blog/2018-09-18-scheme-crash-course.html" >
+        <div>Scheme Crash Course</div>
+      </a>
+      <div>This blog explains Scheme which is a LISP in a single post and in a simplified way.</div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-panel blog-list-card">
+      <div class="grey-text">03 Jan 2018</div>
       <a href="/blog/2018-01-03-sicp-challenge.html" >
         <div>SICP Challenge</div>
       </a>
@@ -142,7 +156,7 @@
   
   <div class="card">
     <div class="card-panel blog-list-card">
-      <div class="grey-text">18 Aug 2016</div>
+      <div class="grey-text">18 Jul 2016</div>
       <a href="/blog/2016-07-18-at-nelkinda-coderetreat.html" >
         <div>At Nelkinda Coderetreat</div>
       </a>
@@ -152,7 +166,7 @@
   
   <div class="card">
     <div class="card-panel blog-list-card">
-      <div class="grey-text">14 Aug 2016</div>
+      <div class="grey-text">14 Jul 2016</div>
       <a href="/blog/2016-07-14-finally-an-android-app.html" >
         <div>Finally An Android App</div>
       </a>
@@ -162,7 +176,7 @@
   
   <div class="card">
     <div class="card-panel blog-list-card">
-      <div class="grey-text">27 Apr 2016</div>
+      <div class="grey-text">27 Mar 2016</div>
       <a href="/blog/2016-03-27-hello-world.html" >
         <div>Hello World</div>
       </a>
@@ -233,7 +247,16 @@
 
 </div>
     <div class="separator"></div>
-    <div id="contact"></div>
+    <div id="contact">
+  <h4 class="center">Contact me</h4>
+  <div class="center card-panel white center">
+    <h4>Just drop me a email at <a id="email-link" href="mailto:abc@abc.com">abc@abc.com</a></h4>
+    <h4>or</h4>
+    <span class="center">
+      <a href="https://goo.gl/forms/hsr5BlHlwFZFNl5l1" class="waves-effect waves-light btn"><i class="material-icons right">link</i>Fill this form to contact me</a>
+    </span>
+  </div>
+</div>
   </div>
 
 </div>
@@ -262,12 +285,13 @@
     </div>
   </div>
 </footer>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
+<script src="/highlight.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js" ></script>
 <script src="/main.js"></script>
 <script>
     const scroll = new SmoothScroll('a[href*="#"]', {offset: 80});
+    hljs.initHighlightingOnLoad();
 </script>
 </body>
 </html>
