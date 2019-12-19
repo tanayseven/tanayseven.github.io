@@ -105,6 +105,12 @@ div.row div.col.collection {
   text-align: center;
 }
 
+.looking-for-work-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 200px;
+}
+
 pre code {
   font-family: 'Courier New', Courier, monospace;
   line-height: 18px;
