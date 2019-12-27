@@ -58,6 +58,8 @@ nav a {
 .about-profile-image-container {
   max-width: 350px;
   min-width: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .normal-paragraph-text {
