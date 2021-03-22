@@ -1,0 +1,699 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scheme Crash Course &#8212; Tanay Rambles  documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.d8bbf5861d671d414e1a.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <link rel="author" title="About these documents" href="../../about/" />
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" /> 
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../blog/atom.xml"
+  title="Tanay Rambles"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+
+    
+    <a class="navbar-brand" href="../../">
+      <p class="title">Tanay Rambles</p>
+    </a>
+    
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../about/">
+  About me
+ </a>
+</li>
+
+        
+      </ul>
+
+      <form class="bd-search d-flex align-items-center" action="../../search/" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search..." aria-label="Search..." autocomplete="off" >
+</form>
+      <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/tanayseven/" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/tanayseven/" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">  
+<h2>
+   
+  19 September 2018 
+</h2>
+
+<ul>
+   
+<li id="author">
+  <span
+    >Author:</span
+  >
+   
+  <a href="../author/tanay-prabhudesai/">Tanay PrabhuDesai</a>  
+</li>
+   
+<li id="category">
+  <span
+    >Category:</span
+  >
+   
+  <a href="../category/sicp/">SICP</a>  
+</li>
+ 
+<li id="tags">
+  <span
+    >Tags: </span
+  >
+   
+  <a href="../tag/scheme/">scheme</a>   
+  <a href="../tag/crash-course/">crash course</a>   
+  <a href="../tag/programming/">programming</a>   
+  <a href="../tag/sicp/">sicp</a>   
+  <a href="../tag/dr-racket/">dr. racket</a>  
+</li>
+ 
+</ul>
+
+<h3>
+  <a href="../">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../2018-01-03-sicp-challenge/"
+      >03 January - SICP Challenge</a
+    >
+  </li>
+  
+  <li>
+    <a href="../2016-03-27-hello-world/"
+      >19 September - Hello World</a
+    >
+  </li>
+  
+  <li>
+    <a href="../2016-07-14-finally-an-android-app/"
+      >19 September - Finally an Android App</a
+    >
+  </li>
+  
+  <li>
+    <a href="../2016-07-18-at-nelkinda-coderetreat/"
+      >18 July - At Nelkinda Coderetreat</a
+    >
+  </li>
+  
+</ul>
+
+<h3>
+  <a href="../archive/">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../2018/">2018 (2)</a>
+  </li>
+    
+  <li>
+    <a href="../2016/">2016 (3)</a>
+  </li>
+   
+</ul>
+
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#arithematic-operations">
+   Arithematic operations
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#variables">
+   Variables
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#functions">
+   Functions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#taking-a-decision">
+   Taking a decision
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-getting-length">
+   List: Getting length
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-concatenating-two-lists">
+   List: Concatenating two lists
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-appending-element-to-list">
+   List: Appending element to list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-getting-the-first-element-in-the-list">
+   List: Getting the first element in the list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-getting-the-rest-in-the-list">
+   List: Getting the rest in the list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-reversing">
+   List: Reversing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#compute-factorial">
+   Compute factorial
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#compute-fibonacci">
+   Compute fibonacci
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#find-element-in-the-list">
+   Find element in the list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#simple-input-and-output">
+   Simple input and output
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#writing-tests">
+   Writing tests
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <div class="section" id="scheme-crash-course">
+<h1>Scheme Crash Course<a class="headerlink" href="#scheme-crash-course" title="Permalink to this headline">¶</a></h1>
+<p>This crash course on Scheme that I’m writing is the kind of course that I would had liked before starting
+to read SICP. This crash course is geared towards people who are already familiar with some programming
+language and want to start with SICP but are not really comfortable Scheme or any LISP for that matter.
+All the Python code in this blog is Python 3 compatible and all the Scheme code is MIT-Scheme compatible.</p>
+<p>The whole blog post is written in such a way that you should be able to pick up Scheme in an hour or so
+by typing out the programs in an online Scheme interpreter and see how the things work there. The examples
+here are in two languages namely Python and obviously Scheme. Every concept here is first introduced in
+Python and then a exact implementaion is shown in Scheme. The main reason for choosing Python is that it
+is very easy and looks a lot like pseudocode and for those who don’t know the language can easily
+undrstand the code.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/scheme.jpg"><img alt="Scheme Logo" src="../../_images/scheme.jpg" style="width: 500px;" /></a>
+</div>
+<div class="section" id="arithematic-operations">
+<h2>Arithematic operations<a class="headerlink" href="#arithematic-operations" title="Permalink to this headline">¶</a></h2>
+<p>Since Scheme is a LISP it does not have operators that we can use in a infix notation, so we have operators
+like <code class="code docutils literal notranslate"><span class="pre">+</span></code>, <code class="code docutils literal notranslate"><span class="pre">-</span></code>, <code class="code docutils literal notranslate"><span class="pre">*</span></code>, <code class="code docutils literal notranslate"><span class="pre">/</span></code> which have to be used in prefix notation.
+To make this easier let’s visualize these operators to be nothing but functions, which they actually are
+and makes much more sense when think them to be like that.</p>
+<p>We will therefore assume that the languages that we are comparing Scheme do not have arithematic operators
+but have functions like <code class="code docutils literal notranslate"><span class="pre">add()</span></code>, <code class="code docutils literal notranslate"><span class="pre">subtract()</span></code>, <code class="code docutils literal notranslate"><span class="pre">multiply()</span></code>,
+<code class="code docutils literal notranslate"><span class="pre">divide()</span></code>. Let’s start writing some of these arithematic operators in Python. After the Python
+block of the code the exact Scheme version of the same will be shown in the block below it.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span>  <span class="c1"># (1 + 2) * (5 - 3) / 9</span>
+  <span class="n">divide</span><span class="p">(</span><span class="n">multiply</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">subtract</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)),</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1"># =&gt; 0.666666666666666</span>
+
+  <span class="c1"># 3 + 4 + 5 + 6 + 8</span>
+  <span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>  <span class="c1"># =&gt; 26</span>
+
+  <span class="c1"># 9 * 9 - 3 - 5 - 3</span>
+  <span class="n">subtract</span><span class="p">(</span><span class="n">multiply</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1"># =&gt; 70</span>
+
+  <span class="c1"># zero arguments</span>
+  <span class="n">add</span><span class="p">()</span>  <span class="c1"># =&gt; 0</span>
+</pre></div>
+</td></tr></table></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="highlight-scheme notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span>  <span class="c1">; (1 + 2) * (5 - 3) / 9</span>
+  <span class="p">(</span><span class="nb">/ </span><span class="p">(</span><span class="nb">* </span><span class="p">(</span><span class="nb">+ </span><span class="mi">1</span> <span class="mi">2</span><span class="p">)</span> <span class="p">(</span><span class="nb">- </span><span class="mi">5</span> <span class="mi">3</span><span class="p">))</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1">; =&gt; Value: 2/3</span>
+
+  <span class="c1">; 3 + 4 + 5 + 6 + 8</span>
+  <span class="p">(</span><span class="nb">+ </span><span class="mi">3</span> <span class="mi">4</span> <span class="mi">5</span> <span class="mi">6</span> <span class="mi">8</span><span class="p">)</span>  <span class="c1">; =&gt; Value: 26</span>
+
+  <span class="c1">; 9 * 9 - 3 - 5 - 3</span>
+  <span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">* </span><span class="mi">9</span> <span class="mi">9</span><span class="p">)</span> <span class="mi">3</span> <span class="mi">5</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">; =&gt; Value: 70</span>
+
+  <span class="o">#</span> <span class="nv">zero</span> <span class="nv">arguments</span>
+  <span class="p">(</span><span class="nf">+</span><span class="p">)</span>  <span class="o">#</span> <span class="k">=&gt; </span><span class="mi">0</span>
+</pre></div>
+</td></tr></table></div>
+<p>Let’s first try to understand the above code. The Python part of the code has these functions
+<code class="code docutils literal notranslate"><span class="pre">add()</span></code>: <code class="code docutils literal notranslate"><span class="pre">subtract()</span></code>, <code class="code docutils literal notranslate"><span class="pre">multiply()</span></code>, <code class="code docutils literal notranslate"><span class="pre">divide()</span></code>.
+There functions take any number of arguments on which the respective operation is to be
+recursively performed. For exaple in &lt;code&gt;subtract()&lt;/code&gt; the first argument will be taken
+and one after the other all the remaining arguments of &lt;code&gt;subtract()&lt;/code&gt; will be
+subtracted from till ultimately just one value is left. In case if no arguments are passed
+then a <code class="code docutils literal notranslate"><span class="pre">0</span></code> will be returned.</p>
+<p>Now let’s try to understand the Scheme code. Scheme is a typical LISP so every function call is
+enclosed in parenthesis. All the arguments passed to the function are separated with spaces.
+The first argument or the word that follows just after <code class="code docutils literal notranslate"><span class="pre">(</span></code> is the call to that function.
+For eample in <code class="code docutils literal notranslate"><span class="pre">(+</span> <span class="pre">2</span> <span class="pre">3)</span></code>, <code class="code docutils literal notranslate"><span class="pre">+</span></code> is the function call to add and <code class="code docutils literal notranslate"><span class="pre">2</span></code>
+and <code class="code docutils literal notranslate"><span class="pre">3</span></code> are the arguments passed to that add function.</p>
+</div>
+<div class="section" id="variables">
+<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># define a variable MAX that holds 500</span>
+<span class="o">&gt;</span> <span class="n">MAX</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="o">&gt;</span> <span class="n">MAX</span>  <span class="c1"># =&gt; 500</span>
+
+<span class="c1"># define a constant PI that returns the value of PI</span>
+<span class="o">&gt;</span> <span class="n">PI</span> <span class="o">=</span> <span class="mf">3.14</span>
+<span class="o">&gt;</span> <span class="n">PI</span>  <span class="c1"># =&gt; 3.14</span>
+
+<span class="c1"># compute sum of two numbers and store it in a variable</span>
+<span class="o">&gt;</span> <span class="n">SUM</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">6</span>
+<span class="o">&gt;</span> <span class="n">SUM</span>  <span class="c1"># =&gt; 9</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; define a variable MAX that holds 500</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">max</span> <span class="mi">500</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="nv">max</span>  <span class="c1">; =&gt; Value: 500</span>
+
+<span class="c1">; define a constant PI that returns the value of PI</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">pi</span> <span class="mf">3.14</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="nv">pi</span>  <span class="c1">; =&gt; Value: 3.14</span>
+
+<span class="c1">; compute sum of two numbers and store it in a variable</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">sum</span> <span class="p">(</span><span class="nb">+ </span><span class="mi">3</span> <span class="mi">6</span><span class="p">))</span>
+<span class="nv">&gt;</span> <span class="nv">sum</span>  <span class="c1">; =&gt; Value: 9</span>
+</pre></div>
+</div>
+<p>Let’s now look at these above things as variables, but name value binding. What exactly
+do we mean by name value binding? Simply stating it’s that when we enter that name, it is
+evaluated to it’s respective value that it was assigned to. This name can be later
+changed in the code be reassigning another value to that variable. To prevent that,
+we should take care about the kind of name that we give to the variables. Naming should
+be such that we do not reassign that name to something else. In other words even
+though the so called variables are not constant they should be treated as such or
+else they will not maintain <cite>referential transparency &lt;https://en.wikipedia.org/wiki/Referential_transparency&gt;</cite>.</p>
+<p>The syntax for defining a variable is very easy. Take the example of PI <code class="code docutils literal notranslate"><span class="pre">(define</span> <span class="pre">PI</span> <span class="pre">3.14)</span></code>.
+Whatever follows define is a new name with which we are associating a value, <code class="code docutils literal notranslate"><span class="pre">PI</span></code> in this
+case is the name and <code class="code docutils literal notranslate"><span class="pre">3.14</span></code> is the value associated with it. That is simply how assigning
+variables work in Scheme. The we can also evaluate an expression as a value assigned to name, this is
+done for <code class="code docutils literal notranslate"><span class="pre">sum</span></code> in the code snippet shown above.</p>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Lambda implementation of square function</span>
+<span class="o">&gt;</span> <span class="n">square</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+<span class="o">&gt;</span> <span class="n">square</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>   <span class="c1">#  =&gt; 49</span>
+
+<span class="c1"># Square implementation as function (syntactic sugar)</span>
+<span class="o">&gt;</span> <span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+      <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+<span class="o">&gt;</span> <span class="n">square</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">;  Lambda implementation of square function</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">square</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">* </span><span class="nv">x</span> <span class="nv">x</span><span class="p">)))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">square</span> <span class="mi">7</span><span class="p">)</span>  <span class="c1">;  =&gt; Value: 49</span>
+
+<span class="c1">; Square implementation as function (syntactic sugar)</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">square</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">* </span><span class="nv">x</span> <span class="nv">x</span><span class="p">))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">square</span> <span class="mi">7</span><span class="p">)</span>  <span class="c1">;  =&gt; Value: 49</span>
+</pre></div>
+</div>
+<p>By default in Scheme we define variable of which the value is lambda which is first shown in Python.
+In Python this is not the default way we define a function. But this is again written in that way because
+that’s how it is done in Scheme. The second function that shows default way of implementing functions in Python.
+The same is shown in Scheme which is nothing but syntactic sugar for binding lambdas to name.</p>
+</div>
+<div class="section" id="taking-a-decision">
+<h2>Taking a decision<a class="headerlink" href="#taking-a-decision" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Old enough to drink string</span>
+<span class="k">def</span> <span class="nf">old_enough</span><span class="p">(</span><span class="n">age</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">age</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;Yes&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;No&quot;</span>
+<span class="n">old_enough</span><span class="p">(</span><span class="mi">34</span><span class="p">)</span>
+<span class="n">old_enough</span><span class="p">(</span><span class="mi">17</span><span class="p">)</span>
+
+<span class="c1"># Check if a given number is even returns the respective string</span>
+<span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;Yes&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;No&quot;</span>
+<span class="n">is_even</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">is_even</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; old enough to drink string</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">old-enough</span> <span class="nv">age</span><span class="p">)</span>
+<span class="nv">&gt;</span>          <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">&gt;= </span><span class="nv">age</span> <span class="mi">18</span><span class="p">)</span> <span class="s">&quot;Yes&quot;</span> <span class="s">&quot;No&quot;</span><span class="p">))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">old-enough</span> <span class="mi">34</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: &quot;Yes&quot;</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">old-enough</span> <span class="mi">17</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: &quot;No&quot;</span>
+
+<span class="c1">; Check if a given number is even returns the respective string</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">is-even</span> <span class="nv">number</span><span class="p">)</span> <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">= </span><span class="mi">0</span> <span class="p">(</span><span class="nb">remainder </span><span class="nv">number</span> <span class="mi">2</span><span class="p">))</span> <span class="s">&quot;Yes&quot;</span> <span class="s">&quot;No&quot;</span><span class="p">))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">is-even</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: &quot;Yes&quot;</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">is-even</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: &quot;No&quot;</span>
+</pre></div>
+</div>
+<p>Now we have to decide if the age of the person which is entered is of legal drinking age of not. Since we’re
+comparing with a functional language, let’s do it in Python the way we would do it in Scheme. So we define a
+function called <code class="code docutils literal notranslate"><span class="pre">is_even()</span></code> and we pass the age to it. Inside the function has an if statement that
+returns the string which is either <code class="code docutils literal notranslate"><span class="pre">&quot;Yes&quot;</span></code> or <code class="code docutils literal notranslate"><span class="pre">&quot;No&quot;</span></code> depending on if he is legal or not. The
+Scheme version of this looks very similar in which <code class="code docutils literal notranslate"><span class="pre">if</span></code> is the function call of which the first argument
+is an expression that evaluates to a boolean value. Where it <code class="code docutils literal notranslate"><span class="pre">(&gt;=</span> <span class="pre">age</span> <span class="pre">18)</span></code> checks if age is greater than
+18 or not. If the expression evaluates to &lt;code&gt;lol&lt;/code&gt;</p>
+</div>
+<div class="section" id="list-getting-length">
+<h2>List: Getting length<a class="headerlink" href="#list-getting-length" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Recursively iterating to get the length of the list</span>
+<span class="k">def</span> <span class="nf">length_of_list</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">current_length</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">lst</span> <span class="o">==</span> <span class="p">[]:</span>
+        <span class="k">return</span> <span class="n">current_length</span>
+    <span class="k">return</span> <span class="n">length_of_list</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">current_length</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to get the length of the list</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-concatenating-two-lists">
+<h2>List: Concatenating two lists<a class="headerlink" href="#list-concatenating-two-lists" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Simply concatenating two lists</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply concatenating two lists (cons)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-appending-element-to-list">
+<h2>List: Appending element to list<a class="headerlink" href="#list-appending-element-to-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Simply appending element to list</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply appending element to list</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-getting-the-first-element-in-the-list">
+<h2>List: Getting the first element in the list<a class="headerlink" href="#list-getting-the-first-element-in-the-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-getting-the-rest-in-the-list">
+<h2>List: Getting the rest in the list<a class="headerlink" href="#list-getting-the-rest-in-the-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-reversing">
+<h2>List: Reversing<a class="headerlink" href="#list-reversing" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Recursively iterating to reverse the list</span>
+<span class="k">def</span> <span class="nf">reverse_list</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">new_lst</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="k">if</span> <span class="n">lst</span> <span class="o">==</span> <span class="p">[]:</span>
+        <span class="k">return</span> <span class="n">new_lst</span>
+    <span class="k">return</span> <span class="n">reverse_list</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="nb">list</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="n">new_lst</span><span class="p">)</span>
+<span class="c1"># Use the reverse function provided by the language</span>
+<span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>  <span class="c1"># =&gt; [5, 4, 3, 2, 1]</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to reverse the list (use car, cdr and cons)</span>
+
+<span class="c1">; Use the reverse function provided by the language</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="compute-factorial">
+<h2>Compute factorial<a class="headerlink" href="#compute-factorial" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">number</span><span class="p">,</span> <span class="n">current_product</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">number</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">current_product</span>
+    <span class="k">return</span> <span class="n">factorial</span><span class="p">(</span><span class="n">number</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">current_product</span> <span class="o">*</span> <span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="compute-fibonacci">
+<h2>Compute fibonacci<a class="headerlink" href="#compute-fibonacci" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">current_list</span><span class="o">=</span><span class="p">[],</span> <span class="n">previous</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">current</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">current_list</span><span class="p">)</span> <span class="o">==</span> <span class="n">count</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">current_list</span>
+    <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">current_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">previous</span><span class="p">),</span> <span class="n">previous</span><span class="o">=</span><span class="n">current</span><span class="p">,</span> <span class="n">current</span><span class="o">=</span><span class="n">previous</span><span class="o">+</span><span class="n">current</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="find-element-in-the-list">
+<h2>Find element in the list<a class="headerlink" href="#find-element-in-the-list" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">search_element</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">index</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">None</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="n">key</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">index</span>
+    <span class="k">return</span> <span class="n">search_element</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">index</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code ehre</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="simple-input-and-output">
+<h2>Simple input and output<a class="headerlink" href="#simple-input-and-output" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span> <span class="o">+</span> <span class="mi">45</span> <span class="c1"># input an int and add 45 to it</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Enter your name: &quot;</span><span class="p">)</span>
+<span class="s2">&quot;Hello &quot;</span> <span class="o">+</span> <span class="nb">input</span><span class="p">()</span> <span class="c1"># output a prompt and take string input name and say hello</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="writing-tests">
+<h2>Writing tests<a class="headerlink" href="#writing-tests" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Some python code here</span>
+</pre></div>
+</div>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="nb">load </span><span class="s">&quot;test-manager/load.scm&quot;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">load </span><span class="s">&quot;src/ex_1.2.scm&quot;</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nf">in-test-group</span>
+  <span class="nv">translation-of-an-expression-into-prefix-form</span>
+  <span class="p">(</span><span class="nf">define-test</span> <span class="p">(</span><span class="nf">expression-infix</span><span class="p">)</span>
+     <span class="p">(</span><span class="nf">assert-=</span> <span class="p">(</span><span class="nf">expression</span><span class="p">)</span> <span class="mi">-37</span><span class="nv">/150</span><span class="p">)))</span>
+<span class="p">(</span><span class="nf">run-registered-tests</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+<div class="section">
+     
+<div class="section">
+  <span style="float: left">
+     Previous:
+    
+    <a href="../2018-01-03-sicp-challenge/">
+       SICP Challenge
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.d8bbf5861d671d414e1a.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2021, Tanay PrabhuDesai.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.3.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
