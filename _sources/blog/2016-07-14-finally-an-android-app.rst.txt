@@ -1,7 +1,7 @@
 Finally an Android App
 ======================
 
-.. post:: 19, September 2016
+.. post:: 14, July 2016
     :tags: android, sms
     :category: Android
     :author: tanay

@@ -2,87 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tanayseven.com</id>
   <title>Tanay Rambles</title>
-  <updated>2021-03-22T13:13:05.100177+00:00</updated>
+  <updated>2021-03-22T13:19:29.280242+00:00</updated>
   <link href="https://tanayseven.com"/>
   <link href="https://tanayseven.com/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.14">ABlog</generator>
   <entry>
-    <id>https://tanayseven.com/blog/2016-07-18-at-nelkinda-coderetreat/</id>
-    <title>At Nelkinda Coderetreat</title>
-    <updated>2016-07-18T00:00:00+00:00</updated>
+    <id>https://tanayseven.com/blog/2016-03-27-hello-world/</id>
+    <title>Hello World</title>
+    <updated>2016-03-27T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
-    <content type="html">&lt;div class="section" id="at-nelkinda-coderetreat"&gt;
+    <content type="html">&lt;div class="section" id="hello-world"&gt;
 
-&lt;p&gt;Completely unexpected of what is there, I registered for
-&lt;a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat"&gt;Coderetreat that’s held at Nelkinda&lt;/a&gt;
-which was on 16th of July 2016. Facilitated by &lt;a class="reference external" href="https://twitter.com/SiddheshNikude"&gt;Siddhesh Nikude&lt;/a&gt; and
-&lt;a class="reference external" href="https://twitter.com/ShwetaSadawarte"&gt;Shweta Sadawarte&lt;/a&gt; it was a long but a really nice event. More than
-anything else I got to learn a lot from that event and I will write some of my experience here.&lt;/p&gt;
-&lt;p&gt;The session was split into code sprints and retrospectives. There was a 45 minute of code sprint followed by a
-30-minute retrospective. For every code sprint and retrospective cycle, they kept two people to write one code to
-enforce pair programming. For the first code sprint retrospective cycle, the pairing was done by splitting people
-into two types, one were the ones who had done TDD before and the others who had not done TDD and/or had heard
-about TDD before. We were given a problem to solve. The aim of the code sprint was not to solve the given problem
-but to focus on the practices such as clean code, writing tests and following TDD. We were also free to choose the
-language of our choice rather than enforcing a language upon us.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Coderetreat Code Retrospective &amp;#64; Nelkinda" src="../_images/code_retrospective_nelkinda.jpg" style="width: 500px;" /&gt;
+&lt;img alt="Hello World" src="../_images/hello_world.jpg" style="width: 500px;" /&gt;
 &lt;/div&gt;
-&lt;div class="section" id="the-way-the-whole-event-went"&gt;
-&lt;h2&gt;The way the whole event went&lt;/h2&gt;
-&lt;p&gt;Initially, I was paired with another student who was not very familiar with TDD. I started by introducing him the
-red-green-refactor cycle. But these are the things that I have learnt on my own and have not worked in an industry
-and/or done any projects this way to do it the right way. So I was not knowing if I am doing this the right way or
-not. Finally, at the retrospective session I came to know that I was doing this at least 90% of times the right
-way. The problem that was given to us was tic tac toe. We had to design a two player tic tac toe game. For eg: if
-player 1 plays, then, player 2 will play, then the player 1 and it will keep alternating till either of the players
-wins or if the board is full. So, we started from initially deciding how the board is structured and so on what
-kinds of methods to use to design this. At the retrospective session, we came to know about each other’s approaches
-and shared a lot of knowledge about the right way to do things and not so right way to do things. The initial
-discussion was about what data structure was chosen for the board. The people using Java chose ArrayList the others
-chose two-dimensional array. I chose Python List since I was using Python as my language.&lt;/p&gt;
-&lt;p&gt;For every subsequent code sprint, we had to delete the code and start from scratch. The approaches took a totally
-different turn when the discussion went to the clarity of code in the subsequent code retrospective. The expert
-programmers started bashing loops and how it makes the code unreadable. Even I like to avoid using loops, esp. in
-Python it’s really easy to use lambdas and different types of comprehensions. Hence, things that need multiple
-loops can be reduced to just a couple of lines of readable code.&lt;/p&gt;
-&lt;p&gt;In between, I switched from Python to Java because I was paired with a person who was unaware of Python and knew
-only Java. In Java, I had to go through the JUnit framework and tried to use functional programming concepts. As I
-come from a Python background, I am used to lambdas and comprehensions. I tried to do the same using the Java 8
-lambdas and ArrayList on which I could run the lambdas. It was a crazy experience and a pretty steep learning curve
-since I’ve never used lambdas in Java before. Also, my partner was not very comfortable with lambdas and quite a
-lot of time was spent in both of us learning how it works.&lt;/p&gt;
-&lt;p&gt;Later I was paired with my friend &lt;a class="reference external" href="https://twitter.com/Mistcrafter"&gt;Douglas Vaz&lt;/a&gt; who introduced me to a
-new way of writing code that is BDD. “BDD is TDD done right” this is the statement most of the blogs and or
-websites all over the internet contain. From what I’ve learnt, in BDD you don’t have to think about the
-implementation of the feature that you are going to test. Instead, just write a test about the behaviour or the
-flow of the feature that you are testing and then go on modifying the main code to pass all the tests.&lt;/p&gt;
-&lt;p&gt;This all was a very wonderful experience, what I’ve written here is barely scratching the surface, in reality, you
-have to be there to feel the way clean coding is done, esp. when you are paired with others. Finally, we sat and
-refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
-using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
-maybe write another blog on that and put the link here.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Hello World!&lt;/strong&gt; The title of this post in the honour of the first program that is written while learning
+programming. This is my first post on the blog, and hence I’m calling it &lt;strong&gt;Hello World!&lt;/strong&gt; post. I’m mainly
+passionate about technology and coding is my passion. I’m right now a student studying M.Tech at Manipal
+Institute of Technology, Manipal. The main reason of writing this blog is to share with the world what I think,
+and the new things that I learn. I also like learning about some cool science-related concepts esp. w.r.t.
+Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
+different cuisines.&lt;/p&gt;
+&lt;p&gt;This blog will be dedicated to writing a lot of things, mainly about different things I learn while coding and some
+tips and techniques you won’t easily find on the internet. I will also write about various experiences that I have
+while being here at Manipal, and also when I go to discover different and new places. There will be many articles
+that will be more like chain articles, which will be written in tutorial form which will tell how things are to be
+done (usually related to computer science). Another main reason behind writing this blog is to satisfy my thirst
+for writing. I’m not really great at writing, but I love to write a lot. And who says that you need really good
+grammar and vocabulary to write? I’ll just write and put my own content here.&lt;/p&gt;
+&lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
+to read.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://tanayseven.com/blog/2016-07-18-at-nelkinda-coderetreat/" rel="alternate"/>
-    <summary>Completely unexpected of what is there, I registered for
- Coderetreat that’s held at Nelkinda 
-which was on 16th of July 2016. Facilitated by  Siddhesh Nikude  and
- Shweta Sadawarte  it was a long but a really nice event. More than
-anything else I got to learn a lot from that event and I will write some of my experience here.</summary>
-    <category term="coderetreat" label="coderetreat"/>
-    <category term="coding" label="coding"/>
-    <category term="testdriventesting" label="test driven testing"/>
-    <category term="cleancode" label="clean code"/>
-    <published>2016-07-18T00:00:00+00:00</published>
+    <link href="https://tanayseven.com/blog/2016-03-27-hello-world/" rel="alternate"/>
+    <summary>Hello World!  The title of this post in the honour of the first program that is written while learning
+programming. This is my first post on the blog, and hence I’m calling it  Hello World!  post. I’m mainly
+passionate about technology and coding is my passion. I’m right now a student studying M.Tech at Manipal
+Institute of Technology, Manipal. The main reason of writing this blog is to share with the world what I think,
+and the new things that I learn. I also like learning about some cool science-related concepts esp. w.r.t.
+Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
+different cuisines.</summary>
+    <category term="misc" label="misc"/>
+    <published>2016-03-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2016-07-14-finally-an-android-app/</id>
     <title>Finally an Android App</title>
-    <updated>2016-09-19T00:00:00+00:00</updated>
+    <updated>2016-07-14T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -197,48 +165,80 @@ before but never tired serious android development after the very first time I t
 when there was not android studio).</summary>
     <category term="android" label="android"/>
     <category term="sms" label="sms"/>
-    <published>2016-09-19T00:00:00+00:00</published>
+    <published>2016-07-14T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://tanayseven.com/blog/2016-03-27-hello-world/</id>
-    <title>Hello World</title>
-    <updated>2016-09-19T00:00:00+00:00</updated>
+    <id>https://tanayseven.com/blog/2016-07-18-at-nelkinda-coderetreat/</id>
+    <title>At Nelkinda Coderetreat</title>
+    <updated>2016-07-18T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
-    <content type="html">&lt;div class="section" id="hello-world"&gt;
+    <content type="html">&lt;div class="section" id="at-nelkinda-coderetreat"&gt;
 
+&lt;p&gt;Completely unexpected of what is there, I registered for
+&lt;a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat"&gt;Coderetreat that’s held at Nelkinda&lt;/a&gt;
+which was on 16th of July 2016. Facilitated by &lt;a class="reference external" href="https://twitter.com/SiddheshNikude"&gt;Siddhesh Nikude&lt;/a&gt; and
+&lt;a class="reference external" href="https://twitter.com/ShwetaSadawarte"&gt;Shweta Sadawarte&lt;/a&gt; it was a long but a really nice event. More than
+anything else I got to learn a lot from that event and I will write some of my experience here.&lt;/p&gt;
+&lt;p&gt;The session was split into code sprints and retrospectives. There was a 45 minute of code sprint followed by a
+30-minute retrospective. For every code sprint and retrospective cycle, they kept two people to write one code to
+enforce pair programming. For the first code sprint retrospective cycle, the pairing was done by splitting people
+into two types, one were the ones who had done TDD before and the others who had not done TDD and/or had heard
+about TDD before. We were given a problem to solve. The aim of the code sprint was not to solve the given problem
+but to focus on the practices such as clean code, writing tests and following TDD. We were also free to choose the
+language of our choice rather than enforcing a language upon us.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Hello World" src="../_images/hello_world.jpg" style="width: 500px;" /&gt;
+&lt;img alt="Coderetreat Code Retrospective &amp;#64; Nelkinda" src="../_images/code_retrospective_nelkinda.jpg" style="width: 500px;" /&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Hello World!&lt;/strong&gt; The title of this post in the honour of the first program that is written while learning
-programming. This is my first post on the blog, and hence I’m calling it &lt;strong&gt;Hello World!&lt;/strong&gt; post. I’m mainly
-passionate about technology and coding is my passion. I’m right now a student studying M.Tech at Manipal
-Institute of Technology, Manipal. The main reason of writing this blog is to share with the world what I think,
-and the new things that I learn. I also like learning about some cool science-related concepts esp. w.r.t.
-Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
-different cuisines.&lt;/p&gt;
-&lt;p&gt;This blog will be dedicated to writing a lot of things, mainly about different things I learn while coding and some
-tips and techniques you won’t easily find on the internet. I will also write about various experiences that I have
-while being here at Manipal, and also when I go to discover different and new places. There will be many articles
-that will be more like chain articles, which will be written in tutorial form which will tell how things are to be
-done (usually related to computer science). Another main reason behind writing this blog is to satisfy my thirst
-for writing. I’m not really great at writing, but I love to write a lot. And who says that you need really good
-grammar and vocabulary to write? I’ll just write and put my own content here.&lt;/p&gt;
-&lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
-to read.&lt;/p&gt;
+&lt;div class="section" id="the-way-the-whole-event-went"&gt;
+&lt;h2&gt;The way the whole event went&lt;/h2&gt;
+&lt;p&gt;Initially, I was paired with another student who was not very familiar with TDD. I started by introducing him the
+red-green-refactor cycle. But these are the things that I have learnt on my own and have not worked in an industry
+and/or done any projects this way to do it the right way. So I was not knowing if I am doing this the right way or
+not. Finally, at the retrospective session I came to know that I was doing this at least 90% of times the right
+way. The problem that was given to us was tic tac toe. We had to design a two player tic tac toe game. For eg: if
+player 1 plays, then, player 2 will play, then the player 1 and it will keep alternating till either of the players
+wins or if the board is full. So, we started from initially deciding how the board is structured and so on what
+kinds of methods to use to design this. At the retrospective session, we came to know about each other’s approaches
+and shared a lot of knowledge about the right way to do things and not so right way to do things. The initial
+discussion was about what data structure was chosen for the board. The people using Java chose ArrayList the others
+chose two-dimensional array. I chose Python List since I was using Python as my language.&lt;/p&gt;
+&lt;p&gt;For every subsequent code sprint, we had to delete the code and start from scratch. The approaches took a totally
+different turn when the discussion went to the clarity of code in the subsequent code retrospective. The expert
+programmers started bashing loops and how it makes the code unreadable. Even I like to avoid using loops, esp. in
+Python it’s really easy to use lambdas and different types of comprehensions. Hence, things that need multiple
+loops can be reduced to just a couple of lines of readable code.&lt;/p&gt;
+&lt;p&gt;In between, I switched from Python to Java because I was paired with a person who was unaware of Python and knew
+only Java. In Java, I had to go through the JUnit framework and tried to use functional programming concepts. As I
+come from a Python background, I am used to lambdas and comprehensions. I tried to do the same using the Java 8
+lambdas and ArrayList on which I could run the lambdas. It was a crazy experience and a pretty steep learning curve
+since I’ve never used lambdas in Java before. Also, my partner was not very comfortable with lambdas and quite a
+lot of time was spent in both of us learning how it works.&lt;/p&gt;
+&lt;p&gt;Later I was paired with my friend &lt;a class="reference external" href="https://twitter.com/Mistcrafter"&gt;Douglas Vaz&lt;/a&gt; who introduced me to a
+new way of writing code that is BDD. “BDD is TDD done right” this is the statement most of the blogs and or
+websites all over the internet contain. From what I’ve learnt, in BDD you don’t have to think about the
+implementation of the feature that you are going to test. Instead, just write a test about the behaviour or the
+flow of the feature that you are testing and then go on modifying the main code to pass all the tests.&lt;/p&gt;
+&lt;p&gt;This all was a very wonderful experience, what I’ve written here is barely scratching the surface, in reality, you
+have to be there to feel the way clean coding is done, esp. when you are paired with others. Finally, we sat and
+refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
+using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
+maybe write another blog on that and put the link here.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://tanayseven.com/blog/2016-03-27-hello-world/" rel="alternate"/>
-    <summary>Hello World!  The title of this post in the honour of the first program that is written while learning
-programming. This is my first post on the blog, and hence I’m calling it  Hello World!  post. I’m mainly
-passionate about technology and coding is my passion. I’m right now a student studying M.Tech at Manipal
-Institute of Technology, Manipal. The main reason of writing this blog is to share with the world what I think,
-and the new things that I learn. I also like learning about some cool science-related concepts esp. w.r.t.
-Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
-different cuisines.</summary>
-    <category term="misc" label="misc"/>
-    <published>2016-09-19T00:00:00+00:00</published>
+    <link href="https://tanayseven.com/blog/2016-07-18-at-nelkinda-coderetreat/" rel="alternate"/>
+    <summary>Completely unexpected of what is there, I registered for
+ Coderetreat that’s held at Nelkinda 
+which was on 16th of July 2016. Facilitated by  Siddhesh Nikude  and
+ Shweta Sadawarte  it was a long but a really nice event. More than
+anything else I got to learn a lot from that event and I will write some of my experience here.</summary>
+    <category term="coderetreat" label="coderetreat"/>
+    <category term="coding" label="coding"/>
+    <category term="testdriventesting" label="test driven testing"/>
+    <category term="cleancode" label="clean code"/>
+    <published>2016-07-18T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2018-01-03-sicp-challenge/</id>
