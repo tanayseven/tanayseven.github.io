@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tanayseven.com</id>
   <title>Tanay Rambles</title>
-  <updated>2021-03-22T04:22:26.712381+00:00</updated>
+  <updated>2021-03-22T12:12:33.594795+00:00</updated>
   <link href="https://tanayseven.com"/>
   <link href="https://tanayseven.com/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.14">ABlog</generator>
   <entry>
     <id>https://tanayseven.com/blog/2016-07-18-at-nelkinda-coderetreat/</id>
     <title>At Nelkinda Coderetreat</title>
-    <updated>2016-07-18T00:00:00+05:30</updated>
+    <updated>2016-07-18T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -77,12 +77,12 @@ anything else I got to learn a lot from that event and I will write some of my e
     <category term="coding" label="coding"/>
     <category term="testdriventesting" label="test driven testing"/>
     <category term="cleancode" label="clean code"/>
-    <published>2016-07-18T00:00:00+05:30</published>
+    <published>2016-07-18T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2016-07-14-finally-an-android-app/</id>
     <title>Finally an Android App</title>
-    <updated>2016-09-19T00:00:00+05:30</updated>
+    <updated>2016-09-19T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -197,12 +197,12 @@ before but never tired serious android development after the very first time I t
 when there was not android studio).</summary>
     <category term="android" label="android"/>
     <category term="sms" label="sms"/>
-    <published>2016-09-19T00:00:00+05:30</published>
+    <published>2016-09-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2016-03-27-hello-world/</id>
     <title>Hello World</title>
-    <updated>2016-09-19T00:00:00+05:30</updated>
+    <updated>2016-09-19T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -238,12 +238,12 @@ and the new things that I learn. I also like learning about some cool science-re
 Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
 different cuisines.</summary>
     <category term="misc" label="misc"/>
-    <published>2016-09-19T00:00:00+05:30</published>
+    <published>2016-09-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2018-01-03-sicp-challenge/</id>
     <title>SICP Challenge</title>
-    <updated>2018-01-03T00:00:00+05:30</updated>
+    <updated>2018-01-03T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -283,12 +283,12 @@ different cuisines.</summary>
     <category term="sicp" label="sicp"/>
     <category term="challenge" label="challenge"/>
     <category term="coding" label="coding"/>
-    <published>2018-01-03T00:00:00+05:30</published>
+    <published>2018-01-03T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://tanayseven.com/blog/2018-09-18-scheme-crash-course/</id>
     <title>Scheme Crash Course</title>
-    <updated>2018-09-19T00:00:00+05:30</updated>
+    <updated>2018-09-19T00:00:00+00:00</updated>
     <author>
       <name>Tanay PrabhuDesai</name>
     </author>
@@ -317,17 +317,17 @@ and makes much more sense when think them to be like that.&lt;/p&gt;
 but have functions like &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;add()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;subtract()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;multiply()&lt;/span&gt;&lt;/code&gt;,
 &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;divide()&lt;/span&gt;&lt;/code&gt;. Let’s start writing some of these arithematic operators in Python. After the Python
 block of the code the exact Scheme version of the same will be shown in the block below it.&lt;/p&gt;
-&lt;div class="highlight-python notranslate"&gt;&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;span class="normal"&gt; 1&lt;/span&gt;
-&lt;span class="normal"&gt; 2&lt;/span&gt;
-&lt;span class="normal"&gt; 3&lt;/span&gt;
-&lt;span class="normal"&gt; 4&lt;/span&gt;
-&lt;span class="normal"&gt; 5&lt;/span&gt;
-&lt;span class="normal"&gt; 6&lt;/span&gt;
-&lt;span class="normal"&gt; 7&lt;/span&gt;
-&lt;span class="normal"&gt; 8&lt;/span&gt;
-&lt;span class="normal"&gt; 9&lt;/span&gt;
-&lt;span class="normal"&gt;10&lt;/span&gt;
-&lt;span class="normal"&gt;11&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class="c1"&gt;# (1 + 2) * (5 - 3) / 9&lt;/span&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class="c1"&gt;# (1 + 2) * (5 - 3) / 9&lt;/span&gt;
   &lt;span class="n"&gt;divide&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;multiply&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;subtract&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 0.666666666666666&lt;/span&gt;
 
   &lt;span class="c1"&gt;# 3 + 4 + 5 + 6 + 8&lt;/span&gt;
@@ -343,17 +343,17 @@ block of the code the exact Scheme version of the same will be shown in the bloc
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;span class="normal"&gt; 1&lt;/span&gt;
-&lt;span class="normal"&gt; 2&lt;/span&gt;
-&lt;span class="normal"&gt; 3&lt;/span&gt;
-&lt;span class="normal"&gt; 4&lt;/span&gt;
-&lt;span class="normal"&gt; 5&lt;/span&gt;
-&lt;span class="normal"&gt; 6&lt;/span&gt;
-&lt;span class="normal"&gt; 7&lt;/span&gt;
-&lt;span class="normal"&gt; 8&lt;/span&gt;
-&lt;span class="normal"&gt; 9&lt;/span&gt;
-&lt;span class="normal"&gt;10&lt;/span&gt;
-&lt;span class="normal"&gt;11&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class="c1"&gt;; (1 + 2) * (5 - 3) / 9&lt;/span&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class="c1"&gt;; (1 + 2) * (5 - 3) / 9&lt;/span&gt;
   &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;/ &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;* &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 2/3&lt;/span&gt;
 
   &lt;span class="c1"&gt;; 3 + 4 + 5 + 6 + 8&lt;/span&gt;
@@ -586,7 +586,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;h2&gt;Find element in the list&lt;/h2&gt;
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;search_element&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
         &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;search_element&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -600,7 +600,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;h2&gt;Simple input and output&lt;/h2&gt;
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;45&lt;/span&gt; &lt;span class="c1"&gt;# input an int and add 45 to it&lt;/span&gt;
 
-&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Enter your name: &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Enter your name: &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;Hello &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# output a prompt and take string input name and say hello&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -636,6 +636,6 @@ All the Python code in this blog is Python 3 compatible and all the Scheme code 
     <category term="programming" label="programming"/>
     <category term="sicp" label="sicp"/>
     <category term="dr.racket" label="dr. racket"/>
-    <published>2018-09-19T00:00:00+05:30</published>
+    <published>2018-09-19T00:00:00+00:00</published>
   </entry>
 </feed>
