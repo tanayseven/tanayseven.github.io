@@ -1,0 +1,395 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="SICP Challenge" href="2018-01-03-sicp-challenge.html" /><link rel="prev" title="Hello World" href="2016-03-27-hello-world.html" />
+
+    <meta name="generator" content="sphinx-4.3.2, furo 2021.11.23"/>
+        <title>Finally an Android App - Tanay Rambles</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=7f0192ddeb2adecfbaa87ffbcf67d16358b30bc1" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  body[data-theme="dark"] {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+</style></head>
+  <body>
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Tanay Rambles</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Tanay Rambles</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Blogs:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="2016-03-27-hello-world.html">Hello World</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Finally an Android App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2018-01-03-sicp-challenge.html">SICP Challenge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2018-09-18-scheme-crash-course.html">Scheme Crash Course</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="finally-an-android-app">
+<h1>Finally an Android App<a class="headerlink" href="#finally-an-android-app" title="Permalink to this headline">¶</a></h1>
+<section id="about-the-idea">
+<h2>About the idea<a class="headerlink" href="#about-the-idea" title="Permalink to this headline">¶</a></h2>
+<p>After a couple of years after writing android apps, I chose to write an android app again. I had used Android Studio
+before but never tired serious android development after the very first time I tried it in Eclipse (the old times
+when there was not android studio).</p>
+<p>I chose a very old idea that I had before for voting. I thought I will make an app that accepts votes from people.
+This had to be something different from the regular apps. The main difference being that people should not have to
+install an app and/or should not have to open to a website to cast a vote. Hence, people should use the platform
+they are already using. Therefore I chose to go in for some messaging platform. The most popular platform out there
+is Whatsapp but again the problem with Whatsapp is that they don’t have any open APIs and moreover it’s illegal to
+reverse engineer the Whatsapp APIs. The other option is Telegram who have their APIs completely open. But the
+problem with doing it with Telegram is that they have very few users compared to Whatsapp. I had to settle
+somewhere in between the two choices. That’s the reason I chose traditional SMS over Telegram or Whatsapp.</p>
+</section>
+<section id="concept-and-design-choices">
+<h2>Concept and design choices<a class="headerlink" href="#concept-and-design-choices" title="Permalink to this headline">¶</a></h2>
+<p>Now it was time to design the app for voting but directly jumping for voting was a bit too much for processing and
+adding too much to the design and in addition to that some extra time in the development of the project. I thought
+of making it very simple and just storing the SMSes. So I finalised with the idea of writing an app that will
+accept registrations through the means of SMSes. Hence the name SMServer, a Short Message Server, the server with
+which people can accept SMSes from the user and store them.</p>
+</section>
+<section id="how-the-app-works">
+<h2>How the app worksː<a class="headerlink" href="#how-the-app-works" title="Permalink to this headline">¶</a></h2>
+<p>The basic idea is to accept the SMSes in a particular format . Suppose you are accepting the applications for a
+party that you are hosting it will be as follows. For example, let’s say I’m hosting an event and I want to accept
+the people’s names via SMS. So I will create a new form for accepting the people who are willing to join the event.
+Suppose the event is some music show, I will accept the applications in the following format.</p>
+<p><code class="code docutils literal notranslate"><span class="pre">MUSIC&lt;space&gt;NAME&lt;space&gt;AGE</span></code></p>
+<p>Suppose John Doe is registering for an event, his message will be as follows:</p>
+<p><code class="code docutils literal notranslate"><span class="pre">MUSIC</span> <span class="pre">John</span> <span class="pre">27</span></code></p>
+<p>All the words that I’m accepting via the app are case insensitive. The reason being that there should be no mismatch
+between the words being just because of the case. At least the first word has to be kept case insensitive.</p>
+<section id="a-screen-to-screen-working-for-the-app">
+<h3>A screen to screen working for the app<a class="headerlink" href="#a-screen-to-screen-working-for-the-app" title="Permalink to this headline">¶</a></h3>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/01_emulator.png"><img alt="emulator" src="../_images/01_emulator.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">This is the starting screen when you first start the app</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/02_start_screen.png"><img alt="start_scren" src="../_images/02_start_screen.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">This is the starting screen when you first start the app</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/03_main_menu.png"><img alt="main_menu" src="../_images/03_main_menu.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">Now you click on the right-top corner menu button for creating a new form</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/04_new_form.png"><img alt="new_form" src="../_images/04_new_form.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">These are the details that you have to fill up to accept registrations</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/05_calender_selector.png"><img alt="calender_selector" src="../_images/05_calender_selector.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">Also included, date and time selectors</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/07_filled_form.png"><img alt="filled_form" src="../_images/07_filled_form.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">Fill up this form</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>The name for the new form is the name that you want to give to the form which will accept registrations, the form name will be for your own reference</p></li>
+<li><p>The starting date and time are the date and time when the form should start accepting the entries</p></li>
+<li><p>Same goes for the ending time and date</p></li>
+<li><p>The first word is the first word that you have to enter to enter to accept the entry as an entry for this particular form</p></li>
+<li><p>The fields are the remaining words from the SMS that you will be accepting as fields in the form</p></li>
+<li><p>The form will be saved when you click the save button</p></li>
+</ul>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/10_main_screen_form_created.png"><img alt="main_screen_form_created" src="../_images/10_main_screen_form_created.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">On the main screen you will see the newly created form</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/08_form_menu.png"><img alt="form_menu" src="../_images/08_form_menu.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">You can either open the form</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id9">
+<a class="reference internal image-reference" href="../_images/09_opened_form_no_entries.png"><img alt="opened_form_no_entries" src="../_images/09_opened_form_no_entries.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">After opening the form you can see the details of the form</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>&lt;h4&gt;It will also list the phone numbers and date and time of the people who have just registered&lt;/h4&gt;</p>
+<figure class="align-center" id="id10">
+<a class="reference internal image-reference" href="../_images/10_main_screen_form_created.png"><img alt="main_screen_form_created" src="../_images/10_main_screen_form_created.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">Now send an SMS to yourself with that format, I’ll send the same SMS (music john 28)</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id11">
+<a class="reference internal image-reference" href="../_images/11_entry_made.png"><img alt="entry_made" src="../_images/11_entry_made.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">Then you can go to the main screen and come back by opening the form and you will see the entry for the newly received SMS</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id12">
+<a class="reference internal image-reference" href="../_images/08_form_menu.png"><img alt="form_menu" src="../_images/08_form_menu.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">You can then click the form and say “Save the records” this will allow you to share the CSV file, keep in mind that you have to select an app that allows sending of CSV files, I’ll recommend to use an email app and you can also delete the form</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id13">
+<a class="reference internal image-reference" href="../_images/12_server_running_in_background.png"><img alt="server_running_in_background" src="../_images/12_server_running_in_background.png" style="width: 500px;"/></a>
+<figcaption>
+<p><span class="caption-text">You can see the server running in the background in the notification drawer</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Now that you have seen how the app works, you can download the app by clicking
+<a class="reference external" href="https://drive.google.com/open?id=0B8ZGvtCVIoJgNlZPMnU3WHVXcFk">here</a>
+Also, do test it on your own and report any bugs to me. You are also free to suggest any features to me if you want.</p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="2018-01-03-sicp-challenge.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">SICP Challenge</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="2016-03-27-hello-world.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Hello World</div>
+                
+              </div>
+            </a>
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2021, Tanay PrabhuDesai |
+          Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+          <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
+            | <a class="muted-link" href="../_sources/posts/2016-07-14-finally-an-android-app.rst.txt"
+               rel="nofollow">
+              Show Source
+            </a>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Finally an Android App</a><ul>
+<li><a class="reference internal" href="#about-the-idea">About the idea</a></li>
+<li><a class="reference internal" href="#concept-and-design-choices">Concept and design choices</a></li>
+<li><a class="reference internal" href="#how-the-app-works">How the app worksː</a><ul>
+<li><a class="reference internal" href="#a-screen-to-screen-working-for-the-app">A screen to screen working for the app</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
+    </body>
+</html>

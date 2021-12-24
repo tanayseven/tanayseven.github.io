@@ -1,0 +1,295 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
+
+    <meta name="generator" content="sphinx-4.3.2, furo 2021.11.23"/>
+        <title>At Nelkinda Coderetreat - Tanay Rambles</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=7f0192ddeb2adecfbaa87ffbcf67d16358b30bc1" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  body[data-theme="dark"] {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+</style></head>
+  <body>
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Tanay Rambles</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Tanay Rambles</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Blogs:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2016-03-27-hello-world.html">Hello World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2016-07-14-finally-an-android-app.html">Finally an Android App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2018-01-03-sicp-challenge.html">SICP Challenge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2018-09-18-scheme-crash-course.html">Scheme Crash Course</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="at-nelkinda-coderetreat">
+<h1>At Nelkinda Coderetreat<a class="headerlink" href="#at-nelkinda-coderetreat" title="Permalink to this headline">¶</a></h1>
+<p>Completely unexpected of what is there, I registered for
+<a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat">Coderetreat that’s held at Nelkinda</a>
+which was on 16th of July 2016. Facilitated by <a class="reference external" href="https://twitter.com/SiddheshNikude">Siddhesh Nikude</a> and
+<a class="reference external" href="https://twitter.com/ShwetaSadawarte">Shweta Sadawarte</a> it was a long but a really nice event. More than
+anything else I got to learn a lot from that event and I will write some of my experience here.</p>
+<p>The session was split into code sprints and retrospectives. There was a 45 minute of code sprint followed by a
+30-minute retrospective. For every code sprint and retrospective cycle, they kept two people to write one code to
+enforce pair programming. For the first code sprint retrospective cycle, the pairing was done by splitting people
+into two types, one were the ones who had done TDD before and the others who had not done TDD and/or had heard
+about TDD before. We were given a problem to solve. The aim of the code sprint was not to solve the given problem
+but to focus on the practices such as clean code, writing tests and following TDD. We were also free to choose the
+language of our choice rather than enforcing a language upon us.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/code_retrospective_nelkinda.jpg"><img alt="Coderetreat Code Retrospective @ Nelkinda" src="../_images/code_retrospective_nelkinda.jpg" style="width: 500px;"/></a>
+</figure>
+<section id="the-way-the-whole-event-went">
+<h2>The way the whole event went<a class="headerlink" href="#the-way-the-whole-event-went" title="Permalink to this headline">¶</a></h2>
+<p>Initially, I was paired with another student who was not very familiar with TDD. I started by introducing him the
+red-green-refactor cycle. But these are the things that I have learnt on my own and have not worked in an industry
+and/or done any projects this way to do it the right way. So I was not knowing if I am doing this the right way or
+not. Finally, at the retrospective session I came to know that I was doing this at least 90% of times the right
+way. The problem that was given to us was tic tac toe. We had to design a two player tic tac toe game. For eg: if
+player 1 plays, then, player 2 will play, then the player 1 and it will keep alternating till either of the players
+wins or if the board is full. So, we started from initially deciding how the board is structured and so on what
+kinds of methods to use to design this. At the retrospective session, we came to know about each other’s approaches
+and shared a lot of knowledge about the right way to do things and not so right way to do things. The initial
+discussion was about what data structure was chosen for the board. The people using Java chose ArrayList the others
+chose two-dimensional array. I chose Python List since I was using Python as my language.</p>
+<p>For every subsequent code sprint, we had to delete the code and start from scratch. The approaches took a totally
+different turn when the discussion went to the clarity of code in the subsequent code retrospective. The expert
+programmers started bashing loops and how it makes the code unreadable. Even I like to avoid using loops, esp. in
+Python it’s really easy to use lambdas and different types of comprehensions. Hence, things that need multiple
+loops can be reduced to just a couple of lines of readable code.</p>
+<p>In between, I switched from Python to Java because I was paired with a person who was unaware of Python and knew
+only Java. In Java, I had to go through the JUnit framework and tried to use functional programming concepts. As I
+come from a Python background, I am used to lambdas and comprehensions. I tried to do the same using the Java 8
+lambdas and ArrayList on which I could run the lambdas. It was a crazy experience and a pretty steep learning curve
+since I’ve never used lambdas in Java before. Also, my partner was not very comfortable with lambdas and quite a
+lot of time was spent in both of us learning how it works.</p>
+<p>Later I was paired with my friend <a class="reference external" href="https://twitter.com/Mistcrafter">Douglas Vaz</a> who introduced me to a
+new way of writing code that is BDD. “BDD is TDD done right” this is the statement most of the blogs and or
+websites all over the internet contain. From what I’ve learnt, in BDD you don’t have to think about the
+implementation of the feature that you are going to test. Instead, just write a test about the behaviour or the
+flow of the feature that you are testing and then go on modifying the main code to pass all the tests.</p>
+<p>This all was a very wonderful experience, what I’ve written here is barely scratching the surface, in reality, you
+have to be there to feel the way clean coding is done, esp. when you are paired with others. Finally, we sat and
+refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
+using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
+maybe write another blog on that and put the link here.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2021, Tanay PrabhuDesai |
+          Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+          <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
+            | <a class="muted-link" href="../_sources/posts/2016-07-18-at-nelkinda-coderetreat.rst.txt"
+               rel="nofollow">
+              Show Source
+            </a>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">At Nelkinda Coderetreat</a><ul>
+<li><a class="reference internal" href="#the-way-the-whole-event-went">The way the whole event went</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
+    </body>
+</html>

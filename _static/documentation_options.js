@@ -3,10 +3,10 @@ var DOCUMENTATION_OPTIONS = {
     VERSION: '',
     LANGUAGE: 'None',
     COLLAPSE_INDEX: false,
-    BUILDER: 'dirhtml',
+    BUILDER: 'html',
     FILE_SUFFIX: '.html',
     LINK_SUFFIX: '.html',
     HAS_SOURCE: true,
     SOURCELINK_SUFFIX: '.txt',
-    NAVIGATION_WITH_KEYS: true
+    NAVIGATION_WITH_KEYS: false
 };

@@ -6,16 +6,18 @@
 Recent Posts
 ============
 
-.. toctree::
-   :maxdepth: 2
+
+
+
+.. recent_posts::
    :caption: Contents:
    :hidden:
 
-   about
+.. toctree::
+    :maxdepth: 1
+    :caption: Blogs:
 
-.. postlist:: 10
-   :author: tanay
-   :date: %Y-%m-%d
-   :format: {date} - {title}
-   :list-style: none
-   :excerpts:
+    posts/2016-03-27-hello-world
+    posts/2016-07-14-finally-an-android-app
+    posts/2018-01-03-sicp-challenge
+    posts/2018-09-18-scheme-crash-course
