@@ -6,12 +6,7 @@
 Recent Posts
 ============
 
-
-
-
-.. recent_posts::
-   :caption: Contents:
-   :hidden:
+.. posts:all
 
 .. toctree::
     :maxdepth: 1
