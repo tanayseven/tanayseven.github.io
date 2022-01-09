@@ -1,7 +1,7 @@
 Hello World
 ===========
 
-.. post:: 27, March 2016
+.. post::
     :tags: misc
     :category: Miscellaneous
     :author: tanay

@@ -1,7 +1,7 @@
 Scheme Crash Course
 ===================
 
-.. post:: 19, September 2018
+.. post::
   :tags: scheme, crash course, programming, sicp, dr. racket
   :category: SICP
   :author: tanay

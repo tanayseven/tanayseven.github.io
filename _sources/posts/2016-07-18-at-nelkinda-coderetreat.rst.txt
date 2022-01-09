@@ -1,8 +1,7 @@
 At Nelkinda Coderetreat
 =======================
 
-
-.. post:: 18, July 2016
+.. post::
     :tags: coderetreat, coding, test driven testing, clean code
     :category: Coderetreat
     :author: tanay

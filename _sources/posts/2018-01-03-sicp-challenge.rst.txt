@@ -1,7 +1,7 @@
 SICP Challenge
 ==============
 
-.. post:: 3, January 2018
+.. post::
     :tags: scheme, sicp, challenge, coding
     :category: SICP
     :author: tanay

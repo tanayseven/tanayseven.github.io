@@ -3,10 +3,6 @@
  
 &lt;div class="line"&gt;Published on: 27 March 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;27, March 2016
-:tags: misc
-:category: Miscellaneous
-:author: tanay&lt;/p&gt;
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/hello_world.jpg"&gt;&lt;img alt="Hello World" src="../_images/hello_world.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
@@ -30,10 +26,6 @@ to read.&lt;/p&gt;
  
 &lt;div class="line"&gt;Published on: 14 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;14, July 2016
-:tags: android, sms
-:category: Android
-:author: tanay&lt;/p&gt;
 &lt;section id="about-the-idea"&gt;
 &lt;h2&gt;About the idea&lt;/h2&gt;
 &lt;p&gt;After a couple of years after writing android apps, I chose to write an android app again. I had used Android Studio
@@ -165,10 +157,6 @@ Also, do test it on your own and report any bugs to me. You are also free to sug
  
 &lt;div class="line"&gt;Published on: 18 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;18, July 2016
-:tags: coderetreat, coding, test driven testing, clean code
-:category: Coderetreat
-:author: tanay&lt;/p&gt;
 &lt;p&gt;Completely unexpected of what is there, I registered for
 &lt;a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat"&gt;Coderetreat that’s held at Nelkinda&lt;/a&gt;
 which was on 16th of July 2016. Facilitated by &lt;a class="reference external" href="https://twitter.com/SiddheshNikude"&gt;Siddhesh Nikude&lt;/a&gt; and
@@ -223,10 +211,6 @@ maybe write another blog on that and put the link here.&lt;/p&gt;
  
 &lt;div class="line"&gt;Published on: 03 January 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;3, January 2018
-:tags: scheme, sicp, challenge, coding
-:category: SICP
-:author: tanay&lt;/p&gt;
 &lt;p&gt;Almost over a year back I started reading the long-awaited book from my bucket list, “Structure and Interpretation of Computer Programs”.  When I was reading the book, quite a lot of the things in the book were already known to me and therefore it started to get boring. But then I searched on the internet why so many people read the book SICP. The problem was not the reason behind reading the book but the problem was the approach towards the book. The book is not designed to be just read as if it is a novel but you also need to solve the problems in the book. This made me go back to the book again.&lt;/p&gt;
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/sicp-wizard.png"&gt;&lt;img alt="SICP Wizard (cover page of the SICP book)" src="../_images/sicp-wizard.png" style="width: 500px;"/&gt;&lt;/a&gt;
@@ -257,10 +241,6 @@ maybe write another blog on that and put the link here.&lt;/p&gt;
  
 &lt;div class="line"&gt;Published on: 18 September 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;19, September 2018
-:tags: scheme, crash course, programming, sicp, dr. racket
-:category: SICP
-:author: tanay&lt;/p&gt;
 &lt;p&gt;This crash course on Scheme that I’m writing is the kind of course that I would had liked before starting
 to read SICP. This crash course is geared towards people who are already familiar with some programming
 language and want to start with SICP but are not really comfortable Scheme or any LISP for that matter.
@@ -571,4 +551,20 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Learn Refactoring by example</title><link>http://tanayseven.com/feeds/posts/2020-12-12-draft-refactoring-by-example-pt-1-unit conversion.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 12 December 2020&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;One of the most underrated skills in the software industry today is refactoring. Refactoring is a skill that takes a lot of practice to get up and running.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Compare the process of refactoring with cleaning the mess in the house&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Link the curve of graphs when crust in the code builds up&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Talk about a new approach (refactoring by real-world example)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example of conversion of units in Kotlin (Time taken)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example of conversion of units in Python (GBs)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example of Javascript of units in Haskell (Something else [What?])&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>This is another document</title><link>http://tanayseven.com/feeds/some-document.html</link><description>
+&lt;span id="some-document"/&gt; 
+&lt;p&gt;This is the content in the document&lt;/p&gt;
 </description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item></channel></rss>

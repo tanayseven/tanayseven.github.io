@@ -10,3 +10,18 @@ All Blog Posts
 --------------
 
 .. all-posts::
+
+About me
+--------
+
+Something else
+blah blah
+
+This is a :ref:`link <Some-Document>` to another document
+
+.. toctree::
+   :glob:
+   :hidden:
+
+   some-document
+   posts/*
