@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"><channel><title>Tanay Rambles</title><link>http://tanayseven.com/feeds</link><description /><copyright>2021, Tanay PrabhuDesai</copyright><item><title>Hello World</title><link>http://tanayseven.com/feeds/posts/2016-03-27-hello-world.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 27 March 2016&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;27, March 2016
+:tags: misc
+:category: Miscellaneous
+:author: tanay&lt;/p&gt;
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="../_images/hello_world.jpg"&gt;&lt;img alt="Hello World" src="../_images/hello_world.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Hello World!&lt;/strong&gt; The title of this post in the honour of the first program that is written while learning
+programming. This is my first post on the blog, and hence I’m calling it &lt;strong&gt;Hello World!&lt;/strong&gt; post. I’m mainly
+passionate about technology and coding is my passion. I’m right now a student studying M.Tech at Manipal
+Institute of Technology, Manipal. The main reason of writing this blog is to share with the world what I think,
+and the new things that I learn. I also like learning about some cool science-related concepts esp. w.r.t.
+Physics. I’m also a noob Guitarist and a hobby swimmer. Other things that I like are eating and trying out
+different cuisines.&lt;/p&gt;
+&lt;p&gt;This blog will be dedicated to writing a lot of things, mainly about different things I learn while coding and some
+tips and techniques you won’t easily find on the internet. I will also write about various experiences that I have
+while being here at Manipal, and also when I go to discover different and new places. There will be many articles
+that will be more like chain articles, which will be written in tutorial form which will tell how things are to be
+done (usually related to computer science). Another main reason behind writing this blog is to satisfy my thirst
+for writing. I’m not really great at writing, but I love to write a lot. And who says that you need really good
+grammar and vocabulary to write? I’ll just write and put my own content here.&lt;/p&gt;
+&lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
+to read.&lt;/p&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 14 July 2016&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;14, July 2016
+:tags: android, sms
+:category: Android
+:author: tanay&lt;/p&gt;
+&lt;section id="about-the-idea"&gt;
+&lt;h2&gt;About the idea&lt;/h2&gt;
+&lt;p&gt;After a couple of years after writing android apps, I chose to write an android app again. I had used Android Studio
+before but never tired serious android development after the very first time I tried it in Eclipse (the old times
+when there was not android studio).&lt;/p&gt;
+&lt;p&gt;I chose a very old idea that I had before for voting. I thought I will make an app that accepts votes from people.
+This had to be something different from the regular apps. The main difference being that people should not have to
+install an app and/or should not have to open to a website to cast a vote. Hence, people should use the platform
+they are already using. Therefore I chose to go in for some messaging platform. The most popular platform out there
+is Whatsapp but again the problem with Whatsapp is that they don’t have any open APIs and moreover it’s illegal to
+reverse engineer the Whatsapp APIs. The other option is Telegram who have their APIs completely open. But the
+problem with doing it with Telegram is that they have very few users compared to Whatsapp. I had to settle
+somewhere in between the two choices. That’s the reason I chose traditional SMS over Telegram or Whatsapp.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="concept-and-design-choices"&gt;
+&lt;h2&gt;Concept and design choices&lt;/h2&gt;
+&lt;p&gt;Now it was time to design the app for voting but directly jumping for voting was a bit too much for processing and
+adding too much to the design and in addition to that some extra time in the development of the project. I thought
+of making it very simple and just storing the SMSes. So I finalised with the idea of writing an app that will
+accept registrations through the means of SMSes. Hence the name SMServer, a Short Message Server, the server with
+which people can accept SMSes from the user and store them.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="how-the-app-works"&gt;
+&lt;h2&gt;How the app worksː&lt;/h2&gt;
+&lt;p&gt;The basic idea is to accept the SMSes in a particular format . Suppose you are accepting the applications for a
+party that you are hosting it will be as follows. For example, let’s say I’m hosting an event and I want to accept
+the people’s names via SMS. So I will create a new form for accepting the people who are willing to join the event.
+Suppose the event is some music show, I will accept the applications in the following format.&lt;/p&gt;
+&lt;p&gt;&lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;MUSIC&amp;lt;space&amp;gt;NAME&amp;lt;space&amp;gt;AGE&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Suppose John Doe is registering for an event, his message will be as follows:&lt;/p&gt;
+&lt;p&gt;&lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;MUSIC&lt;/span&gt; &lt;span class="pre"&gt;John&lt;/span&gt; &lt;span class="pre"&gt;27&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All the words that I’m accepting via the app are case insensitive. The reason being that there should be no mismatch
+between the words being just because of the case. At least the first word has to be kept case insensitive.&lt;/p&gt;
+&lt;section id="a-screen-to-screen-working-for-the-app"&gt;
+&lt;h3&gt;A screen to screen working for the app&lt;/h3&gt;
+&lt;figure class="align-center" id="id1"&gt;
+&lt;a class="reference internal image-reference" href="../_images/01_emulator.png"&gt;&lt;img alt="emulator" src="../_images/01_emulator.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;This is the starting screen when you first start the app&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id2"&gt;
+&lt;a class="reference internal image-reference" href="../_images/02_start_screen.png"&gt;&lt;img alt="start_scren" src="../_images/02_start_screen.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;This is the starting screen when you first start the app&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id3"&gt;
+&lt;a class="reference internal image-reference" href="../_images/03_main_menu.png"&gt;&lt;img alt="main_menu" src="../_images/03_main_menu.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;Now you click on the right-top corner menu button for creating a new form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id4"&gt;
+&lt;a class="reference internal image-reference" href="../_images/04_new_form.png"&gt;&lt;img alt="new_form" src="../_images/04_new_form.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;These are the details that you have to fill up to accept registrations&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id5"&gt;
+&lt;a class="reference internal image-reference" href="../_images/05_calender_selector.png"&gt;&lt;img alt="calender_selector" src="../_images/05_calender_selector.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;Also included, date and time selectors&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id6"&gt;
+&lt;a class="reference internal image-reference" href="../_images/07_filled_form.png"&gt;&lt;img alt="filled_form" src="../_images/07_filled_form.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;Fill up this form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;The name for the new form is the name that you want to give to the form which will accept registrations, the form name will be for your own reference&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The starting date and time are the date and time when the form should start accepting the entries&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Same goes for the ending time and date&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The first word is the first word that you have to enter to enter to accept the entry as an entry for this particular form&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The fields are the remaining words from the SMS that you will be accepting as fields in the form&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The form will be saved when you click the save button&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="align-center" id="id7"&gt;
+&lt;a class="reference internal image-reference" href="../_images/10_main_screen_form_created.png"&gt;&lt;img alt="main_screen_form_created" src="../_images/10_main_screen_form_created.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;On the main screen you will see the newly created form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id8"&gt;
+&lt;a class="reference internal image-reference" href="../_images/08_form_menu.png"&gt;&lt;img alt="form_menu" src="../_images/08_form_menu.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;You can either open the form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id9"&gt;
+&lt;a class="reference internal image-reference" href="../_images/09_opened_form_no_entries.png"&gt;&lt;img alt="opened_form_no_entries" src="../_images/09_opened_form_no_entries.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;After opening the form you can see the details of the form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&amp;lt;h4&amp;gt;It will also list the phone numbers and date and time of the people who have just registered&amp;lt;/h4&amp;gt;&lt;/p&gt;
+&lt;figure class="align-center" id="id10"&gt;
+&lt;a class="reference internal image-reference" href="../_images/10_main_screen_form_created.png"&gt;&lt;img alt="main_screen_form_created" src="../_images/10_main_screen_form_created.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;Now send an SMS to yourself with that format, I’ll send the same SMS (music john 28)&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id11"&gt;
+&lt;a class="reference internal image-reference" href="../_images/11_entry_made.png"&gt;&lt;img alt="entry_made" src="../_images/11_entry_made.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;Then you can go to the main screen and come back by opening the form and you will see the entry for the newly received SMS&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id12"&gt;
+&lt;a class="reference internal image-reference" href="../_images/08_form_menu.png"&gt;&lt;img alt="form_menu" src="../_images/08_form_menu.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;You can then click the form and say “Save the records” this will allow you to share the CSV file, keep in mind that you have to select an app that allows sending of CSV files, I’ll recommend to use an email app and you can also delete the form&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="align-center" id="id13"&gt;
+&lt;a class="reference internal image-reference" href="../_images/12_server_running_in_background.png"&gt;&lt;img alt="server_running_in_background" src="../_images/12_server_running_in_background.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;You can see the server running in the background in the notification drawer&lt;/span&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Now that you have seen how the app works, you can download the app by clicking
+&lt;a class="reference external" href="https://drive.google.com/open?id=0B8ZGvtCVIoJgNlZPMnU3WHVXcFk"&gt;here&lt;/a&gt;
+Also, do test it on your own and report any bugs to me. You are also free to suggest any features to me if you want.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 18 July 2016&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;18, July 2016
+:tags: coderetreat, coding, test driven testing, clean code
+:category: Coderetreat
+:author: tanay&lt;/p&gt;
+&lt;p&gt;Completely unexpected of what is there, I registered for
+&lt;a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat"&gt;Coderetreat that’s held at Nelkinda&lt;/a&gt;
+which was on 16th of July 2016. Facilitated by &lt;a class="reference external" href="https://twitter.com/SiddheshNikude"&gt;Siddhesh Nikude&lt;/a&gt; and
+&lt;a class="reference external" href="https://twitter.com/ShwetaSadawarte"&gt;Shweta Sadawarte&lt;/a&gt; it was a long but a really nice event. More than
+anything else I got to learn a lot from that event and I will write some of my experience here.&lt;/p&gt;
+&lt;p&gt;The session was split into code sprints and retrospectives. There was a 45 minute of code sprint followed by a
+30-minute retrospective. For every code sprint and retrospective cycle, they kept two people to write one code to
+enforce pair programming. For the first code sprint retrospective cycle, the pairing was done by splitting people
+into two types, one were the ones who had done TDD before and the others who had not done TDD and/or had heard
+about TDD before. We were given a problem to solve. The aim of the code sprint was not to solve the given problem
+but to focus on the practices such as clean code, writing tests and following TDD. We were also free to choose the
+language of our choice rather than enforcing a language upon us.&lt;/p&gt;
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="../_images/code_retrospective_nelkinda.jpg"&gt;&lt;img alt="Coderetreat Code Retrospective @ Nelkinda" src="../_images/code_retrospective_nelkinda.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;section id="the-way-the-whole-event-went"&gt;
+&lt;h2&gt;The way the whole event went&lt;/h2&gt;
+&lt;p&gt;Initially, I was paired with another student who was not very familiar with TDD. I started by introducing him the
+red-green-refactor cycle. But these are the things that I have learnt on my own and have not worked in an industry
+and/or done any projects this way to do it the right way. So I was not knowing if I am doing this the right way or
+not. Finally, at the retrospective session I came to know that I was doing this at least 90% of times the right
+way. The problem that was given to us was tic tac toe. We had to design a two player tic tac toe game. For eg: if
+player 1 plays, then, player 2 will play, then the player 1 and it will keep alternating till either of the players
+wins or if the board is full. So, we started from initially deciding how the board is structured and so on what
+kinds of methods to use to design this. At the retrospective session, we came to know about each other’s approaches
+and shared a lot of knowledge about the right way to do things and not so right way to do things. The initial
+discussion was about what data structure was chosen for the board. The people using Java chose ArrayList the others
+chose two-dimensional array. I chose Python List since I was using Python as my language.&lt;/p&gt;
+&lt;p&gt;For every subsequent code sprint, we had to delete the code and start from scratch. The approaches took a totally
+different turn when the discussion went to the clarity of code in the subsequent code retrospective. The expert
+programmers started bashing loops and how it makes the code unreadable. Even I like to avoid using loops, esp. in
+Python it’s really easy to use lambdas and different types of comprehensions. Hence, things that need multiple
+loops can be reduced to just a couple of lines of readable code.&lt;/p&gt;
+&lt;p&gt;In between, I switched from Python to Java because I was paired with a person who was unaware of Python and knew
+only Java. In Java, I had to go through the JUnit framework and tried to use functional programming concepts. As I
+come from a Python background, I am used to lambdas and comprehensions. I tried to do the same using the Java 8
+lambdas and ArrayList on which I could run the lambdas. It was a crazy experience and a pretty steep learning curve
+since I’ve never used lambdas in Java before. Also, my partner was not very comfortable with lambdas and quite a
+lot of time was spent in both of us learning how it works.&lt;/p&gt;
+&lt;p&gt;Later I was paired with my friend &lt;a class="reference external" href="https://twitter.com/Mistcrafter"&gt;Douglas Vaz&lt;/a&gt; who introduced me to a
+new way of writing code that is BDD. “BDD is TDD done right” this is the statement most of the blogs and or
+websites all over the internet contain. From what I’ve learnt, in BDD you don’t have to think about the
+implementation of the feature that you are going to test. Instead, just write a test about the behaviour or the
+flow of the feature that you are testing and then go on modifying the main code to pass all the tests.&lt;/p&gt;
+&lt;p&gt;This all was a very wonderful experience, what I’ve written here is barely scratching the surface, in reality, you
+have to be there to feel the way clean coding is done, esp. when you are paired with others. Finally, we sat and
+refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
+using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
+maybe write another blog on that and put the link here.&lt;/p&gt;
+&lt;/section&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 03 January 2018&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;3, January 2018
+:tags: scheme, sicp, challenge, coding
+:category: SICP
+:author: tanay&lt;/p&gt;
+&lt;p&gt;Almost over a year back I started reading the long-awaited book from my bucket list, “Structure and Interpretation of Computer Programs”.  When I was reading the book, quite a lot of the things in the book were already known to me and therefore it started to get boring. But then I searched on the internet why so many people read the book SICP. The problem was not the reason behind reading the book but the problem was the approach towards the book. The book is not designed to be just read as if it is a novel but you also need to solve the problems in the book. This made me go back to the book again.&lt;/p&gt;
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="../_images/sicp-wizard.png"&gt;&lt;img alt="SICP Wizard (cover page of the SICP book)" src="../_images/sicp-wizard.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;section id="why-sicp"&gt;
+&lt;h2&gt;Why SICP?&lt;/h2&gt;
+&lt;p&gt;Although I told the method was wrong because I was just reading the book, I decided that I will try to solve every problem given in the book’s exercise section. Therefore I have set up a Github repository that will have all the code snippets of the exercises that I solve, irrespective if that exercise needs me to write code or not.&lt;/p&gt;
+&lt;p&gt;The other reason for me going ahead with SICP is that it teaches Computer Science and understanding the computer as an abstract machine used to manipulate information.&lt;/p&gt;
+&lt;section id="that-stuff-is-old-and-outdated"&gt;
+&lt;h3&gt;That stuff is old and outdated&lt;/h3&gt;
+&lt;p&gt;“This thing is outdated!”, “That thing is outdated!”, these are some of the most common words that you can hear in the software industry. But is something really outdated? Well, I consider ‘outdated’ a very heavy word to be used so casually and I personally think that outdated is a very subjective term. “Is C outdated?”, “Is JavaScript outdated?”, well, it depends… Depends on? Depends on what you actually want to do with that language. The browser that you are using right now will have most of its core written in C or C++ and will still be maintained. But if you are writing a web application backend, is C a good choice? If you have read SICP you will realize that the book is not at all about Scheme, but about the abstract concepts, even the authors say that the book is not about and does not teach Scheme. Even if some institutes like Massachusetts Institute of Technology themselves have stopped teaching this course, I don’t consider it outdated and therefore am going for it.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="studying-that-same-stuff-again"&gt;
+&lt;h3&gt;Studying that same stuff… Again?&lt;/h3&gt;
+&lt;p&gt;Well, now you might say that I’ve already studied Computer Science in my career then why study the same stuff again? It has been ages since I’ve done any Computer Science, and at times I’m missing all of that while writing software for clients at a software consultancy. Also, I’ve heard that the book has most of the programs in an immutable way because Scheme by design pushes towards immutability, which I think is very different from the way Computer Science was taught to me with C and all mutation through. In addition to that, I feel that everyone who writes software should not forget the fundamentals and even if it is repeating the same things again, it stays in memory and can be applied whenever needed in the future.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="but-then-why-scheme"&gt;
+&lt;h3&gt;But then why Scheme?&lt;/h3&gt;
+&lt;p&gt;My initial thought regarding programming language was to use Clojure because I had used ClojureScript in a software project for making a front-end app deployed to Android using Cordova. So I went ahead with Clojure as my choice of language. After a while, I realized that Clojure as a language is very vast than as compared to Scheme, also it has many things already implemented and ready to use out of the box. I’m not saying that Clojure is a bad choice as a language. It is a pretty good choice to go with if you are making something like a web application. You can also go with a full stack approach using Clojure on the backend and ClojureScript on the front end, and the list just goes on.&lt;/p&gt;
+&lt;p&gt;But I decided to choose MIT-Scheme after trying Clojure because when I had a look at the language, it looked very small, something you can just get going with within a couple of hours. Another reason is that you can just copy/paste the examples from the book and then run them using the MIT-Scheme interpreter.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="aim-and-expected-result"&gt;
+&lt;h3&gt;Aim and Expected Result&lt;/h3&gt;
+&lt;p&gt;So my aim is to finish the whole book in the entire year of 2018 by doing a little bit of SICP every day. And that does not mean just reading the book but also solving the exercises extensively. I’ve set up a GitHub repository for solving all these problems and pushing the code online. I’ve also set up a testing framework which can run all the tests when run using make therefore we know if all the code is working or not at any given point in time. This GitHub repository is hooked up to Travis-CI which will show if everything is passing or not in the repository. What I expect by the end of this is a difference in the way I think while writing code and a difference in the way I think about Computer Science. As a follow-up post to this post, I will be writing a tutorial for super-fast learning MIT-Scheme to get started with SICP. I might also write posts for how I approached problems that I felt difficult to solve in SICP.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
+ 
+&lt;div class="line"&gt;Published on: 18 September 2018&lt;/div&gt;
+&lt;hr class="docutils"/&gt;
+&lt;p&gt;19, September 2018
+:tags: scheme, crash course, programming, sicp, dr. racket
+:category: SICP
+:author: tanay&lt;/p&gt;
+&lt;p&gt;This crash course on Scheme that I’m writing is the kind of course that I would had liked before starting
+to read SICP. This crash course is geared towards people who are already familiar with some programming
+language and want to start with SICP but are not really comfortable Scheme or any LISP for that matter.
+All the Python code in this blog is Python 3 compatible and all the Scheme code is MIT-Scheme compatible.&lt;/p&gt;
+&lt;p&gt;The whole blog post is written in such a way that you should be able to pick up Scheme in an hour or so
+by typing out the programs in an online Scheme interpreter and see how the things work there. The examples
+here are in two languages namely Python and obviously Scheme. Every concept here is first introduced in
+Python and then a exact implementaion is shown in Scheme. The main reason for choosing Python is that it
+is very easy and looks a lot like pseudocode and for those who don’t know the language can easily
+undrstand the code.&lt;/p&gt;
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="../_images/scheme.jpg"&gt;&lt;img alt="Scheme Logo" src="../_images/scheme.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;section id="arithematic-operations"&gt;
+&lt;h2&gt;Arithematic operations&lt;/h2&gt;
+&lt;p&gt;Since Scheme is a LISP it does not have operators that we can use in a infix notation, so we have operators
+like &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;+&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;-&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;*&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;/&lt;/span&gt;&lt;/code&gt; which have to be used in prefix notation.
+To make this easier let’s visualize these operators to be nothing but functions, which they actually are
+and makes much more sense when think them to be like that.&lt;/p&gt;
+&lt;p&gt;We will therefore assume that the languages that we are comparing Scheme do not have arithematic operators
+but have functions like &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;add()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;subtract()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;multiply()&lt;/span&gt;&lt;/code&gt;,
+&lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;divide()&lt;/span&gt;&lt;/code&gt;. Let’s start writing some of these arithematic operators in Python. After the Python
+block of the code the exact Scheme version of the same will be shown in the block below it.&lt;/p&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="linenos"&gt; 1&lt;/span&gt;  &lt;span class="c1"&gt;# (1 + 2) * (5 - 3) / 9&lt;/span&gt;
+&lt;span class="linenos"&gt; 2&lt;/span&gt;  &lt;span class="n"&gt;divide&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;multiply&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;subtract&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 0.666666666666666&lt;/span&gt;
+&lt;span class="linenos"&gt; 3&lt;/span&gt;
+&lt;span class="linenos"&gt; 4&lt;/span&gt;  &lt;span class="c1"&gt;# 3 + 4 + 5 + 6 + 8&lt;/span&gt;
+&lt;span class="linenos"&gt; 5&lt;/span&gt;  &lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 26&lt;/span&gt;
+&lt;span class="linenos"&gt; 6&lt;/span&gt;
+&lt;span class="linenos"&gt; 7&lt;/span&gt;  &lt;span class="c1"&gt;# 9 * 9 - 3 - 5 - 3&lt;/span&gt;
+&lt;span class="linenos"&gt; 8&lt;/span&gt;  &lt;span class="n"&gt;subtract&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;multiply&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 70&lt;/span&gt;
+&lt;span class="linenos"&gt; 9&lt;/span&gt;
+&lt;span class="linenos"&gt;10&lt;/span&gt;  &lt;span class="c1"&gt;# zero arguments&lt;/span&gt;
+&lt;span class="linenos"&gt;11&lt;/span&gt;  &lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="linenos"&gt; 1&lt;/span&gt;  &lt;span class="c1"&gt;; (1 + 2) * (5 - 3) / 9&lt;/span&gt;
+&lt;span class="linenos"&gt; 2&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;/ &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;* &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 2/3&lt;/span&gt;
+&lt;span class="linenos"&gt; 3&lt;/span&gt;
+&lt;span class="linenos"&gt; 4&lt;/span&gt;  &lt;span class="c1"&gt;; 3 + 4 + 5 + 6 + 8&lt;/span&gt;
+&lt;span class="linenos"&gt; 5&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 26&lt;/span&gt;
+&lt;span class="linenos"&gt; 6&lt;/span&gt;
+&lt;span class="linenos"&gt; 7&lt;/span&gt;  &lt;span class="c1"&gt;; 9 * 9 - 3 - 5 - 3&lt;/span&gt;
+&lt;span class="linenos"&gt; 8&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;* &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;; =&amp;gt; Value: 70&lt;/span&gt;
+&lt;span class="linenos"&gt; 9&lt;/span&gt;
+&lt;span class="linenos"&gt;10&lt;/span&gt;  &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="nv"&gt;zero&lt;/span&gt; &lt;span class="nv"&gt;arguments&lt;/span&gt;
+&lt;span class="linenos"&gt;11&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;=&amp;gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Let’s first try to understand the above code. The Python part of the code has these functions
+&lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;add()&lt;/span&gt;&lt;/code&gt;: &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;subtract()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;multiply()&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;divide()&lt;/span&gt;&lt;/code&gt;.
+There functions take any number of arguments on which the respective operation is to be
+recursively performed. For exaple in &amp;lt;code&amp;gt;subtract()&amp;lt;/code&amp;gt; the first argument will be taken
+and one after the other all the remaining arguments of &amp;lt;code&amp;gt;subtract()&amp;lt;/code&amp;gt; will be
+subtracted from till ultimately just one value is left. In case if no arguments are passed
+then a &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;0&lt;/span&gt;&lt;/code&gt; will be returned.&lt;/p&gt;
+&lt;p&gt;Now let’s try to understand the Scheme code. Scheme is a typical LISP so every function call is
+enclosed in parenthesis. All the arguments passed to the function are separated with spaces.
+The first argument or the word that follows just after &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;(&lt;/span&gt;&lt;/code&gt; is the call to that function.
+For eample in &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;(+&lt;/span&gt; &lt;span class="pre"&gt;2&lt;/span&gt; &lt;span class="pre"&gt;3)&lt;/span&gt;&lt;/code&gt;, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;+&lt;/span&gt;&lt;/code&gt; is the function call to add and &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;2&lt;/span&gt;&lt;/code&gt;
+and &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;3&lt;/span&gt;&lt;/code&gt; are the arguments passed to that add function.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="variables"&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# define a variable MAX that holds 500&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;MAX&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;500&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;MAX&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 500&lt;/span&gt;
+
+&lt;span class="c1"&gt;# define a constant PI that returns the value of PI&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;PI&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;3.14&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;PI&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 3.14&lt;/span&gt;
+
+&lt;span class="c1"&gt;# compute sum of two numbers and store it in a variable&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;SUM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;SUM&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 9&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; define a variable MAX that holds 500&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;max&lt;/span&gt; &lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;max&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 500&lt;/span&gt;
+
+&lt;span class="c1"&gt;; define a constant PI that returns the value of PI&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;pi&lt;/span&gt; &lt;span class="mf"&gt;3.14&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;pi&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 3.14&lt;/span&gt;
+
+&lt;span class="c1"&gt;; compute sum of two numbers and store it in a variable&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;sum&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;sum&lt;/span&gt;  &lt;span class="c1"&gt;; =&amp;gt; Value: 9&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Let’s now look at these above things as variables, but name value binding. What exactly
+do we mean by name value binding? Simply stating it’s that when we enter that name, it is
+evaluated to it’s respective value that it was assigned to. This name can be later
+changed in the code be reassigning another value to that variable. To prevent that,
+we should take care about the kind of name that we give to the variables. Naming should
+be such that we do not reassign that name to something else. In other words even
+though the so called variables are not constant they should be treated as such or
+else they will not maintain &lt;cite&gt;referential transparency &amp;lt;https://en.wikipedia.org/wiki/Referential_transparency&amp;gt;&lt;/cite&gt;.&lt;/p&gt;
+&lt;p&gt;The syntax for defining a variable is very easy. Take the example of PI &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;(define&lt;/span&gt; &lt;span class="pre"&gt;PI&lt;/span&gt; &lt;span class="pre"&gt;3.14)&lt;/span&gt;&lt;/code&gt;.
+Whatever follows define is a new name with which we are associating a value, &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;PI&lt;/span&gt;&lt;/code&gt; in this
+case is the name and &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;3.14&lt;/span&gt;&lt;/code&gt; is the value associated with it. That is simply how assigning
+variables work in Scheme. The we can also evaluate an expression as a value assigned to name, this is
+done for &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;sum&lt;/span&gt;&lt;/code&gt; in the code snippet shown above.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="functions"&gt;
+&lt;h2&gt;Functions&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Lambda implementation of square function&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;square&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;square&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;   &lt;span class="c1"&gt;#  =&amp;gt; 49&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Square implementation as function (syntactic sugar)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;square&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;;  Lambda implementation of square function&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;square&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;* &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt; &lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;
+
+&lt;span class="c1"&gt;; Square implementation as function (syntactic sugar)&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt; &lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;* &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt; &lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;By default in Scheme we define variable of which the value is lambda which is first shown in Python.
+In Python this is not the default way we define a function. But this is again written in that way because
+that’s how it is done in Scheme. The second function that shows default way of implementing functions in Python.
+The same is shown in Scheme which is nothing but syntactic sugar for binding lambdas to name.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="taking-a-decision"&gt;
+&lt;h2&gt;Taking a decision&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Old enough to drink string&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;old_enough&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;age&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"Yes"&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"No"&lt;/span&gt;
+&lt;span class="n"&gt;old_enough&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;34&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;old_enough&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Check if a given number is even returns the respective string&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;is_even&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"Yes"&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"No"&lt;/span&gt;
+&lt;span class="n"&gt;is_even&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;is_even&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; old enough to drink string&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt; &lt;span class="nv"&gt;age&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt;          &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;&amp;gt;= &lt;/span&gt;&lt;span class="nv"&gt;age&lt;/span&gt; &lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="s"&gt;"Yes"&lt;/span&gt; &lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt; &lt;span class="mi"&gt;34&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt; &lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;
+
+&lt;span class="c1"&gt;; Check if a given number is even returns the respective string&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt; &lt;span class="nv"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;= &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;remainder &lt;/span&gt;&lt;span class="nv"&gt;number&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="s"&gt;"Yes"&lt;/span&gt; &lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now we have to decide if the age of the person which is entered is of legal drinking age of not. Since we’re
+comparing with a functional language, let’s do it in Python the way we would do it in Scheme. So we define a
+function called &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;is_even()&lt;/span&gt;&lt;/code&gt; and we pass the age to it. Inside the function has an if statement that
+returns the string which is either &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;"Yes"&lt;/span&gt;&lt;/code&gt; or &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;"No"&lt;/span&gt;&lt;/code&gt; depending on if he is legal or not. The
+Scheme version of this looks very similar in which &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;if&lt;/span&gt;&lt;/code&gt; is the function call of which the first argument
+is an expression that evaluates to a boolean value. Where it &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&gt;(&amp;gt;=&lt;/span&gt; &lt;span class="pre"&gt;age&lt;/span&gt; &lt;span class="pre"&gt;18)&lt;/span&gt;&lt;/code&gt; checks if age is greater than
+18 or not. If the expression evaluates to &amp;lt;code&amp;gt;lol&amp;lt;/code&amp;gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="list-getting-length"&gt;
+&lt;h2&gt;List: Getting length&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Recursively iterating to get the length of the list&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;length_of_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_length&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;lst&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;[]:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;current_length&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;length_of_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:],&lt;/span&gt; &lt;span class="n"&gt;current_length&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to get the length of the list&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="list-concatenating-two-lists"&gt;
+&lt;h2&gt;List: Concatenating two lists&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Simply concatenating two lists&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply concatenating two lists (cons)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="list-appending-element-to-list"&gt;
+&lt;h2&gt;List: Appending element to list&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Simply appending element to list&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply appending element to list&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="list-getting-the-first-element-in-the-list"&gt;
+&lt;h2&gt;List: Getting the first element in the list&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="list-getting-the-rest-in-the-list"&gt;
+&lt;h2&gt;List: Getting the rest in the list&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="list-reversing"&gt;
+&lt;h2&gt;List: Reversing&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Recursively iterating to reverse the list&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;reverse_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;new_lst&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[]):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;lst&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;[]:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;new_lst&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;reverse_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:],&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;new_lst&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# Use the reverse function provided by the language&lt;/span&gt;
+&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;reversed&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;]))&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; [5, 4, 3, 2, 1]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to reverse the list (use car, cdr and cons)&lt;/span&gt;
+
+&lt;span class="c1"&gt;; Use the reverse function provided by the language&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="compute-factorial"&gt;
+&lt;h2&gt;Compute factorial&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;factorial&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_product&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;current_product&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;factorial&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_product&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="compute-fibonacci"&gt;
+&lt;h2&gt;Compute fibonacci&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fibonacci&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_list&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[],&lt;/span&gt; &lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;current_list&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;current_list&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fibonacci&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_list&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="find-element-in-the-list"&gt;
+&lt;h2&gt;Find element in the list&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;search_element&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;search_element&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code ehre&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="simple-input-and-output"&gt;
+&lt;h2&gt;Simple input and output&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;45&lt;/span&gt; &lt;span class="c1"&gt;# input an int and add 45 to it&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Enter your name: "&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="s2"&gt;"Hello "&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# output a prompt and take string input name and say hello&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="writing-tests"&gt;
+&lt;h2&gt;Writing tests&lt;/h2&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Some python code here&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;load &lt;/span&gt;&lt;span class="s"&gt;"test-manager/load.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;load &lt;/span&gt;&lt;span class="s"&gt;"src/ex_1.2.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;in-test-group&lt;/span&gt;
+  &lt;span class="nv"&gt;translation-of-an-expression-into-prefix-form&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;define-test&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression-infix&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;assert-=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;-37&lt;/span&gt;&lt;span class="nv"&gt;/150&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;run-registered-tests&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item></channel></rss>
