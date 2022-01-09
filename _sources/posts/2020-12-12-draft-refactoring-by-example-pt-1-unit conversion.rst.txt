@@ -1,5 +1,5 @@
-Learn Refactoring by example
-============================
+Learn Refactoring by examples
+=============================
 
 .. post::
   :tags: scheme, crash course, programming, sicp, dr. racket
