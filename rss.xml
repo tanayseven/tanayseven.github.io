@@ -22,7 +22,7 @@ for writing. I’m not really great at writing, but I love to write a lot. And w
 grammar and vocabulary to write? I’ll just write and put my own content here.&lt;/p&gt;
 &lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
 to read.&lt;/p&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
  
 &lt;div class="line"&gt;Published on: 14 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -153,7 +153,7 @@ between the words being just because of the case. At least the first word has to
 Also, do test it on your own and report any bugs to me. You are also free to suggest any features to me if you want.&lt;/p&gt;
 &lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
  
 &lt;div class="line"&gt;Published on: 18 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -207,7 +207,7 @@ refactored all the code till we finished off the whole problem. The code on tic-
 using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
 maybe write another blog on that and put the link here.&lt;/p&gt;
 &lt;/section&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
  
 &lt;div class="line"&gt;Published on: 03 January 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -237,7 +237,7 @@ maybe write another blog on that and put the link here.&lt;/p&gt;
 &lt;p&gt;So my aim is to finish the whole book in the entire year of 2018 by doing a little bit of SICP every day. And that does not mean just reading the book but also solving the exercises extensively. I’ve set up a GitHub repository for solving all these problems and pushing the code online. I’ve also set up a testing framework which can run all the tests when run using make therefore we know if all the code is working or not at any given point in time. This GitHub repository is hooked up to Travis-CI which will show if everything is passing or not in the repository. What I expect by the end of this is a difference in the way I think while writing code and a difference in the way I think about Computer Science. As a follow-up post to this post, I will be writing a tutorial for super-fast learning MIT-Scheme to get started with SICP. I might also write posts for how I approached problems that I felt difficult to solve in SICP.&lt;/p&gt;
 &lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
  
 &lt;div class="line"&gt;Published on: 18 September 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -551,7 +551,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item><item><title>Learn Refactoring by examples</title><link>http://tanayseven.com/feeds/posts/2020-12-12-draft-refactoring-by-example-pt-1-unit conversion.html</link><description>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item><item><title>Learn Refactoring by examples</title><link>http://tanayseven.com/feeds/posts/2020-12-12-draft-refactoring-by-example-pt-1-unit conversion.html</link><description>
  
 &lt;div class="line"&gt;Published on: 12 December 2020&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -564,4 +564,4 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;li&gt;&lt;p&gt;Example of conversion of units in Python (GBs)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Example of Javascript of units in Haskell (Something else [What?])&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>Sun, 09 Jan 2022 00:00:00 </pubDate></item></channel></rss>
+</description><pubDate>Sat, 05 Mar 2022 00:00:00 </pubDate></item></channel></rss>
