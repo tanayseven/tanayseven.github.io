@@ -98,4 +98,4 @@ I had written this post a while back and as of publishing this post I can see th
 released which is `linux-lts 5.15.31-1`. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
 using and get my system working with the latest Linux version.
 
-.. include:: ../lib/comments.rst
+```{include} ../lib/comments.rst```
