@@ -65,3 +65,5 @@ have to be there to feel the way clean coding is done, esp. when you are paired 
 refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
 using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
 maybe write another blog on that and put the link here.
+
+.. include:: ../lib/comments.rst

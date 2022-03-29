@@ -154,3 +154,5 @@ A screen to screen working for the app
 Now that you have seen how the app works, you can download the app by clicking
 `here <https://drive.google.com/open?id=0B8ZGvtCVIoJgNlZPMnU3WHVXcFk>`__
 Also, do test it on your own and report any bugs to me. You are also free to suggest any features to me if you want.
+
+.. include:: ../lib/comments.rst

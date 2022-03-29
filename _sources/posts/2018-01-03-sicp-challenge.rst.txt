@@ -41,3 +41,5 @@ Aim and Expected Result
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 So my aim is to finish the whole book in the entire year of 2018 by doing a little bit of SICP every day. And that does not mean just reading the book but also solving the exercises extensively. I've set up a GitHub repository for solving all these problems and pushing the code online. I've also set up a testing framework which can run all the tests when run using make therefore we know if all the code is working or not at any given point in time. This GitHub repository is hooked up to Travis-CI which will show if everything is passing or not in the repository. What I expect by the end of this is a difference in the way I think while writing code and a difference in the way I think about Computer Science. As a follow-up post to this post, I will be writing a tutorial for super-fast learning MIT-Scheme to get started with SICP. I might also write posts for how I approached problems that I felt difficult to solve in SICP.
+
+.. include:: ../lib/comments.rst
