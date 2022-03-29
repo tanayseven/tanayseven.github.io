@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="SICP Challenge" href="2018-01-03-sicp-challenge.html" /><link rel="prev" title="Finally an Android App" href="2016-07-14-finally-an-android-app.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="prev" title="Scheme Crash Course" href="2018-09-18-scheme-crash-course.html" />
 
     <meta name="generator" content="sphinx-4.5.0, furo 2021.11.23"/>
-        <title>At Nelkinda Coderetreat - Tanay Rambles</title>
+        <title>Arch Linux Broken Kernel Patch - Tanay Rambles</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=7f0192ddeb2adecfbaa87ffbcf67d16358b30bc1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -157,10 +157,10 @@
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="2016-03-27-hello-world.html">Hello World</a></li>
 <li class="toctree-l1"><a class="reference internal" href="2016-07-14-finally-an-android-app.html">Finally an Android App</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">At Nelkinda Coderetreat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2016-07-18-at-nelkinda-coderetreat.html">At Nelkinda Coderetreat</a></li>
 <li class="toctree-l1"><a class="reference internal" href="2018-01-03-sicp-challenge.html">SICP Challenge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="2018-09-18-scheme-crash-course.html">Scheme Crash Course</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022-03-28-arch-linux-broken-kernel-patch.html">Arch Linux Broken Kernel Patch</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Arch Linux Broken Kernel Patch</a></li>
 </ul>
 
 </div>
@@ -181,67 +181,86 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="at-nelkinda-coderetreat">
-<h1>At Nelkinda Coderetreat<a class="headerlink" href="#at-nelkinda-coderetreat" title="Permalink to this headline">¶</a></h1>
-<div class="line">Published on: 18 July 2016</div>
+          <section id="arch-linux-broken-kernel-patch">
+<h1>Arch Linux Broken Kernel Patch<a class="headerlink" href="#arch-linux-broken-kernel-patch" title="Permalink to this headline">¶</a></h1>
+<div class="line">Published on: 28 March 2022</div>
 <hr class="docutils"/>
-<p>Completely unexpected of what is there, I registered for
-<a class="reference external" href="http://nelkinda.com/events/2016-07-16-4th-Nelkinda-Coderetreat">Coderetreat that’s held at Nelkinda</a>
-which was on 16th of July 2016. Facilitated by <a class="reference external" href="https://twitter.com/SiddheshNikude">Siddhesh Nikude</a> and
-<a class="reference external" href="https://twitter.com/ShwetaSadawarte">Shweta Sadawarte</a> it was a long but a really nice event. More than
-anything else I got to learn a lot from that event and I will write some of my experience here.</p>
-<p>The session was split into code sprints and retrospectives. There was a 45 minute of code sprint followed by a
-30-minute retrospective. For every code sprint and retrospective cycle, they kept two people to write one code to
-enforce pair programming. For the first code sprint retrospective cycle, the pairing was done by splitting people
-into two types, one were the ones who had done TDD before and the others who had not done TDD and/or had heard
-about TDD before. We were given a problem to solve. The aim of the code sprint was not to solve the given problem
-but to focus on the practices such as clean code, writing tests and following TDD. We were also free to choose the
-language of our choice rather than enforcing a language upon us.</p>
+<p>So recently I wanted to do a clean installation of my Arch Linux, which I did. This took a couple of hours after which I
+could get a running Desktop environment. The moment I had a basic usable system, I ran a global update of all the
+installed packages.</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/code_retrospective_nelkinda.jpg"><img alt="Coderetreat Code Retrospective @ Nelkinda" src="../_images/code_retrospective_nelkinda.jpg" style="width: 500px;"/></a>
+<a class="reference internal image-reference" href="../_images/sleeping-tux.png"><img alt="Sleeping Tux" src="../_images/sleeping-tux.png" style="width: 500px;"/></a>
 </figure>
-<section id="the-way-the-whole-event-went">
-<h2>The way the whole event went<a class="headerlink" href="#the-way-the-whole-event-went" title="Permalink to this headline">¶</a></h2>
-<p>Initially, I was paired with another student who was not very familiar with TDD. I started by introducing him the
-red-green-refactor cycle. But these are the things that I have learnt on my own and have not worked in an industry
-and/or done any projects this way to do it the right way. So I was not knowing if I am doing this the right way or
-not. Finally, at the retrospective session I came to know that I was doing this at least 90% of times the right
-way. The problem that was given to us was tic tac toe. We had to design a two player tic tac toe game. For eg: if
-player 1 plays, then, player 2 will play, then the player 1 and it will keep alternating till either of the players
-wins or if the board is full. So, we started from initially deciding how the board is structured and so on what
-kinds of methods to use to design this. At the retrospective session, we came to know about each other’s approaches
-and shared a lot of knowledge about the right way to do things and not so right way to do things. The initial
-discussion was about what data structure was chosen for the board. The people using Java chose ArrayList the others
-chose two-dimensional array. I chose Python List since I was using Python as my language.</p>
-<p>For every subsequent code sprint, we had to delete the code and start from scratch. The approaches took a totally
-different turn when the discussion went to the clarity of code in the subsequent code retrospective. The expert
-programmers started bashing loops and how it makes the code unreadable. Even I like to avoid using loops, esp. in
-Python it’s really easy to use lambdas and different types of comprehensions. Hence, things that need multiple
-loops can be reduced to just a couple of lines of readable code.</p>
-<p>In between, I switched from Python to Java because I was paired with a person who was unaware of Python and knew
-only Java. In Java, I had to go through the JUnit framework and tried to use functional programming concepts. As I
-come from a Python background, I am used to lambdas and comprehensions. I tried to do the same using the Java 8
-lambdas and ArrayList on which I could run the lambdas. It was a crazy experience and a pretty steep learning curve
-since I’ve never used lambdas in Java before. Also, my partner was not very comfortable with lambdas and quite a
-lot of time was spent in both of us learning how it works.</p>
-<p>Later I was paired with my friend <a class="reference external" href="https://twitter.com/Mistcrafter">Douglas Vaz</a> who introduced me to a
-new way of writing code that is BDD. “BDD is TDD done right” this is the statement most of the blogs and or
-websites all over the internet contain. From what I’ve learnt, in BDD you don’t have to think about the
-implementation of the feature that you are going to test. Instead, just write a test about the behaviour or the
-flow of the feature that you are testing and then go on modifying the main code to pass all the tests.</p>
-<p>This all was a very wonderful experience, what I’ve written here is barely scratching the surface, in reality, you
-have to be there to feel the way clean coding is done, esp. when you are paired with others. Finally, we sat and
-refactored all the code till we finished off the whole problem. The code on tic-tac-toe is really messy in spite of
-using multiple techniques and hence I’ve decided to rewrite the code in the right way and then post it here or
-maybe write another blog on that and put the link here.</p>
-<script async="" crossorigin="anonymous" data-category="[ENTER CATEGORY NAME HERE]" data-category-id="[ENTER CATEGORY ID HERE]" data-emit-metadata="0" data-input-position="top" data-lang="en" data-loading="lazy" data-mapping="pathname" data-reactions-enabled="1" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-theme="dark" src="https://giscus.app/client.js">
-</script></section>
+<p>Everything was working just fine until I restarted the computer; and boom! The OS refused to boot so I had to now check
+the logs to know what was happening.</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sudo journalctl -p <span class="m">3</span> -b
+</pre></div>
+</div>
+<p>The diagnosis showed me two problems:</p>
+<ul class="simple">
+<li><p>Display driver stopped working all of a sudden.</p></li>
+<li><p>The X server started throwing errors.</p></li>
+</ul>
+<p>Before thinking in-depth I thought it was some mistake that I made when installing Arch Linux. I just wanted to do a
+re-install of the operating system that I was using. So I went ahead and did just that; a fresh new install of Arch
+Linux.</p>
+<p>Did a few additional things this time, Eg: encrypting the partition, doing a minimal install, etc. Things were going
+just fine while I had not restarted my computer and ran a few updates while using my laptop. A few days passed and I
+finally decided to reboot my computer. Caught by shock and surprise, my computer stopped working again. Again as I did
+not have too much patience to fix the issue and simply assumed that I did something wrong in installing.</p>
+<p>I went for another round of installing the OS, this time being a bit too careful of not screwing up things. On the same
+day, I completed the installation I tried re-running a full system upgrade and realized that my system stopped working
+again. This time I was completely confident that it was not me. I went dropped into a TTY on the failure to boot screen
+and saw the message telling me that it could not load the kernel modules.</p>
+<p>After reading a lot of docs and forums online and trying different suggested points, the final resolution to the problem
+was the broken kernel patch. I’ve used Arch for years now and had never encountered this issue before. So I’ve written
+down the steps I took to fix it as follows.</p>
+<p>I first checked which Linux kernel was installed.</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>uname -r
+</pre></div>
+</div>
+<p>After running the command above, I saw that version <code class="docutils literal notranslate"><span class="pre">5.15.28-lts</span></code> was installed. I then decided to see all the cached
+kernel versions from the Pacman cache.</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> /var/cache/pacman/pkg/
+</pre></div>
+</div>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ ls linux-*
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst.sig  
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst  
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst.sig  
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst  
+linux-api-headers-5.16.8-1-any.pkg.tar.zst linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst.sig  
+linux-api-headers-5.16.8-1-any.pkg.tar.zst.sig         linux-lts-5.15.27-1-x86_64.pkg.tar.zst  
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst linux-lts-5.15.27-1-x86_64.pkg.tar.zst.sig  
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst.sig  linux-lts-5.15.28-1-x86_64.pkg.tar.zst  
+linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst linux-lts-5.15.28-1-x86_64.pkg.tar.zst.sig
+</pre></div>
+</div>
+<p>The only version before version <code class="docutils literal notranslate"><span class="pre">5.15.28</span></code> was <code class="docutils literal notranslate"><span class="pre">linux-lts-5.15.27</span></code> in the list of the listed kernels. So downgraded the
+patch version of the LTS kernel using the following command.</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sudo pacman -U linux-lts-5.15.27-1-x86_64.pkg.tar.zst
+</pre></div>
+</div>
+<p>Once I was done executing this and rebooted, the system started working as usual. The next step was to prevent this
+issue… at least till a new version of the kernel is not released. To do that I opened the Pacman config:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sudo nvim /etc/pacman.conf
+</pre></div>
+</div>
+<p>Changed the <code class="docutils literal notranslate"><span class="pre">IgnorePkg</span></code> line as follows:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>IgnorePkg   = linux linux-lts
+</pre></div>
+</div>
+<p>Now it will ignore installing the packages <code class="docutils literal notranslate"><span class="pre">Linux</span></code> and <code class="docutils literal notranslate"><span class="pre">Linux-lts</span></code>.</p>
+<p>I had written this post a while back and as of publishing this post I can see that there’s a newer version of kernel
+released which is <code class="docutils literal notranslate"><span class="pre">linux-lts</span> <span class="pre">5.15.31-1</span></code>. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
+using and get my system working with the latest Linux version.</p>
+<p>.. include:: ../lib/comments.rst</p>
 </section>
 
         </article>
@@ -249,23 +268,15 @@ maybe write another blog on that and put the link here.</p>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="2018-01-03-sicp-challenge.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">SICP Challenge</div>
-              </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
-            </a>
-          <a class="prev-page" href="2016-07-14-finally-an-android-app.html">
+          
+          <a class="prev-page" href="2018-09-18-scheme-crash-course.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Finally an Android App</div>
+                <div class="title">Scheme Crash Course</div>
                 
               </div>
             </a>
@@ -275,7 +286,7 @@ maybe write another blog on that and put the link here.</p>
               Copyright &#169; 2021, Tanay PrabhuDesai |
           Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
           <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
-            | <a class="muted-link" href="../_sources/posts/2016-07-18-at-nelkinda-coderetreat.rst.txt"
+            | <a class="muted-link" href="../_sources/posts/2022-03-28-arch-linux-broken-kernel-patch.md.txt"
                rel="nofollow">
               Show Source
             </a>
@@ -283,27 +294,8 @@ maybe write another blog on that and put the link here.</p>
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            Contents
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">At Nelkinda Coderetreat</a><ul>
-<li><a class="reference internal" href="#the-way-the-whole-event-went">The way the whole event went</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>

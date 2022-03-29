@@ -557,17 +557,78 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;/div&gt;
 &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="[ENTER CATEGORY NAME HERE]" data-category-id="[ENTER CATEGORY ID HERE]" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Mon, 28 Mar 2022 00:00:00 </pubDate></item><item><title>Learn Refactoring by examples</title><link>http://tanayseven.com/feeds/posts/2020-12-12-draft-refactoring-by-example-pt-1-unit conversion.html</link><description>
+</description><pubDate>Mon, 28 Mar 2022 00:00:00 </pubDate></item><item><title>Arch Linux Broken Kernel Patch</title><link>http://tanayseven.com/feeds/posts/2022-03-28-arch-linux-broken-kernel-patch.html</link><description>
  
-&lt;div class="line"&gt;Published on: 12 December 2020&lt;/div&gt;
+&lt;div class="line"&gt;Published on: 28 March 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
-&lt;p&gt;One of the most underrated skills in the software industry today is refactoring. Refactoring is a skill that takes a lot of practice to get up and running.&lt;/p&gt;
+&lt;p&gt;So recently I wanted to do a clean installation of my Arch Linux, which I did. This took a couple of hours after which I
+could get a running Desktop environment. The moment I had a basic usable system, I ran a global update of all the
+installed packages.&lt;/p&gt;
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="../_images/sleeping-tux.png"&gt;&lt;img alt="Sleeping Tux" src="../_images/sleeping-tux.png" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;Everything was working just fine until I restarted the computer; and boom! The OS refused to boot so I had to now check
+the logs to know what was happening.&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo journalctl -p &lt;span class="m"&gt;3&lt;/span&gt; -b
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The diagnosis showed me two problems:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;Compare the process of refactoring with cleaning the mess in the house&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Link the curve of graphs when crust in the code builds up&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Talk about a new approach (refactoring by real-world example)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Example of conversion of units in Kotlin (Time taken)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Example of conversion of units in Python (GBs)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Example of Javascript of units in Haskell (Something else [What?])&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Display driver stopped working all of a sudden.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The X server started throwing errors.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Before thinking in-depth I thought it was some mistake that I made when installing Arch Linux. I just wanted to do a
+re-install of the operating system that I was using. So I went ahead and did just that; a fresh new install of Arch
+Linux.&lt;/p&gt;
+&lt;p&gt;Did a few additional things this time, Eg: encrypting the partition, doing a minimal install, etc. Things were going
+just fine while I had not restarted my computer and ran a few updates while using my laptop. A few days passed and I
+finally decided to reboot my computer. Caught by shock and surprise, my computer stopped working again. Again as I did
+not have too much patience to fix the issue and simply assumed that I did something wrong in installing.&lt;/p&gt;
+&lt;p&gt;I went for another round of installing the OS, this time being a bit too careful of not screwing up things. On the same
+day, I completed the installation I tried re-running a full system upgrade and realized that my system stopped working
+again. This time I was completely confident that it was not me. I went dropped into a TTY on the failure to boot screen
+and saw the message telling me that it could not load the kernel modules.&lt;/p&gt;
+&lt;p&gt;After reading a lot of docs and forums online and trying different suggested points, the final resolution to the problem
+was the broken kernel patch. I’ve used Arch for years now and had never encountered this issue before. So I’ve written
+down the steps I took to fix it as follows.&lt;/p&gt;
+&lt;p&gt;I first checked which Linux kernel was installed.&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;uname -r
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After running the command above, I saw that version &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;5.15.28-lts&lt;/span&gt;&lt;/code&gt; was installed. I then decided to see all the cached
+kernel versions from the Pacman cache.&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; /var/cache/pacman/pkg/
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$ ls linux-*
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst.sig  
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst  
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst.sig  
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst  
+linux-api-headers-5.16.8-1-any.pkg.tar.zst linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst.sig  
+linux-api-headers-5.16.8-1-any.pkg.tar.zst.sig         linux-lts-5.15.27-1-x86_64.pkg.tar.zst  
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst linux-lts-5.15.27-1-x86_64.pkg.tar.zst.sig  
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst.sig  linux-lts-5.15.28-1-x86_64.pkg.tar.zst  
+linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst linux-lts-5.15.28-1-x86_64.pkg.tar.zst.sig
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The only version before version &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;5.15.28&lt;/span&gt;&lt;/code&gt; was &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts-5.15.27&lt;/span&gt;&lt;/code&gt; in the list of the listed kernels. So downgraded the
+patch version of the LTS kernel using the following command.&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo pacman -U linux-lts-5.15.27-1-x86_64.pkg.tar.zst
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Once I was done executing this and rebooted, the system started working as usual. The next step was to prevent this
+issue… at least till a new version of the kernel is not released. To do that I opened the Pacman config:&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo nvim /etc/pacman.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Changed the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;IgnorePkg&lt;/span&gt;&lt;/code&gt; line as follows:&lt;/p&gt;
+&lt;div class="highlight-text notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;IgnorePkg   = linux linux-lts
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now it will ignore installing the packages &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Linux&lt;/span&gt;&lt;/code&gt; and &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Linux-lts&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I had written this post a while back and as of publishing this post I can see that there’s a newer version of kernel
+released which is &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts&lt;/span&gt; &lt;span class="pre"&gt;5.15.31-1&lt;/span&gt;&lt;/code&gt;. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
+using and get my system working with the latest Linux version.&lt;/p&gt;
+&lt;p&gt;.. include:: ../lib/comments.rst&lt;/p&gt;
 </description><pubDate>Mon, 28 Mar 2022 00:00:00 </pubDate></item></channel></rss>
