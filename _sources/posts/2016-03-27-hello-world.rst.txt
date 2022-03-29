@@ -30,20 +30,4 @@ grammar and vocabulary to write? I'll just write and put my own content here.
 I won't go ahead boring you with my talk and go in for my next post about something that will be more interesting
 to read.
 
-.. raw:: html
-
-    <script src="https://giscus.app/client.js"
-        data-repo="tanayseven/tanayseven.github.io"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA=="
-        data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE]"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-    </script>
+.. include:: ../lib/comments.rst
