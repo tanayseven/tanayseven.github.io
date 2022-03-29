@@ -630,5 +630,5 @@ issue… at least till a new version of the kernel is not released. To do that I
 &lt;p&gt;I had written this post a while back and as of publishing this post I can see that there’s a newer version of kernel
 released which is &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts&lt;/span&gt; &lt;span class="pre"&gt;5.15.31-1&lt;/span&gt;&lt;/code&gt;. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
 using and get my system working with the latest Linux version.&lt;/p&gt;
-&lt;p&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;{include}&lt;/span&gt; &lt;span class="pre"&gt;../lib/comments.rst&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-</description><pubDate>Mon, 28 Mar 2022 00:00:00 </pubDate></item></channel></rss>
+&lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="[ENTER CATEGORY NAME HERE]" data-category-id="[ENTER CATEGORY ID HERE]" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
+&lt;/script&gt;</description><pubDate>Mon, 28 Mar 2022 00:00:00 </pubDate></item></channel></rss>
