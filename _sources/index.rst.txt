@@ -16,3 +16,8 @@ All Blog Posts
    :hidden:
 
    posts/*
+
+.. toctree::
+   :hidden:
+
+   ./about-me.md
