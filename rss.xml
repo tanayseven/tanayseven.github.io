@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0"><channel><title>Tanay Rambles</title><link>http://tanayseven.com/feeds</link><description /><copyright>2021, Tanay PrabhuDesai</copyright><item><title>About me</title><link>http://tanayseven.com/feeds/about-me.html</link><description>
  
-&lt;p&gt;(Yet to add some stuff about me)&lt;/p&gt;
-</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>&amp;lt;no title&amp;gt;</title><link>http://tanayseven.com/feeds/lib/comments.html</link><description>&lt;head&gt;&lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;&lt;/head&gt;</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>Hello World</title><link>http://tanayseven.com/feeds/posts/2016-03-27-hello-world.html</link><description>
+&lt;figure class="align-center"&gt;
+&lt;a class="reference internal image-reference" href="_images/tanay-in-snow.jpg"&gt;&lt;img alt="Tanay in Snow" src="_images/tanay-in-snow.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hi, I’m Tanay Prabhu Desai, and I’m a software engineering consultant. I solve most programming problems using Python,
+but I’m open to almost any language. I love technology and programming and spend quite a bit of my free time doing that.&lt;/p&gt;
+&lt;p&gt;I have 5 years of experience building professional software. I have an intermediate level of experience. This is either
+true or I’m a victim of the imposter syndrome else I’m just procrastinating to update this. I have a huge inclination
+toward collaborative working and pair programming.&lt;/p&gt;
+&lt;p&gt;By reading these blogs you’ll get to know the different experiments that I do to improve my professional life as a
+Software Engineer. These are some lessons that I’ve learned from my colleagues both seniors and juniors as well as
+peers.&lt;/p&gt;
+&lt;p&gt;Most of my experience till today has been building software that follows good practices in terms of architecture,
+design, code, and tests. Apart from that, I have experience in programming amateur video games, playing around in my
+personal Arch Linux installation.&lt;/p&gt;
+&lt;p&gt;Being passionate from a very young age about technology I was always more of a tinkerer myself. Always had the grit to
+learn to program and to build and tinker with the software myself. This enabled me to accelerate my growth in the field
+of software.&lt;/p&gt;
+&lt;p&gt;Early in my career So I had the privilege to work with really talented and smart folks who were experts and evangelists
+in good software practices and agile. As a consultant, I’m focused on writing about how I apply those concepts and
+values in everyday software.&lt;/p&gt;
+&lt;p&gt;Enjoy reading my blog and feel free to like, comment and discuss on the posts.&lt;/p&gt;
+</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>&amp;lt;no title&amp;gt;</title><link>http://tanayseven.com/feeds/lib/comments.html</link><description>&lt;head&gt;&lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
+&lt;/script&gt;&lt;/head&gt;</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>Hello World</title><link>http://tanayseven.com/feeds/posts/2016-03-27-hello-world.html</link><description>
  
 &lt;div class="line"&gt;Published on: 27 March 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -27,7 +47,7 @@ grammar and vocabulary to write? I’ll just write and put my own content here.&
 &lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
 to read.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
+&lt;/script&gt;</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
  
 &lt;div class="line"&gt;Published on: 14 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -159,7 +179,7 @@ Also, do test it on your own and report any bugs to me. You are also free to sug
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
+</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
  
 &lt;div class="line"&gt;Published on: 18 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -214,7 +234,7 @@ using multiple techniques and hence I’ve decided to rewrite the code in the ri
 maybe write another blog on that and put the link here.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
+</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
  
 &lt;div class="line"&gt;Published on: 03 January 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -245,7 +265,7 @@ maybe write another blog on that and put the link here.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
+</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
  
 &lt;div class="line"&gt;Published on: 18 September 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -560,7 +580,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;/div&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item><item><title>Arch Linux Broken Kernel Patch</title><link>http://tanayseven.com/feeds/posts/2022-03-28-arch-linux-broken-kernel-patch.html</link><description>
+</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item><item><title>Arch Linux Broken Kernel Patch</title><link>http://tanayseven.com/feeds/posts/2022-03-28-arch-linux-broken-kernel-patch.html</link><description>
  
 &lt;div class="line"&gt;Published on: 28 March 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
@@ -634,4 +654,4 @@ issue… at least till a new version of the kernel is not released. To do that I
 released which is &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts&lt;/span&gt; &lt;span class="pre"&gt;5.15.31-1&lt;/span&gt;&lt;/code&gt;. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
 using and get my system working with the latest Linux version.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;</description><pubDate>Wed, 30 Mar 2022 00:00:00 </pubDate></item></channel></rss>
+&lt;/script&gt;</description><pubDate>Sun, 03 Apr 2022 00:00:00 </pubDate></item></channel></rss>
