@@ -35,3 +35,7 @@ in good software practices and agile. As a consultant, I'm focused on writing ab
 values in everyday software.
 
 Enjoy reading my blog and feel free to like, comment and discuss on the posts.
+
+Are you looking to hire me? Download
+[this résumé](https://github.com/tanayseven/pdf-resume-from-html/releases/download/main/resume-tanay-prabhudesai.pdf)
+it should be updated if I'm currently seeking a job
