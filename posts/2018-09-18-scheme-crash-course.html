@@ -229,17 +229,17 @@ block of the code the exact Scheme version of the same will be shown in the bloc
 <div class="line-block">
 <div class="line"><br/></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>  <span class="c1">; (1 + 2) * (5 - 3) / 9</span>
-<span class="linenos"> 2</span>  <span class="p">(</span><span class="nb">/ </span><span class="p">(</span><span class="nb">* </span><span class="p">(</span><span class="nb">+ </span><span class="mi">1</span> <span class="mi">2</span><span class="p">)</span> <span class="p">(</span><span class="nb">- </span><span class="mi">5</span> <span class="mi">3</span><span class="p">))</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1">; =&gt; Value: 2/3</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="w">  </span><span class="c1">; (1 + 2) * (5 - 3) / 9</span><span class="w"></span>
+<span class="linenos"> 2</span><span class="w">  </span><span class="p">(</span><span class="nb">/</span><span class="w"> </span><span class="p">(</span><span class="nb">*</span><span class="w"> </span><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="nb">-</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="mi">3</span><span class="p">))</span><span class="w"> </span><span class="mi">9</span><span class="p">)</span><span class="w">  </span><span class="c1">; =&gt; Value: 2/3</span><span class="w"></span>
 <span class="linenos"> 3</span>
-<span class="linenos"> 4</span>  <span class="c1">; 3 + 4 + 5 + 6 + 8</span>
-<span class="linenos"> 5</span>  <span class="p">(</span><span class="nb">+ </span><span class="mi">3</span> <span class="mi">4</span> <span class="mi">5</span> <span class="mi">6</span> <span class="mi">8</span><span class="p">)</span>  <span class="c1">; =&gt; Value: 26</span>
+<span class="linenos"> 4</span><span class="w">  </span><span class="c1">; 3 + 4 + 5 + 6 + 8</span><span class="w"></span>
+<span class="linenos"> 5</span><span class="w">  </span><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="mi">8</span><span class="p">)</span><span class="w">  </span><span class="c1">; =&gt; Value: 26</span><span class="w"></span>
 <span class="linenos"> 6</span>
-<span class="linenos"> 7</span>  <span class="c1">; 9 * 9 - 3 - 5 - 3</span>
-<span class="linenos"> 8</span>  <span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">* </span><span class="mi">9</span> <span class="mi">9</span><span class="p">)</span> <span class="mi">3</span> <span class="mi">5</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">; =&gt; Value: 70</span>
+<span class="linenos"> 7</span><span class="w">  </span><span class="c1">; 9 * 9 - 3 - 5 - 3</span><span class="w"></span>
+<span class="linenos"> 8</span><span class="w">  </span><span class="p">(</span><span class="nb">-</span><span class="w"> </span><span class="p">(</span><span class="nb">*</span><span class="w"> </span><span class="mi">9</span><span class="w"> </span><span class="mi">9</span><span class="p">)</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="c1">; =&gt; Value: 70</span><span class="w"></span>
 <span class="linenos"> 9</span>
-<span class="linenos">10</span>  <span class="o">#</span> <span class="nv">zero</span> <span class="nv">arguments</span>
-<span class="linenos">11</span>  <span class="p">(</span><span class="nf">+</span><span class="p">)</span>  <span class="o">#</span> <span class="k">=&gt; </span><span class="mi">0</span>
+<span class="linenos">10</span><span class="w">  </span><span class="o">#</span><span class="w"> </span><span class="nv">zero</span><span class="w"> </span><span class="nv">arguments</span><span class="w"></span>
+<span class="linenos">11</span><span class="w">  </span><span class="p">(</span><span class="nb">+</span><span class="p">)</span><span class="w">  </span><span class="o">#</span><span class="w"> </span><span class="k">=&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Let’s first try to understand the above code. The Python part of the code has these functions
@@ -270,17 +270,17 @@ and <code class="code docutils literal notranslate"><span class="pre">3</span></
 <span class="o">&gt;</span> <span class="n">SUM</span>  <span class="c1"># =&gt; 9</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; define a variable MAX that holds 500</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">max</span> <span class="mi">500</span><span class="p">)</span>
-<span class="nv">&gt;</span> <span class="nv">max</span>  <span class="c1">; =&gt; Value: 500</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; define a variable MAX that holds 500</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="nb">max</span><span class="w"> </span><span class="mi">500</span><span class="p">)</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="nb">max</span><span class="w">  </span><span class="c1">; =&gt; Value: 500</span><span class="w"></span>
 
-<span class="c1">; define a constant PI that returns the value of PI</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">pi</span> <span class="mf">3.14</span><span class="p">)</span>
-<span class="nv">&gt;</span> <span class="nv">pi</span>  <span class="c1">; =&gt; Value: 3.14</span>
+<span class="c1">; define a constant PI that returns the value of PI</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="nv">pi</span><span class="w"> </span><span class="mf">3.14</span><span class="p">)</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="nv">pi</span><span class="w">  </span><span class="c1">; =&gt; Value: 3.14</span><span class="w"></span>
 
-<span class="c1">; compute sum of two numbers and store it in a variable</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">sum</span> <span class="p">(</span><span class="nb">+ </span><span class="mi">3</span> <span class="mi">6</span><span class="p">))</span>
-<span class="nv">&gt;</span> <span class="nv">sum</span>  <span class="c1">; =&gt; Value: 9</span>
+<span class="c1">; compute sum of two numbers and store it in a variable</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="nv">sum</span><span class="w"> </span><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">6</span><span class="p">))</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="nv">sum</span><span class="w">  </span><span class="c1">; =&gt; Value: 9</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Let’s now look at these above things as variables, but name value binding. What exactly
@@ -309,13 +309,13 @@ done for <code class="code docutils literal notranslate"><span class="pre">sum</
 <span class="o">&gt;</span> <span class="n">square</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">;  Lambda implementation of square function</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">square</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">* </span><span class="nv">x</span> <span class="nv">x</span><span class="p">)))</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">square</span> <span class="mi">7</span><span class="p">)</span>  <span class="c1">;  =&gt; Value: 49</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">;  Lambda implementation of square function</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="nv">square</span><span class="w"> </span><span class="p">(</span><span class="k">lambda</span><span class="w"> </span><span class="p">(</span><span class="nf">x</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="nb">*</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="nv">x</span><span class="p">)))</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">square</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt; Value: 49</span><span class="w"></span>
 
-<span class="c1">; Square implementation as function (syntactic sugar)</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">square</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">* </span><span class="nv">x</span> <span class="nv">x</span><span class="p">))</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">square</span> <span class="mi">7</span><span class="p">)</span>  <span class="c1">;  =&gt; Value: 49</span>
+<span class="c1">; Square implementation as function (syntactic sugar)</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="p">(</span><span class="nf">square</span><span class="w"> </span><span class="nv">x</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="nb">*</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="nv">x</span><span class="p">))</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">square</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt; Value: 49</span><span class="w"></span>
 </pre></div>
 </div>
 <p>By default in Scheme we define variable of which the value is lambda which is first shown in Python.
@@ -344,16 +344,16 @@ The same is shown in Scheme which is nothing but syntactic sugar for binding lam
 <span class="n">is_even</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; old enough to drink string</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">old-enough</span> <span class="nv">age</span><span class="p">)</span>
-<span class="nv">&gt;</span>          <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">&gt;= </span><span class="nv">age</span> <span class="mi">18</span><span class="p">)</span> <span class="s">"Yes"</span> <span class="s">"No"</span><span class="p">))</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">old-enough</span> <span class="mi">34</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: "Yes"</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">old-enough</span> <span class="mi">17</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: "No"</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; old enough to drink string</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="p">(</span><span class="nf">old-enough</span><span class="w"> </span><span class="nv">age</span><span class="p">)</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w">          </span><span class="p">(</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nb">&gt;=</span><span class="w"> </span><span class="nv">age</span><span class="w"> </span><span class="mi">18</span><span class="p">)</span><span class="w"> </span><span class="s">"Yes"</span><span class="w"> </span><span class="s">"No"</span><span class="p">))</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">old-enough</span><span class="w"> </span><span class="mi">34</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt;  Value: "Yes"</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">old-enough</span><span class="w"> </span><span class="mi">17</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt;  Value: "No"</span><span class="w"></span>
 
-<span class="c1">; Check if a given number is even returns the respective string</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">is-even</span> <span class="nv">number</span><span class="p">)</span> <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">= </span><span class="mi">0</span> <span class="p">(</span><span class="nb">remainder </span><span class="nv">number</span> <span class="mi">2</span><span class="p">))</span> <span class="s">"Yes"</span> <span class="s">"No"</span><span class="p">))</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">is-even</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: "Yes"</span>
-<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">is-even</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1">;  =&gt;  Value: "No"</span>
+<span class="c1">; Check if a given number is even returns the respective string</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="p">(</span><span class="nf">is-even</span><span class="w"> </span><span class="nv">number</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nb">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="nb">remainder</span><span class="w"> </span><span class="nv">number</span><span class="w"> </span><span class="mi">2</span><span class="p">))</span><span class="w"> </span><span class="s">"Yes"</span><span class="w"> </span><span class="s">"No"</span><span class="p">))</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">is-even</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt;  Value: "Yes"</span><span class="w"></span>
+<span class="nb">&gt;</span><span class="w"> </span><span class="p">(</span><span class="nf">is-even</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w">  </span><span class="c1">;  =&gt;  Value: "No"</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Now we have to decide if the age of the person which is entered is of legal drinking age of not. Since we’re
@@ -373,7 +373,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
     <span class="k">return</span> <span class="n">length_of_list</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">current_length</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to get the length of the list</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to get the length of the list</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -385,7 +385,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply concatenating two lists (cons)</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply concatenating two lists (cons)</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -395,7 +395,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply appending element to list</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Simply appending element to list</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -404,7 +404,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -413,7 +413,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; Some scheme code here</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -428,9 +428,9 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>  <span class="c1"># =&gt; [5, 4, 3, 2, 1]</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to reverse the list (use car, cdr and cons)</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; recursively iterating to reverse the list (use car, cdr and cons)</span><span class="w"></span>
 
-<span class="c1">; Use the reverse function provided by the language</span>
+<span class="c1">; Use the reverse function provided by the language</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -442,7 +442,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
     <span class="k">return</span> <span class="n">factorial</span><span class="p">(</span><span class="n">number</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">current_product</span> <span class="o">*</span> <span class="n">number</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -454,7 +454,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
     <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">current_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">previous</span><span class="p">),</span> <span class="n">previous</span><span class="o">=</span><span class="n">current</span><span class="p">,</span> <span class="n">current</span><span class="o">=</span><span class="n">previous</span><span class="o">+</span><span class="n">current</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -468,7 +468,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
     <span class="k">return</span> <span class="n">search_element</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">index</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code ehre</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code ehre</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -480,7 +480,7 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <span class="s2">"Hello "</span> <span class="o">+</span> <span class="nb">input</span><span class="p">()</span> <span class="c1"># output a prompt and take string input name and say hello</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="c1">; some scheme code here</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -489,14 +489,14 @@ is an expression that evaluates to a boolean value. Where it <code class="code d
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Some python code here</span>
 </pre></div>
 </div>
-<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="nb">load </span><span class="s">"test-manager/load.scm"</span><span class="p">)</span>
-<span class="p">(</span><span class="nb">load </span><span class="s">"src/ex_1.2.scm"</span><span class="p">)</span>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="k">load</span><span class="w"> </span><span class="s">"test-manager/load.scm"</span><span class="p">)</span><span class="w"></span>
+<span class="p">(</span><span class="k">load</span><span class="w"> </span><span class="s">"src/ex_1.2.scm"</span><span class="p">)</span><span class="w"></span>
 
-<span class="p">(</span><span class="nf">in-test-group</span>
-  <span class="nv">translation-of-an-expression-into-prefix-form</span>
-  <span class="p">(</span><span class="nf">define-test</span> <span class="p">(</span><span class="nf">expression-infix</span><span class="p">)</span>
-     <span class="p">(</span><span class="nf">assert-=</span> <span class="p">(</span><span class="nf">expression</span><span class="p">)</span> <span class="mi">-37</span><span class="nv">/150</span><span class="p">)))</span>
-<span class="p">(</span><span class="nf">run-registered-tests</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">in-test-group</span><span class="w"></span>
+<span class="w">  </span><span class="nv">translation-of-an-expression-into-prefix-form</span><span class="w"></span>
+<span class="w">  </span><span class="p">(</span><span class="nf">define-test</span><span class="w"> </span><span class="p">(</span><span class="nf">expression-infix</span><span class="p">)</span><span class="w"></span>
+<span class="w">     </span><span class="p">(</span><span class="nf">assert-=</span><span class="w"> </span><span class="p">(</span><span class="nf">expression</span><span class="p">)</span><span class="w"> </span><span class="mi">-37/150</span><span class="p">)))</span><span class="w"></span>
+<span class="p">(</span><span class="nf">run-registered-tests</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 </div>
 <script async="" crossorigin="anonymous" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-emit-metadata="1" data-input-position="top" data-lang="en" data-loading="lazy" data-mapping="pathname" data-reactions-enabled="1" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-theme="dark" src="https://giscus.app/client.js">
