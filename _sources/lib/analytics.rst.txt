@@ -1,9 +1,8 @@
 .. raw:: html
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79985036-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID');
-  </script>
+    <!-- Cloudflare Web Analytics -->
+    <script defer
+            src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "42ae652876064d4b95bcca242f68cc1a"}'>
+    </script>
+    <!-- End Cloudflare Web Analytics -->
