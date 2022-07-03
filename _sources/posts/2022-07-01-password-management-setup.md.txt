@@ -7,7 +7,7 @@
 ```
 
 As promised in the previous blog post. I'm going to write a manual-like document around setting up KeepassXC. This will
-be a continuously updated document as and how I more and better ways to do things. This also means that you are free to
+be a continuously updated document as and how I learn more and better ways to do things. This also means that you are free to
 comment below regarding anything you know. I've split the text into sections for Linux, Windows, Mac and Android, so you
 can directly skip to the necessary sections. The other things that are platform independent are marked as common.
 
