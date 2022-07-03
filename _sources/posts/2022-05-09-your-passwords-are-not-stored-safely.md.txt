@@ -79,6 +79,8 @@ Following the four points above will make your password strong enough to be brut
 
 If you're still reading, thank you! I appreciate you sticking with me. Whatever follows in the next blog post will be purely technical and will serve as a manual for setting up KeePassXC. I'm writing it as a manual for my future use as well as your use for you to set it up for yourself. I will write an entirely different blog post regarding this. Till then, stay tuned!
 
+[Update! The new blog that I've written for setting up is here](./2022-07-01-password-management-setup.md)
+
 ```{eval-rst}
 .. include:: ../lib/comments.rst
 ```

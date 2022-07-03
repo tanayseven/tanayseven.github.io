@@ -14,7 +14,6 @@ can directly skip to the necessary sections. The other things that are platform 
 ![Password Manager](./images/password-management-setup/password-manager.png)
 
 
-
 ## Prerequisites to setup
 
 1. Knowledge of Shell (for Linux/Mac/Android) or Command Line (for Windows)
