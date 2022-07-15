@@ -250,6 +250,9 @@ Restart=always
 RestartSec=1
 User=tanay
 ExecStart=/usr/bin/env rclone mount dropbox: ${HOME}/dropbox
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 Create a directory as a mountpoint for mounting dropbox
