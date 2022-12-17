@@ -84,7 +84,3 @@ If you're still reading, thank you! I appreciate you sticking with me. Whatever 
 ```{eval-rst}
 .. include:: ../lib/comments.rst
 ```
-
-```{eval-rst}
-.. include:: ../lib/analytics.rst
-```
