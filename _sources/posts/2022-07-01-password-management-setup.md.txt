@@ -424,7 +424,7 @@ Enter the following details:
 Path: C:\rclone\rclone.exe
 Or enter your rclone installation path above
 Enter the startup directory as your user directory
-Startup directory: C:\Users\<Your Name>
+Startup directory: C:\Users\rclone
 In the Arguments, enter the arguments that you want to pass to the rclone command which would be as follows:
 ```
 mount dropbox: "C:\Users\<Your Name>\Dropbox"
