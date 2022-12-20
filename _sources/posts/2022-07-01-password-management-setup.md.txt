@@ -420,11 +420,12 @@ This is how the screen should look:
 :align: center
 ```
 
-Enter the following details:
-Path: C:\rclone\rclone.exe
-Or enter your rclone installation path above
-Enter the startup directory as your user directory
-Startup directory: C:\Users\rclone
+Enter the following details
+- Path: `C:\rclone\rclone.exe`
+- Or enter your rclone installation path above
+- Enter the startup directory as your user directory
+- Startup directory: `C:\Users\rclone`
+
 In the Arguments, enter the arguments that you want to pass to the rclone command which would be as follows:
 ```
 mount dropbox: "C:\Users\<Your Name>\Dropbox"
@@ -437,11 +438,10 @@ The filled up fields under Application tab should look as follows:
 :align: center
 ```
 
-Go to Details tab:
-Enter the following details:
-Display name: Dropbox-Mount
-Description: Entire dropbox mounted
-Startup type: Automatic
+Go to Details tab and enter the following details:
+- Display name: `Dropbox-Mount`
+- Description: `Entire dropbox mounted`
+- Startup type: `Automatic`
 
 ```{figure} ./images/password-management-setup/nssm-3-details-filled.png
 :width: 500

@@ -1173,12 +1173,14 @@ Created symlink /etc/systemd/system/multi-user.target.wants/dropbox-mount.servic
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/nssm-1-application-blank-fields.png"&gt;&lt;img alt="NSSM Application Blank Fields" src="../_images/nssm-1-application-blank-fields.png" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
-&lt;p&gt;Enter the following details:
-Path: C:\rclone\rclone.exe
-Or enter your rclone installation path above
-Enter the startup directory as your user directory
-Startup directory: C:\Users\rclone
-In the Arguments, enter the arguments that you want to pass to the rclone command which would be as follows:&lt;/p&gt;
+&lt;p&gt;Enter the following details&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Path: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;C:\rclone\rclone.exe&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Or enter your rclone installation path above&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enter the startup directory as your user directory&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Startup directory: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;C:\Users\rclone&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the Arguments, enter the arguments that you want to pass to the rclone command which would be as follows:&lt;/p&gt;
 &lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;mount&lt;/span&gt; &lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"C:\Users\&amp;lt;Your Name&amp;gt;\Dropbox"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -1186,11 +1188,12 @@ In the Arguments, enter the arguments that you want to pass to the rclone comman
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/nssm-2-application-filled.png"&gt;&lt;img alt="NSSM Appplication filled" src="../_images/nssm-2-application-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
-&lt;p&gt;Go to Details tab:
-Enter the following details:
-Display name: Dropbox-Mount
-Description: Entire dropbox mounted
-Startup type: Automatic&lt;/p&gt;
+&lt;p&gt;Go to Details tab and enter the following details:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Display name: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Dropbox-Mount&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Description: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Entire&lt;/span&gt; &lt;span class="pre"&gt;dropbox&lt;/span&gt; &lt;span class="pre"&gt;mounted&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Startup type: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Automatic&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/nssm-3-details-filled.png"&gt;&lt;img alt="NSSM details filled" src="../_images/nssm-3-details-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
