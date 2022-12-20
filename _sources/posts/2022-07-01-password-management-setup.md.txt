@@ -593,6 +593,8 @@ You need to decide a sufficiently strong password as the master password. In ord
 
 Your database file should now be saved in a Dropbox synchronised location. If you've done everything correctly to this point, you're all setup!
 
+If you have any questions, please ask them in the comments box below.
+
 ```{eval-rst}
 .. include:: ../lib/comments.rst
 ```
