@@ -20,7 +20,7 @@ can directly skip to the necessary sections. The other things that are platform 
 [**Syncthing**](https://syncthing.net/) for cross-device synchronization. A separate post for rclone for backup will
 be added in the future.
 
-- The link to the post of Syncthing and how it was setup be me will appear here
+- [Syncthing and how it was setup](2023-03-05-syncthing-multi-device-setup.md)
 
 - The link to setup backup mechanism using rclone will appear here
 
