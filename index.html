@@ -1,8 +1,8 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79985036-1"></script>
@@ -14,11 +14,11 @@
     </script>
     <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Hello World" href="posts/2016-03-27-hello-world.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2021.11.23"/>
+    <!-- Generated with Sphinx 6.1.3 and Furo 2022.12.07 -->
         <title>Tanay Rambles</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=7f0192ddeb2adecfbaa87ffbcf67d16358b30bc1" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
     
     
 
@@ -29,38 +29,38 @@
   --color-code-foreground: black;
   
   }
-  body[data-theme="dark"] {
-    --color-code-background: #272822;
-  --color-code-foreground: #f8f8f2;
-  
-  }
-  @media (prefers-color-scheme: dark) {
-    body:not([data-theme="light"]) {
+  @media not print {
+    body[data-theme="dark"] {
       --color-code-background: #272822;
   --color-code-foreground: #f8f8f2;
   
     }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #272822;
+  --color-code-foreground: #f8f8f2;
+  
+      }
+    }
   }
 </style></head>
   <body>
+    
     <script>
       document.body.dataset.theme = localStorage.getItem("theme") || "auto";
     </script>
     
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="svg-toc" viewBox="0 0 24 24">
     <title>Contents</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="10" y1="12" x2="20" y2="12" />
-      <line x1="6" y1="18" x2="20" y2="18" />
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
     </svg>
   </symbol>
   <symbol id="svg-menu" viewBox="0 0 24 24">
     <title>Menu</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
       <line x1="3" y1="12" x2="21" y2="12"></line>
       <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -69,14 +69,14 @@
   </symbol>
   <symbol id="svg-arrow-right" viewBox="0 0 24 24">
     <title>Expand</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
       <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
   </symbol>
   <symbol id="svg-sun" viewBox="0 0 24 24">
     <title>Light mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
       <circle cx="12" cy="12" r="5"></circle>
       <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -91,7 +91,7 @@
   </symbol>
   <symbol id="svg-moon" viewBox="0 0 24 24">
     <title>Dark mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
@@ -99,7 +99,7 @@
   </symbol>
   <symbol id="svg-sun-half" viewBox="0 0 24 24">
     <title>Auto light/dark mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
       <circle cx="12" cy="12" r="9" />
@@ -158,7 +158,7 @@
   <span class="sidebar-brand-text">Tanay Rambles</span>
   
 </a><form class="sidebar-search-container" method="get" action="search.html" role="search">
-  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
@@ -173,6 +173,7 @@
   </ul>
 </div>
 </div>
+
       </div>
       
     </div>
@@ -180,8 +181,15 @@
   <div class="main">
     <div class="content">
       <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
               <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
@@ -196,53 +204,53 @@
         </div>
         <article role="main">
           <section id="welcome-to-tanay-s-blog">
-<h1>Welcome to Tanay’s blog<a class="headerlink" href="#welcome-to-tanay-s-blog" title="Permalink to this headline">¶</a></h1>
+<h1>Welcome to Tanay’s blog<a class="headerlink" href="#welcome-to-tanay-s-blog" title="Permalink to this heading">#</a></h1>
 <section id="all-blog-posts">
-<h2>All Blog Posts<a class="headerlink" href="#all-blog-posts" title="Permalink to this headline">¶</a></h2>
+<h2>All Blog Posts<a class="headerlink" href="#all-blog-posts" title="Permalink to this heading">#</a></h2>
 <section id="Password-management-setup">
-<h3><a class="reference external" href="posts/2022-07-01-password-management-setup.html#post-0">Password management setup</a><a class="headerlink" href="#Password-management-setup" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2022-07-01-password-management-setup.html#post-0">Password management setup</a><a class="headerlink" href="#Password-management-setup" title="Permalink to this heading">#</a></h3>
 <p>01 July 2022</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Your-passwords-are-not-stored-safely">
-<h3><a class="reference external" href="posts/2022-05-09-your-passwords-are-not-stored-safely.html#post-0">Your passwords are not stored safely</a><a class="headerlink" href="#Your-passwords-are-not-stored-safely" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2022-05-09-your-passwords-are-not-stored-safely.html#post-0">Your passwords are not stored safely</a><a class="headerlink" href="#Your-passwords-are-not-stored-safely" title="Permalink to this heading">#</a></h3>
 <p>09 May 2022</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Fix-of-the-broken-Arch-linux-kernel-patch">
-<h3><a class="reference external" href="posts/2022-04-15-fix-broken-arch-linux-kernel-patch.html#post-0">Fix of the broken Arch linux kernel patch</a><a class="headerlink" href="#Fix-of-the-broken-Arch-linux-kernel-patch" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2022-04-15-fix-broken-arch-linux-kernel-patch.html#post-0">Fix of the broken Arch linux kernel patch</a><a class="headerlink" href="#Fix-of-the-broken-Arch-linux-kernel-patch" title="Permalink to this heading">#</a></h3>
 <p>15 April 2022</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Arch-Linux-Broken-Kernel-Patch">
-<h3><a class="reference external" href="posts/2022-03-28-arch-linux-broken-kernel-patch.html#post-0">Arch Linux Broken Kernel Patch</a><a class="headerlink" href="#Arch-Linux-Broken-Kernel-Patch" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2022-03-28-arch-linux-broken-kernel-patch.html#post-0">Arch Linux Broken Kernel Patch</a><a class="headerlink" href="#Arch-Linux-Broken-Kernel-Patch" title="Permalink to this heading">#</a></h3>
 <p>28 March 2022</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Scheme-Crash-Course">
-<h3><a class="reference external" href="posts/2018-09-18-scheme-crash-course.html#post-0">Scheme Crash Course</a><a class="headerlink" href="#Scheme-Crash-Course" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2018-09-18-scheme-crash-course.html#post-0">Scheme Crash Course</a><a class="headerlink" href="#Scheme-Crash-Course" title="Permalink to this heading">#</a></h3>
 <p>18 September 2018</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="SICP-Challenge">
-<h3><a class="reference external" href="posts/2018-01-03-sicp-challenge.html#post-0">SICP Challenge</a><a class="headerlink" href="#SICP-Challenge" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2018-01-03-sicp-challenge.html#post-0">SICP Challenge</a><a class="headerlink" href="#SICP-Challenge" title="Permalink to this heading">#</a></h3>
 <p>03 January 2018</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="At-Nelkinda-Coderetreat">
-<h3><a class="reference external" href="posts/2016-07-18-at-nelkinda-coderetreat.html#post-0">At Nelkinda Coderetreat</a><a class="headerlink" href="#At-Nelkinda-Coderetreat" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2016-07-18-at-nelkinda-coderetreat.html#post-0">At Nelkinda Coderetreat</a><a class="headerlink" href="#At-Nelkinda-Coderetreat" title="Permalink to this heading">#</a></h3>
 <p>18 July 2016</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Finally-an-Android-App">
-<h3><a class="reference external" href="posts/2016-07-14-finally-an-android-app.html#post-0">Finally an Android App</a><a class="headerlink" href="#Finally-an-Android-App" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2016-07-14-finally-an-android-app.html#post-0">Finally an Android App</a><a class="headerlink" href="#Finally-an-Android-App" title="Permalink to this heading">#</a></h3>
 <p>14 July 2016</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <section id="Hello-World">
-<h3><a class="reference external" href="posts/2016-03-27-hello-world.html#post-0">Hello World</a><a class="headerlink" href="#Hello-World" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="posts/2016-03-27-hello-world.html#post-0">Hello World</a><a class="headerlink" href="#Hello-World" title="Permalink to this heading">#</a></h3>
 <p>27 March 2016</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -263,19 +271,23 @@
                 </div>
                 <div class="title">Hello World</div>
               </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
           
         </div>
-
-        <div class="related-information">
-              Copyright &#169; 2021, Tanay PrabhuDesai |
-          Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
-          <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
-            | <a class="muted-link" href="_sources/index.rst.txt"
-               rel="nofollow">
-              Show Source
-            </a>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2021, Tanay PrabhuDesai
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
         </div>
         
       </footer>
@@ -286,7 +298,7 @@
       <div class="toc-sticky toc-scroll">
         <div class="toc-title-container">
           <span class="toc-title">
-            Contents
+            On this page
           </span>
         </div>
         <div class="toc-tree-container">
@@ -308,9 +320,8 @@
     </aside>
   </div>
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

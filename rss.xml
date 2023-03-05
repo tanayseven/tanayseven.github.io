@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"><channel><title>Tanay Rambles</title><link>http://tanayseven.com/feeds</link><description /><copyright>2021, Tanay PrabhuDesai</copyright><item><title>About me</title><link>http://tanayseven.com/feeds/about-me.html</link><description>
- 
+<rss version="2.0"><channel><title>Tanay Rambles</title><link>http://tanayseven.com/feeds</link><description /><language>en</language><copyright>2021, Tanay PrabhuDesai</copyright><item><title>About me</title><link>http://tanayseven.com/feeds/about-me.html</link><description>
+
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="_images/tanay-in-snow.jpg"&gt;&lt;img alt="Tanay in Snow" src="_images/tanay-in-snow.jpg" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
@@ -25,9 +25,9 @@ values in everyday software.&lt;/p&gt;
 &lt;p&gt;Are you looking to hire me? Download
 &lt;a class="reference external" href="https://github.com/tanayseven/pdf-resume-from-html/releases/download/main/resume-tanay-prabhudesai.pdf"&gt;this résumé&lt;/a&gt;
 it should be updated if I’m currently seeking a job&lt;/p&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>&amp;lt;no title&amp;gt;</title><link>http://tanayseven.com/feeds/lib/comments.html</link><description>&lt;head&gt;&lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;&lt;/head&gt;</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Hello World</title><link>http://tanayseven.com/feeds/posts/2016-03-27-hello-world.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>&amp;lt;no title&amp;gt;</title><link>http://tanayseven.com/feeds/lib/comments.html</link><description>&lt;head&gt;&lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
+&lt;/script&gt;&lt;/head&gt;</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Hello World</title><link>http://tanayseven.com/feeds/posts/2016-03-27-hello-world.html</link><description>
+
 &lt;div class="line"&gt;Published on: 27 March 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;figure class="align-center"&gt;
@@ -50,8 +50,8 @@ grammar and vocabulary to write? I’ll just write and put my own content here.&
 &lt;p&gt;I won’t go ahead boring you with my talk and go in for my next post about something that will be more interesting
 to read.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
- 
+&lt;/script&gt;</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Finally an Android App</title><link>http://tanayseven.com/feeds/posts/2016-07-14-finally-an-android-app.html</link><description>
+
 &lt;div class="line"&gt;Published on: 14 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;section id="about-the-idea"&gt;
@@ -182,8 +182,8 @@ Also, do test it on your own and report any bugs to me. You are also free to sug
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>At Nelkinda Coderetreat</title><link>http://tanayseven.com/feeds/posts/2016-07-18-at-nelkinda-coderetreat.html</link><description>
+
 &lt;div class="line"&gt;Published on: 18 July 2016&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;Completely unexpected of what is there, I registered for
@@ -237,8 +237,8 @@ using multiple techniques and hence I’ve decided to rewrite the code in the ri
 maybe write another blog on that and put the link here.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>SICP Challenge</title><link>http://tanayseven.com/feeds/posts/2018-01-03-sicp-challenge.html</link><description>
+
 &lt;div class="line"&gt;Published on: 03 January 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;Almost over a year back I started reading the long-awaited book from my bucket list, “Structure and Interpretation of Computer Programs”.  When I was reading the book, quite a lot of the things in the book were already known to me and therefore it started to get boring. But then I searched on the internet why so many people read the book SICP. The problem was not the reason behind reading the book but the problem was the approach towards the book. The book is not designed to be just read as if it is a novel but you also need to solve the problems in the book. This made me go back to the book again.&lt;/p&gt;
@@ -268,8 +268,8 @@ maybe write another blog on that and put the link here.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
 &lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Scheme Crash Course</title><link>http://tanayseven.com/feeds/posts/2018-09-18-scheme-crash-course.html</link><description>
+
 &lt;div class="line"&gt;Published on: 18 September 2018&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;This crash course on Scheme that I’m writing is the kind of course that I would had liked before starting
@@ -311,17 +311,17 @@ block of the code the exact Scheme version of the same will be shown in the bloc
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br/&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="linenos"&gt; 1&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; (1 + 2) * (5 - 3) / 9&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="linenos"&gt; 2&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 2/3&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="linenos"&gt; 1&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; (1 + 2) * (5 - 3) / 9&lt;/span&gt;
+&lt;span class="linenos"&gt; 2&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 2/3&lt;/span&gt;
 &lt;span class="linenos"&gt; 3&lt;/span&gt;
-&lt;span class="linenos"&gt; 4&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; 3 + 4 + 5 + 6 + 8&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="linenos"&gt; 5&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 26&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="linenos"&gt; 4&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; 3 + 4 + 5 + 6 + 8&lt;/span&gt;
+&lt;span class="linenos"&gt; 5&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 26&lt;/span&gt;
 &lt;span class="linenos"&gt; 6&lt;/span&gt;
-&lt;span class="linenos"&gt; 7&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; 9 * 9 - 3 - 5 - 3&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="linenos"&gt; 8&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 70&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="linenos"&gt; 7&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; 9 * 9 - 3 - 5 - 3&lt;/span&gt;
+&lt;span class="linenos"&gt; 8&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 70&lt;/span&gt;
 &lt;span class="linenos"&gt; 9&lt;/span&gt;
-&lt;span class="linenos"&gt;10&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;zero&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;arguments&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="linenos"&gt;11&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="linenos"&gt;10&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;zero&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;arguments&lt;/span&gt;
+&lt;span class="linenos"&gt;11&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Let’s first try to understand the above code. The Python part of the code has these functions
@@ -352,17 +352,17 @@ and &lt;code class="code docutils literal notranslate"&gt;&lt;span class="pre"&g
 &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;SUM&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; 9&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; define a variable MAX that holds 500&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 500&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; define a variable MAX that holds 500&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 500&lt;/span&gt;
 
-&lt;span class="c1"&gt;; define a constant PI that returns the value of PI&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;pi&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;3.14&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;pi&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 3.14&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="c1"&gt;; define a constant PI that returns the value of PI&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;pi&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;3.14&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;pi&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 3.14&lt;/span&gt;
 
-&lt;span class="c1"&gt;; compute sum of two numbers and store it in a variable&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;sum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;sum&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 9&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="c1"&gt;; compute sum of two numbers and store it in a variable&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;sum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;sum&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;; =&amp;gt; Value: 9&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Let’s now look at these above things as variables, but name value binding. What exactly
@@ -391,13 +391,13 @@ done for &lt;code class="code docutils literal notranslate"&gt;&lt;span class="p
 &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;square&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;;  Lambda implementation of square function&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;;  Lambda implementation of square function&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;
 
-&lt;span class="c1"&gt;; Square implementation as function (syntactic sugar)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="c1"&gt;; Square implementation as function (syntactic sugar)&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;square&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt; Value: 49&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;By default in Scheme we define variable of which the value is lambda which is first shown in Python.
@@ -426,16 +426,16 @@ The same is shown in Scheme which is nothing but syntactic sugar for binding lam
 &lt;span class="n"&gt;is_even&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; old enough to drink string&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;age&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;&amp;gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;age&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"Yes"&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;34&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; old enough to drink string&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;age&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;&amp;gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;age&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"Yes"&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;34&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;old-enough&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;
 
-&lt;span class="c1"&gt;; Check if a given number is even returns the respective string&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;remainder&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;number&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"Yes"&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="c1"&gt;; Check if a given number is even returns the respective string&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;remainder&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;number&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"Yes"&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"No"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "Yes"&lt;/span&gt;
+&lt;span class="nb"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is-even&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;;  =&amp;gt;  Value: "No"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Now we have to decide if the age of the person which is entered is of legal drinking age of not. Since we’re
@@ -455,7 +455,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;length_of_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:],&lt;/span&gt; &lt;span class="n"&gt;current_length&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to get the length of the list&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to get the length of the list&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -467,7 +467,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply concatenating two lists (cons)&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply concatenating two lists (cons)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -477,7 +477,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply appending element to list&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Simply appending element to list&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -486,7 +486,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -495,7 +495,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; Some scheme code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -510,9 +510,9 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;reversed&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;]))&lt;/span&gt;  &lt;span class="c1"&gt;# =&amp;gt; [5, 4, 3, 2, 1]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to reverse the list (use car, cdr and cons)&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; recursively iterating to reverse the list (use car, cdr and cons)&lt;/span&gt;
 
-&lt;span class="c1"&gt;; Use the reverse function provided by the language&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="c1"&gt;; Use the reverse function provided by the language&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -524,7 +524,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;factorial&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_product&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -536,7 +536,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fibonacci&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current_list&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;previous&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -550,7 +550,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;search_element&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lst&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code ehre&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code ehre&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -562,7 +562,7 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;span class="s2"&gt;"Hello "&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# output a prompt and take string input name and say hello&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;; some scheme code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -571,20 +571,20 @@ is an expression that evaluates to a boolean value. Where it &lt;code class="cod
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="c1"&gt;# Some python code here&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;load&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"test-manager/load.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;load&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"src/ex_1.2.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;div class="highlight-scheme notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;load&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"test-manager/load.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;load&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;"src/ex_1.2.scm"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;in-test-group&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nv"&gt;translation-of-an-expression-into-prefix-form&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;define-test&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression-infix&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;assert-=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;-37/150&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;&lt;span class="w"/&gt;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;run-registered-tests&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"/&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;in-test-group&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nv"&gt;translation-of-an-expression-into-prefix-form&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;define-test&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression-infix&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;assert-=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;expression&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;-37/150&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;run-registered-tests&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Arch Linux Broken Kernel Patch</title><link>http://tanayseven.com/feeds/posts/2022-03-28-arch-linux-broken-kernel-patch.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Arch Linux Broken Kernel Patch</title><link>http://tanayseven.com/feeds/posts/2022-03-28-arch-linux-broken-kernel-patch.html</link><description>
+
 &lt;div class="line"&gt;Published on: 28 March 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;So recently I wanted to do a clean installation of my Arch Linux, which I did. This took a couple of hours after which I
@@ -595,7 +595,7 @@ installed packages.&lt;/p&gt;
 &lt;/figure&gt;
 &lt;p&gt;Everything was working just fine until I restarted the computer; and boom! The OS refused to boot so I had to now check
 the logs to know what was happening.&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo journalctl -p &lt;span class="m"&gt;3&lt;/span&gt; -b
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;journalctl&lt;span class="w"&gt; &lt;/span&gt;-p&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-b
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The diagnosis showed me two problems:&lt;/p&gt;
@@ -618,34 +618,34 @@ and saw the message telling me that it could not load the kernel modules.&lt;/p&
 was the broken kernel patch. I’ve used Arch for years now and had never encountered this issue before. So I’ve written
 down the steps I took to fix it as follows.&lt;/p&gt;
 &lt;p&gt;I first checked which Linux kernel was installed.&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;uname -r
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;uname&lt;span class="w"&gt; &lt;/span&gt;-r
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;After running the command above, I saw that version &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;5.15.28-lts&lt;/span&gt;&lt;/code&gt; was installed. I then decided to see all the cached
 kernel versions from the Pacman cache.&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; /var/cache/pacman/pkg/
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;/var/cache/pacman/pkg/
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$ ls linux-*
-linux-5.16.13.arch1-1-x86_64.pkg.tar.zst linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst.sig  
-linux-5.16.13.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst  
-linux-5.16.14.arch1-1-x86_64.pkg.tar.zst linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst.sig  
-linux-5.16.14.arch1-1-x86_64.pkg.tar.zst.sig           linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst  
-linux-api-headers-5.16.8-1-any.pkg.tar.zst linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst.sig  
-linux-api-headers-5.16.8-1-any.pkg.tar.zst.sig         linux-lts-5.15.27-1-x86_64.pkg.tar.zst  
-linux-firmware-20220209.6342082-1-any.pkg.tar.zst linux-lts-5.15.27-1-x86_64.pkg.tar.zst.sig  
-linux-firmware-20220209.6342082-1-any.pkg.tar.zst.sig  linux-lts-5.15.28-1-x86_64.pkg.tar.zst  
-linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst linux-lts-5.15.28-1-x86_64.pkg.tar.zst.sig
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;$&lt;span class="w"&gt; &lt;/span&gt;ls&lt;span class="w"&gt; &lt;/span&gt;linux-*
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst&lt;span class="w"&gt; &lt;/span&gt;linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst.sig&lt;span class="w"&gt;  &lt;/span&gt;
+linux-5.16.13.arch1-1-x86_64.pkg.tar.zst.sig&lt;span class="w"&gt;           &lt;/span&gt;linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst&lt;span class="w"&gt;  &lt;/span&gt;
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst&lt;span class="w"&gt; &lt;/span&gt;linux-firmware-whence-20220209.6342082-1-any.pkg.tar.zst.sig&lt;span class="w"&gt;  &lt;/span&gt;
+linux-5.16.14.arch1-1-x86_64.pkg.tar.zst.sig&lt;span class="w"&gt;           &lt;/span&gt;linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst&lt;span class="w"&gt;  &lt;/span&gt;
+linux-api-headers-5.16.8-1-any.pkg.tar.zst&lt;span class="w"&gt; &lt;/span&gt;linux-firmware-whence-20220309.cd01f85-1-any.pkg.tar.zst.sig&lt;span class="w"&gt;  &lt;/span&gt;
+linux-api-headers-5.16.8-1-any.pkg.tar.zst.sig&lt;span class="w"&gt;         &lt;/span&gt;linux-lts-5.15.27-1-x86_64.pkg.tar.zst&lt;span class="w"&gt;  &lt;/span&gt;
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst&lt;span class="w"&gt; &lt;/span&gt;linux-lts-5.15.27-1-x86_64.pkg.tar.zst.sig&lt;span class="w"&gt;  &lt;/span&gt;
+linux-firmware-20220209.6342082-1-any.pkg.tar.zst.sig&lt;span class="w"&gt;  &lt;/span&gt;linux-lts-5.15.28-1-x86_64.pkg.tar.zst&lt;span class="w"&gt;  &lt;/span&gt;
+linux-firmware-20220309.cd01f85-1-any.pkg.tar.zst&lt;span class="w"&gt; &lt;/span&gt;linux-lts-5.15.28-1-x86_64.pkg.tar.zst.sig
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The only version before version &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;5.15.28&lt;/span&gt;&lt;/code&gt; was &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts-5.15.27&lt;/span&gt;&lt;/code&gt; in the list of the listed kernels. So downgraded the
 patch version of the LTS kernel using the following command.&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo pacman -U linux-lts-5.15.27-1-x86_64.pkg.tar.zst
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;pacman&lt;span class="w"&gt; &lt;/span&gt;-U&lt;span class="w"&gt; &lt;/span&gt;linux-lts-5.15.27-1-x86_64.pkg.tar.zst
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Once I was done executing this and rebooted, the system started working as usual. The next step was to prevent this
 issue… at least till a new version of the kernel is not released. To do that I opened the Pacman config:&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo nvim /etc/pacman.conf
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;nvim&lt;span class="w"&gt; &lt;/span&gt;/etc/pacman.conf
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Changed the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;IgnorePkg&lt;/span&gt;&lt;/code&gt; line as follows:&lt;/p&gt;
@@ -657,8 +657,8 @@ issue… at least till a new version of the kernel is not released. To do that I
 released which is &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;linux-lts&lt;/span&gt; &lt;span class="pre"&gt;5.15.31-1&lt;/span&gt;&lt;/code&gt;. So on one of the weekends I will un-ignore the ignored Linux kernel that I was
 using and get my system working with the latest Linux version.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
-&lt;/script&gt;</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Fix of the broken Arch linux kernel patch</title><link>http://tanayseven.com/feeds/posts/2022-04-15-fix-broken-arch-linux-kernel-patch.html</link><description>
- 
+&lt;/script&gt;</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Fix of the broken Arch linux kernel patch</title><link>http://tanayseven.com/feeds/posts/2022-04-15-fix-broken-arch-linux-kernel-patch.html</link><description>
+
 &lt;div class="line"&gt;Published on: 15 April 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;Finally, I managed to solve the issue that I was facing with the Linux upgrades. I can now upgrade and start both the
@@ -687,7 +687,7 @@ booted it.&lt;/p&gt;
 &lt;h2&gt;A more permanent fix&lt;/h2&gt;
 &lt;p&gt;The &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;fstab&lt;/span&gt;&lt;/code&gt; file already had an entry for the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;/&lt;/span&gt;&lt;/code&gt; partition. So all I needed to do next was to add another entry for
 the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;/boot&lt;/span&gt;&lt;/code&gt; partition. This can be achieved using the following command:&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo bash -c &lt;span class="s2"&gt;"genfstab -U /boot &amp;gt;&amp;gt; /etc/fstab"&lt;/span&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;bash&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"genfstab -U /boot &amp;gt;&amp;gt; /etc/fstab"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The above update of the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;fstab&lt;/span&gt;&lt;/code&gt; file will make sure that the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;/boot&lt;/span&gt;&lt;/code&gt; partition is always mounted when you start your
@@ -769,8 +769,8 @@ restarted my Linux with the non-LTS Linux, it just restarted with nothing going 
 &lt;p&gt;Alright… that’s a wrap for today. Hope you gained some knowledge about Linux from this.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Your passwords are not stored safely</title><link>http://tanayseven.com/feeds/posts/2022-05-09-your-passwords-are-not-stored-safely.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Your passwords are not stored safely</title><link>http://tanayseven.com/feeds/posts/2022-05-09-your-passwords-are-not-stored-safely.html</link><description>
+
 &lt;div class="line"&gt;Published on: 09 May 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;section id="or-at-least-at-appears-to-be-the-case"&gt;
@@ -837,11 +837,11 @@ restarted my Linux with the non-LTS Linux, it just restarted with nothing going 
 &lt;section id="finally"&gt;
 &lt;h2&gt;Finally!&lt;/h2&gt;
 &lt;p&gt;If you’re still reading, thank you! I appreciate you sticking with me. Whatever follows in the next blog post will be purely technical and will serve as a manual for setting up KeePassXC. I’m writing it as a manual for my future use as well as your use for you to set it up for yourself. I will write an entirely different blog post regarding this. Till then, stay tuned!&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference internal" href="2022-07-01-password-management-setup.html"&gt;&lt;span class="doc std std-doc"&gt;Update! The new blog that I’ve written for setting up is here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference internal" href="2022-07-01-password-management-setup.html"&gt;&lt;span class="std std-doc"&gt;Update! The new blog that I’ve written for setting up is here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item><item><title>Password management setup</title><link>http://tanayseven.com/feeds/posts/2022-07-01-password-management-setup.html</link><description>
- 
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item><item><title>Password management setup</title><link>http://tanayseven.com/feeds/posts/2022-07-01-password-management-setup.html</link><description>
+
 &lt;div class="line"&gt;Published on: 01 July 2022&lt;/div&gt;
 &lt;hr class="docutils"/&gt;
 &lt;p&gt;As promised in the previous blog post. I’m going to write a manual-like document around setting up KeepassXC. This will
@@ -849,13 +849,24 @@ be a continuously updated document as and how I learn more and better ways to do
 comment below regarding anything you know. I’ve split the text into sections for Linux, Windows, Mac and Android, so you
 can directly skip to the necessary sections. The other things that are platform independent are marked as common.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Password Manager" src="../_images/password-manager.png"/&gt;&lt;/p&gt;
+&lt;div class="note admonition"&gt;
+&lt;p class="admonition-title"&gt;Edited on 2023-03-05&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I’ve removed the &lt;a class="reference external" href="https://rclone.org/"&gt;&lt;strong&gt;rclone&lt;/strong&gt;&lt;/a&gt; section from this document since I’ve moved from rclone to
+&lt;a class="reference external" href="https://syncthing.net/"&gt;&lt;strong&gt;Syncthing&lt;/strong&gt;&lt;/a&gt; for cross-device synchronization. A separate post for rclone for backup will
+be added in the future.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The link to the post of Syncthing and how it was setup be me will appear here&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The link to setup backup mechanism using rclone will appear here&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://web.archive.org/web/20230305141100/https://tanayseven.com/posts/2022-07-01-password-management-setup.html"&gt;The older version of this post is available in the Wayback Machine&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;section id="prerequisites-to-setup"&gt;
 &lt;h2&gt;Prerequisites to setup&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;&lt;p&gt;Knowledge of Shell (for Linux/Mac/Android) or Command Line (for Windows)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Knowledge of Shell (for Linux)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A desktop running Linux/Mac/Windows&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Syncthing setup and running&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A mobile running Android&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A &lt;a class="reference external" href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt; account (Free one is fine)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A pair of &lt;a class="reference external" href="https://www.yubico.com/products/yubikey-5-overview/"&gt;Yubikeys&lt;/a&gt; (I highly recommend a pair instead of a single one)&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -863,371 +874,18 @@ can directly skip to the necessary sections. The other things that are platform 
 &lt;h2&gt;Installation of software&lt;/h2&gt;
 &lt;section id="linux-arch"&gt;
 &lt;h3&gt;Linux (Arch)&lt;/h3&gt;
-&lt;p&gt;Install Rclone and KeePassXC (Arch Linux)&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo pacman -S rclone keepassxc 
+&lt;p&gt;Install KeePassXC (Arch Linux)&lt;/p&gt;
+&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;pacman&lt;span class="w"&gt; &lt;/span&gt;-S&lt;span class="w"&gt; &lt;/span&gt;keepassxc&lt;span class="w"&gt; &lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;section id="mac"&gt;
-&lt;h3&gt;Mac&lt;/h3&gt;
+&lt;section id="mac-windows"&gt;
+&lt;h3&gt;Mac/Windows&lt;/h3&gt;
 &lt;p&gt;Download and install &lt;a class="reference external" href="https://keepassxc.org/download/"&gt;KeePassXC&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Install Rclone&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;brew install rclone
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id="windows"&gt;
-&lt;h3&gt;Windows&lt;/h3&gt;
-&lt;p&gt;Download and install &lt;a class="reference external" href="https://keepassxc.org/download/"&gt;KeePassXC&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Install &lt;a class="reference external" href="https://rclone.org"&gt;Rclone&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Make sure it’s accessible from the commandline. Add the directory that has &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;rclone.exe&lt;/span&gt;&lt;/code&gt; to your path&lt;/p&gt;
-&lt;p&gt;Download &lt;a class="reference external" href="https://nssm.cc"&gt;NSSM&lt;/a&gt;. Add the directory that had &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;nssm.exe&lt;/span&gt;&lt;/code&gt; to your path&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id="android"&gt;
 &lt;h3&gt;Android&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Download and install the Android App repository &lt;a class="reference external" href="https://f-droid.org"&gt;F-Droid&lt;/a&gt; Note: make sure you don’t install this from the app store, but download and install an APK.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Install &lt;a class="reference external" href="https://f-droid.org/en/packages/com.termux/"&gt;Termux&lt;/a&gt; from F-Droid&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Install &lt;a class="reference external" href="https://f-droid.org/en/packages/com.termux.widget/"&gt;Termux Widget&lt;/a&gt; from F-Droid&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Open Termux app to enter commands to install packages (P.S. I’d recommend plugging a USB keyboard to your Phone/Tablet)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Install Rclone&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;pkg install rclone
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create shortcuts to copy from Dropbox to local device (downstream) and local device to Dropbox (upstream)&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"#\!/data/data/com.termux/files/usr/bin/bash\nrclone copy /data/data/com.termux/files/home/dropbox dropbox:"&lt;/span&gt; &amp;gt; .shortcuts/upload-dropbox-directory
-&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"#\!/data/data/com.termux/files/usr/bin/bash\nrclone copy dropbox: /data/data/com.termux/files/home/dropbox"&lt;/span&gt; &amp;gt; .shortcuts/download-dropbox-directory
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Make both the above scripts executable by running&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;chmod +x .shortcuts/upload-dropbox-directory
-chmod +x .shortcuts/download-dropbox-directory
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create a Termux Widget on your home-screen as shown in the image below. It should have links to both the above scripts&lt;/p&gt;
-&lt;a class="reference internal image-reference" href="../_images/home-screen-with-scripts.jpg"&gt;&lt;img alt="Termux Widget Screenshot" class="align-center" src="../_images/home-screen-with-scripts.jpg" style="width: 300px;"/&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Install &lt;a class="reference external" href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android"&gt;KeePass2 Android Password Safe&lt;/a&gt; from Google Play&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;/section&gt;
-&lt;section id="setup-rclone"&gt;
-&lt;h2&gt;Setup Rclone&lt;/h2&gt;
-&lt;p&gt;Setup Rclone by linking it to Dropbox&lt;/p&gt;
-&lt;div class="highlight-shell notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;rclone config
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Select &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;n&lt;/span&gt;&lt;/code&gt; for &lt;em&gt;New remote&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Enter a new name for the remote, I chose the name &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;dropbox&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;You’ll be asked to choose a storage to configure, choose Dropbox if that’s what you’re using. This should be the
-choice &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;12&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Leave the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;client_id&lt;/span&gt;&lt;/code&gt; blank and &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;client_secret&lt;/span&gt;&lt;/code&gt; blank by simply pressing &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Enter&lt;/span&gt;&lt;/code&gt; twice&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;Option&lt;/span&gt; &lt;span class="n"&gt;client_id&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;OAuth&lt;/span&gt; &lt;span class="n"&gt;Client&lt;/span&gt; &lt;span class="n"&gt;Id&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;Leave&lt;/span&gt; &lt;span class="n"&gt;blank&lt;/span&gt; &lt;span class="n"&gt;normally&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Press&lt;/span&gt; &lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;leave&lt;/span&gt; &lt;span class="n"&gt;empty&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;client_id&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="n"&gt;Option&lt;/span&gt; &lt;span class="n"&gt;client_secret&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;OAuth&lt;/span&gt; &lt;span class="n"&gt;Client&lt;/span&gt; &lt;span class="n"&gt;Secret&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;Leave&lt;/span&gt; &lt;span class="n"&gt;blank&lt;/span&gt; &lt;span class="n"&gt;normally&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Press&lt;/span&gt; &lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;leave&lt;/span&gt; &lt;span class="n"&gt;empty&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  
-&lt;span class="n"&gt;client_secret&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Press &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Enter&lt;/span&gt;&lt;/code&gt; again twice to select default values for advanced config and auto config. After this the browser should
-open asking you to login into your Dropbox&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;Edit advanced config?  
-y) Yes  
-n) No (default)  
-y/n&amp;gt;   
-Use auto config?  
-* Say Y if not sure  
-* Say N if you are working on a remote or headless machine  
-  
-y) Yes (default)  
-n) No  
-y/n&amp;gt;
-2022/06/12 21:25:16 NOTICE: If your browser doesn't open automatically go to the following link: http://127.0.0.1:53682/auth?state=yijGsPLKwSDAKDd2F338tEpQ
-2022/06/12 21:25:16 NOTICE: Log in and authorize rclone for access
-2022/06/12 21:25:16 NOTICE: Waiting for code...
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Enter your Dropbox &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;username&lt;/span&gt;&lt;/code&gt; and &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;password&lt;/span&gt;&lt;/code&gt; and hit Login.&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/rclone-dropbox-login.png"&gt;&lt;img alt="Rclone asks for dropbox permission screenshot" src="../_images/rclone-dropbox-login.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;After this rclone will ask your permission to access Dropbox; hit &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Allow&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/rclone-dropbox-permissions.png"&gt;&lt;img alt="Rclone asks for dropbox permission screenshot" src="../_images/rclone-dropbox-permissions.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;It should show the success page after you allow. You can now close this page&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/rclone-successful-login.png"&gt;&lt;img alt="Rclone successful" src="../_images/rclone-successful-login.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Go back to your terminal screen and press &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Enter&lt;/span&gt;&lt;/code&gt; for the default option to save your config&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="mi"&gt;2022&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;06&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt; &lt;span class="mi"&gt;21&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;47&lt;/span&gt; &lt;span class="n"&gt;NOTICE&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Got&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt;
-&lt;span class="o"&gt;--------------------&lt;/span&gt;
-&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dropbox&lt;/span&gt;
-&lt;span class="n"&gt;token&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;"access_token"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;"token_type"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;"bearer"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;"refresh_token"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;"SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;"expiry"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;"2022-06-13T01:30:48.577367245+05:30"&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="o"&gt;--------------------&lt;/span&gt;
-&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Yes&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="n"&gt;OK&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Edit&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Delete&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;After that press &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;q&lt;/span&gt;&lt;/code&gt; on the following page to quit config&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;Current&lt;/span&gt; &lt;span class="n"&gt;remotes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-
-&lt;span class="n"&gt;Name&lt;/span&gt;                 &lt;span class="n"&gt;Type&lt;/span&gt;
-&lt;span class="o"&gt;====&lt;/span&gt;                 &lt;span class="o"&gt;====&lt;/span&gt;
-&lt;span class="n"&gt;dropbox&lt;/span&gt;              &lt;span class="n"&gt;dropbox&lt;/span&gt;
-
-&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Edit&lt;/span&gt; &lt;span class="n"&gt;existing&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;New&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Delete&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Rename&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Copy&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt;
-&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Set&lt;/span&gt; &lt;span class="n"&gt;configuration&lt;/span&gt; &lt;span class="n"&gt;password&lt;/span&gt;
-&lt;span class="n"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Quit&lt;/span&gt; &lt;span class="n"&gt;config&lt;/span&gt;
-&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id="mount-dropbox-using-rclone"&gt;
-&lt;h2&gt;Mount Dropbox using Rclone&lt;/h2&gt;
-&lt;section id="linux-with-systemd"&gt;
-&lt;h3&gt;Linux with Systemd&lt;/h3&gt;
-&lt;p&gt;Create a script file in&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Opening the file in an editor to edit it&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;➜  ~ sudo nvim /etc/systemd/system/dropbox-mount.service
-[sudo] password for tanay:
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Enter the details as follows in that file&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;[Unit]
-Description=Dropbox Mount
-After=NetworkManager-wait-online
-StartLimitIntervalSec=1
-
-[Service]
-Type=simple
-Restart=always
-RestartSec=1
-User=tanay
-ExecStart=/usr/bin/env rclone mount dropbox: ${HOME}/dropbox
-
-[Install]
-WantedBy=multi-user.target
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Create a directory as a mountpoint for mounting dropbox&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;mkdir $HOME/dropbox
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Start the newly created service&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;➜  ~ sudo systemctl start dropbox-mount
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Check the status of the newly started application&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;➜  ~ sudo systemctl status dropbox-mount
-● dropbox-mount.service - Dropbox Mount
-    Loaded: loaded (/etc/systemd/system/dropbox-mount.service; disabled; vendor preset: disabled)
-    Active: active (running) since Sun 2022-06-26 22:19:39 IST; 5min ago
-  Main PID: 25548 (rclone)
-     Tasks: 18 (limit: 38047)
-    Memory: 19.2M
-       CPU: 586ms
-    CGroup: /system.slice/dropbox-mount.service
-            └─25548 rclone mount dropbox: /home/tanay/dropbox
-
-Jun 26 22:19:39 sevenelements systemd[1]: Started Dropbox Mount.
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;If everything went well, then it should say: active (running)&lt;/p&gt;
-&lt;p&gt;Now you can go ahead and enable the service to be started every time your computer restarts:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;➜  ~ sudo systemctl enable dropbox-mount
-Created symlink /etc/systemd/system/multi-user.target.wants/dropbox-mount.service → /etc/systemd/system/dropbox-mount.service.
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id="macos-using-launchd"&gt;
-&lt;h3&gt;MacOS using Launchd&lt;/h3&gt;
-&lt;p&gt;Create a launchd file:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;touch&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Eg:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;touch&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tanayseven&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Open the file to be edited:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;vim&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Eg:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;vim&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tanayseven&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Copy-paste the following template into the file:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
-&amp;lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&amp;gt;
-&amp;lt;plist version="1.0"&amp;gt;
-  &amp;lt;dict&amp;gt;
-    &amp;lt;key&amp;gt;Label&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;&amp;lt;your-reverse-domain&amp;gt;&amp;lt;your-reverse-domain&amp;gt;.mount-dropbox.plist&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;RunAtLoad&amp;lt;/key&amp;gt;
-    &amp;lt;true/&amp;gt;
-    &amp;lt;key&amp;gt;StartInterval&amp;lt;/key&amp;gt;
-    &amp;lt;integer&amp;gt;20&amp;lt;/integer&amp;gt;
-    &amp;lt;key&amp;gt;StandardErrorPath&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/&amp;lt;your-username&amp;gt;/dropbox-mac/stderr.log&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;StandardOutPath&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/&amp;lt;your-username&amp;gt;/dropbox-mac/stdout.log&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;EnvironmentVariables&amp;lt;/key&amp;gt;
-    &amp;lt;dict&amp;gt;
-      &amp;lt;key&amp;gt;PATH&amp;lt;/key&amp;gt;
-      &amp;lt;string&amp;gt;&amp;lt;![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]&amp;gt;&amp;lt;/string&amp;gt;
-    &amp;lt;/dict&amp;gt;
-    &amp;lt;key&amp;gt;WorkingDirectory&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/&amp;lt;your-username&amp;gt;/&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;ProgramArguments&amp;lt;/key&amp;gt;
-    &amp;lt;array&amp;gt;
-      &amp;lt;string&amp;gt;/usr/local/bin/rclone&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;mount&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;dropbox:&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;/Users/&amp;lt;your-username&amp;gt;/Dropbox&amp;lt;/string&amp;gt;
-    &amp;lt;/array&amp;gt;
-  &amp;lt;/dict&amp;gt;
-&amp;lt;/plist&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;After substituting the values, eg:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
-&amp;lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&amp;gt;
-&amp;lt;plist version="1.0"&amp;gt;
-  &amp;lt;dict&amp;gt;
-    &amp;lt;key&amp;gt;Label&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;com.tanayseven.mount-dropbox.plist&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;RunAtLoad&amp;lt;/key&amp;gt;
-    &amp;lt;true/&amp;gt;
-    &amp;lt;key&amp;gt;StartInterval&amp;lt;/key&amp;gt;
-    &amp;lt;integer&amp;gt;20&amp;lt;/integer&amp;gt;
-    &amp;lt;key&amp;gt;StandardErrorPath&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/tanayprabhudesai/dropbox-mac/stderr.log&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;StandardOutPath&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/tanayprabhudesai/dropbox-mac/stdout.log&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;EnvironmentVariables&amp;lt;/key&amp;gt;
-    &amp;lt;dict&amp;gt;
-      &amp;lt;key&amp;gt;PATH&amp;lt;/key&amp;gt;
-      &amp;lt;string&amp;gt;&amp;lt;![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]&amp;gt;&amp;lt;/string&amp;gt;
-    &amp;lt;/dict&amp;gt;
-    &amp;lt;key&amp;gt;WorkingDirectory&amp;lt;/key&amp;gt;
-    &amp;lt;string&amp;gt;/Users/tanayprabhudesai/&amp;lt;/string&amp;gt;
-    &amp;lt;key&amp;gt;ProgramArguments&amp;lt;/key&amp;gt;
-    &amp;lt;array&amp;gt;
-      &amp;lt;string&amp;gt;/usr/local/bin/rclone&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;mount&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;dropbox:&amp;lt;/string&amp;gt;
-      &amp;lt;string&amp;gt;/Users/tanayprabhudesai/Dropbox&amp;lt;/string&amp;gt;
-    &amp;lt;/array&amp;gt;
-  &amp;lt;/dict&amp;gt;
-&amp;lt;/plist&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Load the service using:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;launchctl&lt;/span&gt; &lt;span class="n"&gt;load&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Eg:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;launchctl&lt;/span&gt; &lt;span class="n"&gt;load&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Library&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;LaunchAgents&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tanayseven&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plist&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;You should now see your service running:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;launchctl&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;grep&lt;/span&gt; &lt;span class="n"&gt;mount&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In case it’s not running, you can check the error at:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;cat&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;mac&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;stderr&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;log&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Rclone will print all the errors in the log file above&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id="windows-using-nssm"&gt;
-&lt;h3&gt;Windows using NSSM&lt;/h3&gt;
-&lt;p&gt;First download NSSM and add it to your path:&lt;/p&gt;
-&lt;p&gt;Run the following command&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;Users&lt;/span&gt;\&lt;span class="n"&gt;Tanay&lt;/span&gt; &lt;span class="n"&gt;PrabhuDesai&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;nssm&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;Dropbox&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Mount&lt;/span&gt;
-&lt;span class="n"&gt;Administrator&lt;/span&gt; &lt;span class="n"&gt;access&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="n"&gt;needed&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;service&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;It will first ask for admin privileges, provide it admin privileges.&lt;/p&gt;
-&lt;p&gt;This is how the screen should look:&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-1-application-blank-fields.png"&gt;&lt;img alt="NSSM Application Blank Fields" src="../_images/nssm-1-application-blank-fields.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Enter the following details&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;Path: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;C:\rclone\rclone.exe&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Or enter your rclone installation path above&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Enter the startup directory as your user directory&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Startup directory: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;C:\Users\rclone&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In the Arguments, enter the arguments that you want to pass to the rclone command which would be as follows:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;mount&lt;/span&gt; &lt;span class="n"&gt;dropbox&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"C:\Users\&amp;lt;Your Name&amp;gt;\Dropbox"&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The filled up fields under Application tab should look as follows:&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-2-application-filled.png"&gt;&lt;img alt="NSSM Appplication filled" src="../_images/nssm-2-application-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Go to Details tab and enter the following details:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;Display name: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Dropbox-Mount&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Description: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Entire&lt;/span&gt; &lt;span class="pre"&gt;dropbox&lt;/span&gt; &lt;span class="pre"&gt;mounted&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Startup type: &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Automatic&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-3-details-filled.png"&gt;&lt;img alt="NSSM details filled" src="../_images/nssm-3-details-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;For the Log on fields:
-Select “This account” and enter your user’s login and password twice&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-4-log-on-details-filled.png"&gt;&lt;img alt="NSSM log-on details filled" src="../_images/nssm-4-log-on-details-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Enter the following under Dependencies:&lt;/p&gt;
-&lt;div class="highlight-default notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;Tcpip&lt;/span&gt;
-&lt;span class="n"&gt;Dhcp&lt;/span&gt;
-&lt;span class="n"&gt;Dnscache&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-5-dependencies-filled.png"&gt;&lt;img alt="NSSM Dependencies filled" src="../_images/nssm-5-dependencies-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;In the Process tab set it to “High” Priority&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-6-process-filled.png"&gt;&lt;img alt="NSSM Process priority filled" src="../_images/nssm-6-process-filled.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Click “Install service”&lt;/p&gt;
-&lt;p&gt;Click start and type “Services” and open it, you should see the following with &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Mount-Dropbox&lt;/span&gt;&lt;/code&gt; being one of the items in the list&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-7-service-seen-in-list.png"&gt;&lt;img alt="NSSM Service seen in list" src="../_images/nssm-7-service-seen-in-list.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;If it’s not running click the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Start&lt;/span&gt;&lt;/code&gt; button as shown below&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-8-service-start-link.png"&gt;&lt;img alt="NSSM Service start link" src="../_images/nssm-8-service-start-link.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;p&gt;Click on that service and then click on “Start”. The service should start running in the background as seen in the following screenshot&lt;/p&gt;
-&lt;figure class="align-center"&gt;
-&lt;a class="reference internal image-reference" href="../_images/nssm-9-service-running.png"&gt;&lt;img alt="NSSM Service running" src="../_images/nssm-9-service-running.png" style="width: 500px;"/&gt;&lt;/a&gt;
-&lt;/figure&gt;
+&lt;p&gt;Install &lt;a class="reference external" href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android"&gt;KeePass2 Android Password Safe&lt;/a&gt; from Google Play&lt;/p&gt;
 &lt;/section&gt;
 &lt;/section&gt;
 &lt;section id="setting-up-yubikey"&gt;
@@ -1245,7 +903,7 @@ Select “This account” and enter your user’s login and password twice&lt;/p
 &lt;/section&gt;
 &lt;section id="setting-up-keepassxc"&gt;
 &lt;h2&gt;Setting up KeePassXC&lt;/h2&gt;
-&lt;p&gt;You need to decide a sufficiently strong password as the master password. In order to do that, do read my previous blog post &lt;a class="reference internal" href="2022-05-09-your-passwords-are-not-stored-safely.html"&gt;&lt;span class="doc std std-doc"&gt;linked here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You need to decide a sufficiently strong password as the master password. In order to do that, do read my previous blog post &lt;a class="reference internal" href="2022-05-09-your-passwords-are-not-stored-safely.html"&gt;&lt;span class="std std-doc"&gt;linked here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;&lt;p&gt;Create a new database&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -1287,7 +945,7 @@ Click Done&lt;/p&gt;&lt;/li&gt;
 &lt;a class="reference internal image-reference" href="../_images/kpxc-7-insert-yubikey-and-refresh.png"&gt;&lt;img alt="KeePassXC insert Yubikey and hit refresh" src="../_images/kpxc-7-insert-yubikey-and-refresh.png" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
 &lt;ol class="arabic simple" start="6"&gt;
-&lt;li&gt;&lt;p&gt;Select the Dropbox sync directory to save the database
+&lt;li&gt;&lt;p&gt;Select the Syncthing sync directory to save the database
 Touch the Yubikey&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class="align-center"&gt;
@@ -1296,8 +954,11 @@ Touch the Yubikey&lt;/p&gt;&lt;/li&gt;
 &lt;figure class="align-center"&gt;
 &lt;a class="reference internal image-reference" href="../_images/kpxc-9-touch-yubikey.png"&gt;&lt;img alt="KeePassXC touch the yubikey to actually save the password" src="../_images/kpxc-9-touch-yubikey.png" style="width: 500px;"/&gt;&lt;/a&gt;
 &lt;/figure&gt;
-&lt;p&gt;Your database file should now be saved in a Dropbox synchronised location. If you’ve done everything correctly to this point, you’re all setup!&lt;/p&gt;
+&lt;p&gt;Your database file should now be saved in a Syncthing synchronised location. If you’ve done everything correctly to this
+point, you’re all setup!&lt;/p&gt;
+&lt;p&gt;Once this is done, you can open the file synchronised via Syncthing in the other devices. Just make sure you don’t cause
+a conflict by keeping multiple files and saving them on top of each other.&lt;/p&gt;
 &lt;p&gt;If you have any questions, please ask them in the comments box below.&lt;/p&gt;
  &lt;script src="https://giscus.app/client.js" data-repo="tanayseven/tanayseven.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyOTAyNjM1OA==" data-category="General" data-category-id="DIC_kwDOAbroNs4COT7e" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""&gt;
 &lt;/script&gt;&lt;/section&gt;
-</description><pubDate>Tue, 20 Dec 2022 00:00:00 </pubDate></item></channel></rss>
+</description><pubDate>Sun, 05 Mar 2023 00:00:00 </pubDate></item></channel></rss>
