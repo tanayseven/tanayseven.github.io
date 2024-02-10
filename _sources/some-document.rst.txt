@@ -1,7 +1,0 @@
-.. _Some-Document:
-
-This is another document
-========================
-
-This is the content in the document
-
