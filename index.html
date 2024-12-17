@@ -1,47 +1,130 @@
-<html class="dark">
-    <head>
-        <title>Tanay PrabhuDesai</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="paper.min.css" />
-        <style>
-            main {
-                padding-top: 10%;
-                margin: auto;
-            }
-            img {
-                width: 200px;
-            }
-            h1 {
-                font-size: 60px;
-            }
-            h2 {
-                font-size: 40px;
-            }
-            .icon {
-                width: 30px;
-            }
-        </style>
-    </head>
-    <body class="paper container-lg">
-        <main>
-            <img src="meh.jpeg" alt="Tanay's picture">
-            <h1>Tanay PrabhuDesai</h1>    
-            <h2>Software Engineer/Consultant</h2>
-            <p>Hello, and welcome to my landing page. I'm a software engineer and a consultant currently based in Goa, India. There's nothing much here, checkout the following links for other details.</p>
-            <a href="https://www.linkedin.com/in/tanay-prabhudesai/" class="paper-btn">
-                Linkedin
-            </a>
-            <a href="https://twitter.com/tanayseven" class="paper-btn">
-                Twitter
-            </a>
-            <a href="https://github.com/tanayseven" class="paper-btn">
-                Github
-            </a>
-            <a href="https://blog.tanay.tech/" class="paper-btn">
-                Blog
-            </a>
-        </main>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanay PrabhuDesai - Landing Page</title>
+
+    <!-- Tabler Icons -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f4f6;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            background: #fff;
+            width: 90%;
+            max-width: 50vw;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid #e2e8f0;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #111827;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background: #f9fafb;
+            color: #111827;
+            border: 1px solid #e5e7eb;
+            padding: 0.8rem;
+            margin-bottom: 0.7rem;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .links a:hover {
+            background: #e5e7eb;
+            transform: translateY(-2px);
+        }
+
+        .links i {
+            margin-right: 0.5rem;
+        }
+
+        footer {
+            margin-top: 2rem;
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Profile Section -->
+    <img src="/meh.jpeg" alt="Profile Icon" class="profile-img" />
+    <h1>Tanay PrabhuDesai</h1>
+    <p>
+        Hello, and welcome to my corner of the internet. I’m a software engineer
+        and consultant based in Bangalore, India. Explore my work and
+        projects through the links below!
+    </p>
+
+    <div class="links">
+        <a href="https://www.linkedin.com/in/tanay-prabhudesai/" target="_blank">
+            <i class="ti ti-brand-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://x.com/tanayseven" target="_blank">
+            <i class="ti ti-brand-x"></i> X (Twitter)
+        </a>
+        <a href="https://github.com/tanayseven" target="_blank">
+            <i class="ti ti-brand-github"></i> GitHub
+        </a>
+        <a href="mailto:contact@tanay.tech">
+            <i class="ti ti-mail"></i> contact@tanay.tech
+        </a>
+        <a href="https://blog.tanay.tech/" target="_blank">
+            <i class="ti ti-notebook"></i> Blog
+        </a>
+        <a href="https://blog.tanay.tech/projects" target="_blank">
+            <i class="ti ti-layout-kanban"></i> Projects
+        </a>
+    </div>
+
+    <footer>&copy; 2024 Tanay PrabhuDesai</footer>
+</div>
+</body>
 </html>
