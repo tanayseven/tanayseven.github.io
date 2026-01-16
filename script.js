@@ -112,27 +112,70 @@ function executeCommand(cmd) {
     const command = parts[0].toLowerCase();
     const args = parts.slice(1);
 
-    addLine('tanay@os:~$ ' + cmd);
+    // Queue of lines to be displayed
+    const linesToAdd = ['tanay@os:~$ ' + cmd];
 
     if (commands[command]) {
         const result = commands[command](args);
         if (result) {
-            result.forEach(line => addLine(line));
+            linesToAdd.push(...result);
         }
     } else if (cmd.trim()) {
-        addLine('Command not found: ' + command);
-        addLine('Type "help" for available commands.');
+        linesToAdd.push('Command not found: ' + command);
+        linesToAdd.push('Type "help" for available commands.');
     }
 
-    addLine('');
+    linesToAdd.push('');
+
+    // Display lines sequentially
+    addLinesSequentially(linesToAdd);
+}
+
+// Function to add lines one after another
+function addLinesSequentially(lines, index = 0) {
+    if (index >= lines.length) {
+        output.scrollTop = output.scrollHeight;
+        return;
+    }
+
+    const line = document.createElement('div');
+    line.className = 'line';
+    line.textContent = ''; // Start with empty text
+    output.appendChild(line);
+
+    // Type text character by character
+    if (lines[index].length > 0) {
+        let charIndex = 0;
+        const typingSpeed = 1000 / 15; // 15 characters per second
+
+        const typeNextChar = () => {
+            if (charIndex < lines[index].length) {
+                line.textContent += lines[index].charAt(charIndex);
+                charIndex++;
+                setTimeout(typeNextChar, typingSpeed);
+            } else {
+                // Move to the next line after this one is complete
+                setTimeout(() => {
+                    addLinesSequentially(lines, index + 1);
+                }, 100); // Small delay between lines
+            }
+        };
+
+        typeNextChar();
+    } else {
+        // Empty line, move to the next immediately
+        setTimeout(() => {
+            addLinesSequentially(lines, index + 1);
+        }, 100);
+    }
+
     output.scrollTop = output.scrollHeight;
 }
 
+// Function to add a single line with typing effect
 function addLine(text) {
-    const line = document.createElement('div');
-    line.className = 'line';
-    line.textContent = text;
-    output.appendChild(line);
+    // Use our sequential function with just one line
+    addLinesSequentially([text]);
 }
 
 input.addEventListener('keydown', (e) => {
@@ -162,4 +205,23 @@ document.addEventListener('click', (e) => {
     if (isPowerOn && e.target.id !== 'powerButton') {
         input.focus();
     }
+});
+
+// Apply typing effect to initial text when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // Clear the initial text from HTML
+    const initialLines = [];
+
+    // Store the initial lines
+    Array.from(output.querySelectorAll('.line')).forEach(line => {
+        if (line.textContent.trim()) {
+            initialLines.push(line.textContent);
+        }
+    });
+
+    // Clear the output
+    output.innerHTML = '';
+
+    // Add all lines sequentially with typing effect
+    addLinesSequentially(initialLines);
 });
