@@ -329,16 +329,30 @@ body {
 }
 
 .content::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
+    height: 12px;
 }
 
 .content::-webkit-scrollbar-track {
     background: #001100;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    border-radius: 4px;
 }
 
 .content::-webkit-scrollbar-thumb {
     background: #00ff00;
-    box-shadow: 0 0 5px #00ff00;
+    box-shadow: 0 0 8px #00ff00;
+    border-radius: 4px;
+    border: 1px solid #00aa00;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #00dd00;
+    box-shadow: 0 0 12px #00ff00;
+}
+
+.content::-webkit-scrollbar-corner {
+    background: #001100;
 }
 
 .header {
@@ -510,14 +524,4 @@ body {
     transform: scale(0.95);
 }
 
-.glitch {
-    animation: glitch 3s infinite;
-}
-
-@keyframes glitch {
-    0%, 90%, 100% { transform: translate(0); }
-    91% { transform: translate(-2px, 2px); }
-    92% { transform: translate(2px, -2px); }
-    93% { transform: translate(-2px, -2px); }
-    94% { transform: translate(2px, 2px); }
-}
+/* Removed glitch animation that was causing the shake effect */
