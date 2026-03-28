@@ -513,8 +513,7 @@ body {
 /* Removed glitch animation that was causing the shake effect */
 /* ===================== QWERTY KEYBOARD (responsive only) ===================== */
 .keyboard {
-  display: none;
-  /* hidden by default on desktop */
+  display: none; /* hidden by default on desktop */
 }
 
 @media (max-width: 768px) {
@@ -526,7 +525,6 @@ body {
     /* reserve space for the fixed keyboard (~220px) so it doesn't overlap */
     padding-bottom: 220px;
   }
-
   .crt-container {
     width: 100vw;
     height: auto;
@@ -536,7 +534,6 @@ body {
     padding: 6px 6px 4px;
     margin-bottom: 0;
   }
-
   .screen {
     position: relative;
     top: 0;
@@ -548,7 +545,6 @@ body {
     min-height: 260px;
     border-radius: 6px;
   }
-
   .keyboard {
     display: flex;
     flex-direction: column;
@@ -564,14 +560,12 @@ body {
     z-index: 1000;
     box-shadow: 0 -4px 20px rgba(0, 255, 0, 0.15);
   }
-
   .keyboard-row {
     display: flex;
     gap: 4px;
     justify-content: center;
     width: 100%;
   }
-
   .key {
     background: #1a1a1a;
     border: 1px solid rgba(0, 255, 0, 0.5);
@@ -592,45 +586,38 @@ body {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
-
   .key:active,
-.key.key--pressed {
+  .key.key--pressed {
     background: #00ff00;
     color: #000;
     text-shadow: none;
     box-shadow: 0 0 10px #00ff00;
     transform: scale(0.93);
   }
-
   .key--backspace {
     width: clamp(38px, 12vw, 58px);
     font-size: clamp(16px, 4vw, 22px);
   }
-
   .key--shift {
     width: clamp(38px, 12vw, 58px);
     font-size: clamp(16px, 4vw, 22px);
   }
-
   .key--shift.key--active {
     background: rgba(0, 255, 0, 0.25);
     box-shadow: 0 0 8px #00ff00;
   }
-
   .key--enter {
     width: clamp(44px, 14vw, 66px);
     font-size: clamp(16px, 4vw, 22px);
   }
-
   .key--space {
     flex: 1;
     max-width: 200px;
     font-size: clamp(12px, 3vw, 16px);
     letter-spacing: 1px;
   }
-
   .key--numbers,
-.key--symbols {
+  .key--symbols {
     width: clamp(44px, 13vw, 62px);
     font-size: clamp(11px, 2.8vw, 15px);
   }
