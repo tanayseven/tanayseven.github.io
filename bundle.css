@@ -21,7 +21,7 @@ body {
 .crt-container {
   position: relative;
   width: calc(100vw - 40px);
-  height: clamp(400px, 90vh, 900px);
+  height: calc(100vh - 40px);
   background: #1a1a1a;
   border-radius: 20px;
   padding: clamp(20px, 5vw, 40px);
